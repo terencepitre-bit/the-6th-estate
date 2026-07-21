@@ -177,8 +177,8 @@ GEMINI_API_KEY = _env("GEMINI_API_KEY")  # never logged
 GEMINI_API_BASE = _env(
     "GEMINI_API_BASE", "https://generativelanguage.googleapis.com/v1beta"
 )
-GEMINI_MODEL_BRIEFINGS = _env("GEMINI_MODEL_BRIEFINGS", "gemini-2.5-flash")
-GEMINI_MODEL_QUICK_HITS = _env("GEMINI_MODEL_QUICK_HITS", "gemini-2.5-flash-lite")
+GEMINI_MODEL_BRIEFINGS = _env("GEMINI_MODEL_BRIEFINGS", "gemini-2.0-flash")
+GEMINI_MODEL_QUICK_HITS = _env("GEMINI_MODEL_QUICK_HITS", "gemini-2.0-flash")
 GEMINI_TEMPERATURE = float(_env("GEMINI_TEMPERATURE", "0.2") or 0.2)
 # Hard ceiling on model calls per edition. Needs ~15 for full article set.
 MODEL_CALL_LIMIT = _env_int("SIXTHE_MODEL_CALL_LIMIT", 20)
