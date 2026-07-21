@@ -1,0 +1,362 @@
+{
+  "date": "2026-07-20",
+  "demo": true,
+  "briefings": [
+    {
+      "headline": "DEMO: Coastal states finalize a shared wildfire-response compact",
+      "body": "In this fictional demo item, four coastal states signed a compact to pool aircraft, crews, and satellite data during peak fire months. Officials said the agreement standardizes mutual-aid billing and creates one dispatch desk for cross-border blazes. Supporters expect faster initial attack; skeptics note funding still depends on annual legislative approval, which could slip if budgets tighten during a prolonged and unusually severe drought season.",
+      "sources": [
+        {
+          "url": "https://www.congress.gov/bill/119th-congress/senate-bill/1234/text",
+          "title": "",
+          "publisher": "Congress.gov",
+          "published": "",
+          "free_access": true
+        },
+        {
+          "url": "https://www.gao.gov/products/gao-24-106789",
+          "title": "",
+          "publisher": "GAO",
+          "published": "",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US lead",
+      "why_it_matters": "",
+      "high_risk": false
+    },
+    {
+      "headline": "DEMO: Long rates hold as mortgage costs stay near cycle highs",
+      "body": "This illustrative demo briefing describes a quiet session in which the ten-year yield barely moved and the thirty-year fixed mortgage held near recent highs. Lenders reported steady demand for adjustable products as buyers hunted for lower initial payments. Analysts in this fictional scenario said rate relief likely waits on clearer inflation data expected later in the quarter from federal statistical agencies.",
+      "sources": [
+        {
+          "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+          "title": "",
+          "publisher": "FRED",
+          "published": "",
+          "free_access": true
+        },
+        {
+          "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView.html",
+          "title": "",
+          "publisher": "US Treasury",
+          "published": "",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Higher long rates keep monthly payments elevated, which could cool home sales and squeeze household budgets.",
+      "high_risk": false
+    },
+    {
+      "headline": "DEMO: Regulator publishes final rule on data-broker disclosures",
+      "body": "In this demo, a federal regulator finalized a rule requiring data brokers to disclose the categories of personal information they sell and to whom. Companies get twelve months to comply. Industry groups in the fictional example warned of compliance costs, while consumer advocates called the transparency overdue and said it could reshape how the secondary data market operates across many sectors.",
+      "sources": [
+        {
+          "url": "https://www.federalregister.gov/documents/2026/07/18/2026-15321/data-broker-disclosure-rule",
+          "title": "",
+          "publisher": "Federal Register",
+          "published": "",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Public Policy",
+      "why_it_matters": "",
+      "high_risk": false
+    },
+    {
+      "headline": "DEMO: Trial reports modest gains for a low-cost diagnostic tool",
+      "body": "This fictional demo summarizes a peer-reviewed trial in which a low-cost diagnostic tool matched a more expensive scanner for a common condition in most cases. Authors cautioned the study was mid-sized and single region, so results could differ elsewhere. If replicated, the approach could widen access in clinics that cannot afford larger machines, the demo researchers noted in their published conclusions.",
+      "sources": [
+        {
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2400001",
+          "title": "",
+          "publisher": "NEJM",
+          "published": "",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "DEMO: New-home sales edged up last month as builders trimmed prices to move inventory, a fictional release said.",
+      "source": {
+        "url": "https://www.census.gov/construction/nrs/current/index.html",
+        "title": "",
+        "publisher": "US Census Bureau",
+        "published": "",
+        "free_access": true
+      },
+      "lane": "Real Estate"
+    },
+    {
+      "text": "DEMO: A state board approved a revised civics standard for high schools, effective next fall in this example.",
+      "source": {
+        "url": "https://www2.ed.gov/documents/press-releases/2026-07-15-civics.pdf",
+        "title": "",
+        "publisher": "Dept. of Education",
+        "published": "",
+        "free_access": true
+      },
+      "lane": "Education"
+    },
+    {
+      "text": "DEMO: A restored silent film premiered at a national archive screening, drawing a sold-out demo crowd.",
+      "source": {
+        "url": "https://www.loc.gov/item/2026655001/",
+        "title": "",
+        "publisher": "Library of Congress",
+        "published": "",
+        "free_access": true
+      },
+      "lane": "Culture"
+    },
+    {
+      "text": "DEMO: The home side clinched a playoff berth with a late run in this illustrative fictional recap.",
+      "source": {
+        "url": "https://www.mlb.com/news/demo-clinch-2026-07-19",
+        "title": "",
+        "publisher": "MLB.com",
+        "published": "",
+        "free_access": true
+      },
+      "lane": "Sports"
+    },
+    {
+      "text": "DEMO: A city library extended weekend hours after a pilot showed higher evening usage, per a fictional note.",
+      "source": {
+        "url": "https://www.usa.gov/libraries-and-archives",
+        "title": "",
+        "publisher": "USA.gov",
+        "published": "",
+        "free_access": true
+      },
+      "lane": "Et Cetera"
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "5,432.10 (demo)",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "",
+            "publisher": "FRED",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-19"
+        },
+        {
+          "label": "Dow",
+          "value": "39,876.00 (demo)",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "",
+            "publisher": "FRED",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-19"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "17,210.00 (demo)",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "",
+            "publisher": "FRED",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-19"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.21% (demo)",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "",
+            "publisher": "FRED",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-19"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.60% (demo)",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "",
+            "publisher": "FRED",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-17"
+        },
+        {
+          "label": "BTC",
+          "value": "$61,250 (demo)",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "",
+            "publisher": "CoinGecko",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-20 12:00 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$3,180 (demo)",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "",
+            "publisher": "CoinGecko",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-20 12:00 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "+0.2% m/m (demo)",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "",
+            "publisher": "BLS",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "scoreboard_weather",
+      "title": "Scoreboard + Weather",
+      "metrics": [
+        {
+          "label": "Home 5, Visitors 3 (demo)",
+          "value": "Final",
+          "source": {
+            "url": "https://www.mlb.com/gameday/demo-2026-07-19",
+            "title": "",
+            "publisher": "MLB.com",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-19"
+        },
+        {
+          "label": "City 108, Rivals 101 (demo)",
+          "value": "Final",
+          "source": {
+            "url": "https://www.nba.com/game/demo-2026-07-19",
+            "title": "",
+            "publisher": "NBA.com",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-19"
+        },
+        {
+          "label": "Today",
+          "value": "88°F — Sunny (demo)",
+          "source": {
+            "url": "https://api.weather.gov/gridpoints/LWX/96,70/forecast",
+            "title": "",
+            "publisher": "weather.gov",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-20"
+        },
+        {
+          "label": "Tomorrow",
+          "value": "84°F — Scattered storms (demo)",
+          "source": {
+            "url": "https://api.weather.gov/gridpoints/LWX/96,70/forecast",
+            "title": "",
+            "publisher": "weather.gov",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-21"
+        },
+        {
+          "label": "Wednesday",
+          "value": "80°F — Cloudy (demo)",
+          "source": {
+            "url": "https://api.weather.gov/gridpoints/LWX/96,70/forecast",
+            "title": "",
+            "publisher": "weather.gov",
+            "published": "",
+            "free_access": true
+          },
+          "as_of": "2026-07-22"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "1969 (demo context): a milestone anniversary noted for illustration only.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/July_20",
+        "title": "",
+        "publisher": "Wikipedia",
+        "published": "",
+        "free_access": true
+      },
+      "as_of": "2026-07-20"
+    },
+    {
+      "kind": "the_number",
+      "title": "The Number",
+      "text": "6.60% — the demo 30-year fixed mortgage rate this week (illustrative).",
+      "source": {
+        "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+        "title": "",
+        "publisher": "FRED",
+        "published": "",
+        "free_access": true
+      },
+      "as_of": "2026-07-17"
+    }
+  ],
+  "closer": {
+    "text": "DEMO: \"The press was protected so that it could bare the secrets of government and inform the people.\"",
+    "kind": "quote",
+    "attribution": "Justice Hugo Black, New York Times Co. v. United States (illustrative citation)",
+    "factual": true,
+    "source": {
+      "url": "https://supreme.justia.com/cases/federal/us/403/713/",
+      "title": "",
+      "publisher": "Justia",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "tagline": "The stories under the headlines.",
+    "editor": "Terence Pitre, PhD",
+    "publisher": "A Pitre Media Publication",
+    "generated_at": "2026-07-21T15:22:19.462104+00:00",
+    "structure": "4+5+2+2+1",
+    "date_readable": "Monday, July 20, 2026",
+    "label": "DEMO / FIXTURE EDITION — not real current news"
+  }
+}
