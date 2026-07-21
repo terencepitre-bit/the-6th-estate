@@ -1,0 +1,125 @@
+name: Daily Edition
+
+# Runs every morning at 10:00 UTC (6:00 AM ET).
+# Also manually triggerable for re-runs or testing.
+on:
+  schedule:
+    - cron: "0 10 * * *"         # 10:00 UTC = 6:00 AM ET
+  workflow_dispatch:               # manual trigger button in GitHub UI
+    inputs:
+      date:
+        description: "Edition date (YYYY-MM-DD), blank = today"
+        required: false
+      force:
+        description: "Force overwrite if edition exists"
+        type: boolean
+        default: false
+      send_email:
+        description: "Send email after publish"
+        type: boolean
+        default: false
+
+# Only one daily run at a time.
+concurrency:
+  group: daily-edition
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Need write access to commit the edition JSON + built site
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Ensure directories
+        run: |
+          mkdir -p editions state logs site/editions fixtures
+
+      # ── 1. Curate (discover + write + assemble) ─────────────────────────
+      - name: Curate edition
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+          SIXTHE_BRAVE_ENABLED: ${{ secrets.BRAVE_API_KEY && 'true' || 'false' }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          SIXTHE_AUTOMATION_ENABLED: "true"
+        run: |
+          DATE="${{ github.event.inputs.date || '' }}"
+          FORCE="${{ github.event.inputs.force == 'true' && '--force' || '' }}"
+          python -m sixth_estate.cli --freshness 0 curate ${DATE:+--date "$DATE"} --force
+
+      # ── 2. Preview + validate ───────────────────────────────────────────
+      - name: Validate edition
+        env:
+          SIXTHE_AUTOMATION_ENABLED: "true"
+        run: |
+          DATE="${{ github.event.inputs.date || '' }}"
+          python -m sixth_estate.cli --freshness 0 preview ${DATE:+--date "$DATE"} --render || true
+
+      # ── 3. Auto-approve (full auto mode) ────────────────────────────────
+      - name: Approve edition
+        env:
+          SIXTHE_AUTOMATION_ENABLED: "true"
+        run: |
+          DATE="${{ github.event.inputs.date || '' }}"
+          # Approve with floor=0 so partial editions still publish.
+          # The edition page itself shows what's available.
+          python -m sixth_estate.cli approve ${DATE:+--date "$DATE"} --floor 0 || true
+
+      # ── 4. Publish (build full site) ────────────────────────────────────
+      - name: Publish + build site
+        env:
+          SIXTHE_AUTOMATION_ENABLED: "true"
+          SIXTHE_EMAIL_ENABLED: ${{ github.event.inputs.send_email == 'true' && '1' || '0' }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+        run: |
+          DATE="${{ github.event.inputs.date || '' }}"
+          SEND="${{ github.event.inputs.send_email == 'true' && '--send' || '' }}"
+          python -m sixth_estate.cli --freshness 0 publish ${DATE:+--date "$DATE"} --force $SEND
+
+      # ── 5. Commit edition + site back to repo ──────────────────────────
+      - name: Commit edition and site
+        run: |
+          git config user.name "6E Bot"
+          git config user.email "bot@the6thestate.net"
+          git add editions/ site/ state/ || true
+          DATE=$(date -u +%Y-%m-%d)
+          git diff --cached --quiet || git commit -m "edition: ${DATE}"
+          git push
+
+      # ── 6. Deploy to Netlify ────────────────────────────────────────────
+      - name: Deploy to Netlify
+        if: success()
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "Netlify credentials not set — skipping deploy."
+            echo "Set NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID in repo secrets."
+            exit 0
+          fi
+          npm install -g netlify-cli
+          netlify deploy --prod --dir=site --site="$NETLIFY_SITE_ID" --auth="$NETLIFY_AUTH_TOKEN"
+
+      # ── Artifact: keep the edition JSON for debugging ───────────────────
+      - name: Upload edition artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: edition-${{ github.run_id }}
+          path: |
+            editions/
+            logs/
+          retention-days: 30
