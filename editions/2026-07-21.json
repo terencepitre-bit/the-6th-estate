@@ -3,8 +3,8 @@
   "demo": false,
   "briefings": [
     {
-      "headline": "Regulators Publish Updated List of Distressed and Underserved Rural Middle-Income Areas",
-      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations determine where certain community development lending and investment activities receive favorable regulatory consideration under applicable financial oversight frameworks. The list guides how banks and lenders direct credit and investment into qualifying rural and small-town communities.",
+      "headline": "Regulators Release List of Distressed and Underserved Rural Middle-Income Areas",
+      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations are used under Community Reinvestment Act guidelines to determine where banks receive credit for certain community development activities. Areas on the list qualify for special CRA consideration, which could influence where financial institutions direct lending and investment.",
       "sources": [
         {
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
@@ -14,20 +14,20 @@
           "free_access": true
         },
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/2143893/000214389326000002/0002143893-26-000002-index.htm",
-          "title": "144/A - Chan Heung Ling (0002143893) (Reporting)",
+          "url": "https://www.sec.gov/Archives/edgar/data/1551047/000139834426012441/0001398344-26-012441-index.htm",
+          "title": "4 - Bluerock Private Real Estate Fund (0001551047) (Issuer)",
           "publisher": "",
-          "published": "2026-07-21T19:17:23-04:00",
+          "published": "2026-07-21T19:33:11-04:00",
           "free_access": true
         }
       ],
       "lane": "World / US lead",
-      "why_it_matters": "Residents and businesses in designated areas could benefit from increased access to credit, lending programs, and community investment, as financial institutions receive regulatory incentives to direct resources toward these locations.",
+      "why_it_matters": "Residents and businesses in designated areas could see increased access to bank lending, investment, or community development financing. For local governments and nonprofits, this designation could open doors to partnerships with financial institutions seeking CRA credit in their communities.",
       "high_risk": false
     },
     {
       "headline": "Federal Agencies Issue Joint Guidelines on Sensitive Information Handling During Bank Exams",
-      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance establishes expectations for protecting confidential data collected in the examination process. Regulatory bodies coordinated on the statement to ensure consistent standards across institutions subject to federal oversight.",
+      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance establishes protocols for managing confidential data collected when regulators review financial institutions. The statement reflects coordinated efforts among multiple agencies to standardize practices around sensitive information access, storage, and protection during the examination process.",
       "sources": [
         {
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
@@ -45,12 +45,12 @@
         }
       ],
       "lane": "Money & Markets (with a separate 'Why it matters' line)",
-      "why_it_matters": "Customers and investors could see stronger protections for their financial data as banks align with updated examination protocols. Institutions that fail to meet these standards could face increased regulatory scrutiny.",
+      "why_it_matters": "Banks and their customers could see stronger safeguards around confidential financial data shared with regulators. Clearer protocols may reduce risks of sensitive information being mishandled, potentially protecting customer privacy and institutional security during routine regulatory oversight.",
       "high_risk": false
     },
     {
-      "headline": "Martinson & Company Files Annual Broker-Dealer Report with SEC",
-      "body": "Martinson & Company, Ltd. submitted an X-17A-5 filing to the Securities and Exchange Commission on July 21, 2026. The X-17A-5 is a required annual report for registered broker-dealers, covering financial condition and operational compliance. The filing, assigned accession number 0000784021-26-000001, spans approximately 3 megabytes in size.",
+      "headline": "Martinson & Company Files X-17A-5 Annual Broker-Dealer Report with SEC",
+      "body": "Martinson & Company, Ltd. filed an X-17A-5 form with the SEC on July 21, 2026, under accession number 0000784021-26-000001. The filing, approximately 3 MB in size, represents the firm's required annual audited financial report submitted by registered broker-dealers. No additional details about the firm's financial position or audit findings are available from the source summary provided.",
       "sources": [
         {
           "url": "https://www.sec.gov/Archives/edgar/data/784021/000078402126000001/0000784021-26-000001-index.htm",
@@ -61,12 +61,12 @@
         }
       ],
       "lane": "Business / Public Policy",
-      "why_it_matters": "Annual broker-dealer filings like this one allow regulators and the public to assess a firm's financial health and compliance standing. Investors or clients working with Martinson & Company could consult this report to evaluate the firm's stability and regulatory standing before making decisions.",
+      "why_it_matters": "Annual broker-dealer filings could signal a firm's financial health and regulatory compliance status. Investors or clients of Martinson & Company may want to review the full filing directly through SEC records to assess the firm's financial standing, as these reports are designed to demonstrate that broker-dealers maintain required net capital levels protecting customer assets.",
       "high_risk": false
     },
     {
-      "headline": "GAO Flags Six Priority Fixes for US Intelligence Oversight Agency",
-      "body": "The Government Accountability Office has identified six priority recommendations for the Office of the Director of National Intelligence, down from 14 after ODNI implemented one and eight had priority status removed. GAO is focusing attention on two areas: mitigating personnel vetting risks and addressing intelligence enterprise management challenges. Implementing all open recommendations could improve security clearance processes and strengthen programs across the intelligence community.",
+      "headline": "GAO Flags Six Priority Reforms for US Intelligence Oversight Body",
+      "body": "The Government Accountability Office has identified six priority recommendations for the Office of the Director of National Intelligence as of June 2026, down from 14 flagged in May 2025 after ODNI implemented one and eight were removed from priority status. GAO is urging focused attention on two areas: mitigating personnel vetting risks and addressing intelligence enterprise management challenges across the broader intelligence community.",
       "sources": [
         {
           "url": "https://www.gao.gov/products/gao-26-108954",
@@ -77,73 +77,73 @@
         }
       ],
       "lane": "Science / Tech / Health or Real Estate (by impact)",
-      "why_it_matters": "Unresolved gaps in personnel vetting and intelligence management could affect national security operations and government accountability. For taxpayers and policymakers, these recommendations represent potential improvements in how the intelligence community spends resources and manages risk, which could influence congressional oversight decisions and the integrity of federal security clearance processes.",
+      "why_it_matters": "Unresolved gaps in security clearance processes and intelligence management could leave national security vulnerabilities unaddressed. For taxpayers and policymakers, lingering inefficiencies across the intelligence community could mean wasted federal spending and weakened oversight of agencies handling sensitive information.",
       "high_risk": false
     }
   ],
   "quick_hits": [
     {
-      "text": "The Federal Reserve announced leadership and objectives for task forces established to advance its monetary policy conduct.",
+      "text": "The Federal Reserve Board is seeking public comment on a proposed amendment to bank anti-money laundering program requirements.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-        "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260707a.htm",
+        "title": "Federal Reserve Board requests comment on a proposal to amend its requirements for banks to maintain anti-money laundering programs",
         "publisher": "",
-        "published": "Thu, 9 Jul 2026 19:00:00 GMT",
+        "published": "Tue, 7 Jul 2026 19:00:00 GMT",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "Charles Schwab Corp filed an SEC document on July 21, 2026, accession number 0002028977-26-000015, totaling 5 KB.",
+      "text": "U.S. retail and food services sales reached $768.6 billion in June 2026, up 0.2% from May.",
       "source": {
-        "url": "https://www.sec.gov/Archives/edgar/data/316709/000202897726000015/0002028977-26-000015-index.htm",
-        "title": "4 - SCHWAB CHARLES CORP (0000316709) (Issuer)",
+        "url": "https://www.census.gov/retail/index.html",
+        "title": "Advance Monthly Sales for Retail and Food Services",
         "publisher": "",
-        "published": "2026-07-21T18:54:33-04:00",
+        "published": "Thu, 16 Jul 2026 08:30:00 -0400",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "UN humanitarians report rapidly growing needs among over 100,000 displaced people sheltering in camps in Sudan's El Obeid city.",
+      "text": "The Federal Open Market Committee met June 16-17, 2026, according to minutes released by the Federal Reserve.",
       "source": {
-        "url": "https://news.un.org/feed/view/en/story/2026/07/1167967",
-        "title": "Hunger deepens for displaced families in Sudan’s El Obeid",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+        "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
         "publisher": "",
-        "published": "Fri, 17 Jul 2026 12:00:00 +0000",
+        "published": "Wed, 8 Jul 2026 18:00:00 GMT",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "GAO says over 100 federal broadband programs across 15 agencies lack a national strategy, reliable mapping data, and sufficient interagency coordination.",
+      "text": "U.S. housing starts rose 19% in June 2026 to a seasonally adjusted annual rate of 1,427,000 units, rebounding from May's 15.2% decline.",
       "source": {
-        "url": "https://www.gao.gov/products/gao-26-109297",
-        "title": "Broadband: Actions Needed to Strengthen Fragmented Federal Effort",
+        "url": "https://www.census.gov/construction/nrc/index.html",
+        "title": "New Residential Construction",
         "publisher": "",
-        "published": "Tue, 21 Jul 2026 11:17:05 -0400",
+        "published": "Fri, 17 Jul 2026 08:30:00 -0400",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "U.S. selected services revenue reached $6,223.1 billion in Q1 2026, up 1.1% from Q4 2025 and 6.5% year-over-year.",
+      "text": "Chan Heung Ling filed a 144/A form with the SEC on July 21, 2026, accession number 0002143893-26-000002.",
       "source": {
-        "url": "https://www.census.gov/services/index.html",
-        "title": "Quarterly Services Survey",
+        "url": "https://www.sec.gov/Archives/edgar/data/2143893/000214389326000002/0002143893-26-000002-index.htm",
+        "title": "144/A - Chan Heung Ling (0002143893) (Reporting)",
         "publisher": "",
-        "published": "Thu, 11 Jun 2026 10:00:00 -0400",
+        "published": "2026-07-21T19:17:23-04:00",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "DOE has removed over 16 million tons of uranium mill tailings at Utah's Moab Mill Site, with cleanup costing nearly $1 billion and expected completion by 2029.",
+      "text": "GAO reports many federal programs lack clear goals and outcome data, preventing assessment of whether taxpayer-funded programs deliver intended results.",
       "source": {
-        "url": "https://www.gao.gov/products/gao-26-108654",
-        "title": "Nuclear Waste: DOE’s Plans to Complete Cleanup and Transfer of Moab Mill Site",
+        "url": "https://www.gao.gov/products/gao-26-109130",
+        "title": "Federal Programs: Assessing and Improving Effectiveness",
         "publisher": "",
-        "published": "Wed, 15 Jul 2026 07:12:08 -0400",
+        "published": "Tue, 21 Jul 2026 07:21:39 -0400",
         "free_access": true
       },
       "lane": ""
@@ -216,27 +216,27 @@
         },
         {
           "label": "BTC",
-          "value": "$66,285",
+          "value": "$66,381",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-21 23:22 UTC",
+            "published": "2026-07-21 23:38 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-21 23:22 UTC"
+          "as_of": "2026-07-21 23:38 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,919",
+          "value": "$1,922",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-21 23:22 UTC",
+            "published": "2026-07-21 23:38 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-21 23:22 UTC"
+          "as_of": "2026-07-21 23:38 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -299,36 +299,36 @@
     }
   ],
   "closer": {
-    "text": "\"The press was protected so that it could bare the secrets of government and inform the people.\"",
+    "text": "\"Let the people know the facts, and the country will be safe.\"",
     "kind": "quote",
-    "attribution": "Justice Hugo Black, New York Times Co. v. United States (1971)",
+    "attribution": "Abraham Lincoln (attributed)",
     "factual": true,
     "source": {
-      "url": "https://supreme.justia.com/cases/federal/us/403/713/",
-      "title": "Justice Hugo Black, New York Times Co. v. United States (1971)",
+      "url": "https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/",
+      "title": "Abraham Lincoln (attributed)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
     }
   },
   "receipt": {
-    "title": "Pedestrian and Cyclist Safety: DOT Should Take Steps to Address Risks Related to Limited Driver Visibility",
-    "description": "What GAO Found\n\nThe size of passenger vehicles on U.S. roads has grown over the past 30 years. Selected studies that GAO reviewed generally found that larger vehicles, certain design features (see fig",
+    "title": "Broadband: Actions Needed to Strengthen Fragmented Federal Effort",
+    "description": "What GAO Found\n\nFederal broadband efforts are fragmented, with over 100 programs administered by 15 agencies, as GAO reported in May 2022. Some programs support broadband as their main purpose, while ",
     "source": {
-      "url": "https://www.gao.gov/products/gao-26-107954",
-      "title": "Pedestrian and Cyclist Safety: DOT Should Take Steps to Address Risks Related to Limited Driver Visibility",
+      "url": "https://www.gao.gov/products/gao-26-109297",
+      "title": "Broadband: Actions Needed to Strengthen Fragmented Federal Effort",
       "publisher": "www.gao.gov",
-      "published": "Tue, 21 Jul 2026 07:23:33 -0400",
+      "published": "Tue, 21 Jul 2026 11:17:05 -0400",
       "free_access": true
     }
   },
   "meta": {
     "brand": "THE 6th ESTATE",
     "structure": "4+6+2+1+1",
-    "generated_at": "2026-07-21T23:22:33.938341+00:00",
+    "generated_at": "2026-07-21T23:38:12.806627+00:00",
     "date_readable": "Tuesday, July 21, 2026",
     "writer_calls": 10,
     "brave_queries": 0,
-    "rss_candidates": 94
+    "rss_candidates": 64
   }
 }
