@@ -4,7 +4,7 @@
   "briefings": [
     {
       "headline": "Regulators Publish Updated List of Distressed and Underserved Rural Middle-Income Areas",
-      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations are used to determine where certain community development lending and investment activities qualify for favorable regulatory consideration under federal banking rules. The list helps financial institutions identify eligible areas for credit toward community reinvestment obligations.",
+      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations determine where certain community development lending and investment activities receive favorable regulatory consideration under applicable financial oversight frameworks. The list guides how banks and lenders direct credit and investment into qualifying rural and small-town communities.",
       "sources": [
         {
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
@@ -12,15 +12,22 @@
           "publisher": "",
           "published": "Tue, 30 Jun 2026 14:00:00 GMT",
           "free_access": true
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/2143893/000214389326000002/0002143893-26-000002-index.htm",
+          "title": "144/A - Chan Heung Ling (0002143893) (Reporting)",
+          "publisher": "",
+          "published": "2026-07-21T19:17:23-04:00",
+          "free_access": true
         }
       ],
       "lane": "World / US lead",
-      "why_it_matters": "Residents and businesses in designated communities could see increased access to loans and investment, as banks may prioritize lending in these areas to meet regulatory requirements. Local economies in qualifying regions could benefit from expanded financial services and development activity.",
+      "why_it_matters": "Residents and businesses in designated areas could benefit from increased access to credit, lending programs, and community investment, as financial institutions receive regulatory incentives to direct resources toward these locations.",
       "high_risk": false
     },
     {
-      "headline": "Bank Regulators Issue Joint Guidelines on Sensitive Information Handling During Examinations",
-      "body": "Federal banking agencies have issued a joint statement addressing how highly sensitive information should be handled during bank examinations. The statement establishes guidance for managing confidential data collected when regulators review financial institutions. The coordinated approach signals an effort to standardize practices across multiple oversight bodies involved in the examination process.",
+      "headline": "Federal Agencies Issue Joint Guidelines on Sensitive Information Handling During Bank Exams",
+      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance establishes expectations for protecting confidential data collected in the examination process. Regulatory bodies coordinated on the statement to ensure consistent standards across institutions subject to federal oversight.",
       "sources": [
         {
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
@@ -38,95 +45,105 @@
         }
       ],
       "lane": "Money & Markets (with a separate 'Why it matters' line)",
-      "why_it_matters": "Customers and institutions could see stronger protections for sensitive financial data shared during regulatory reviews. Banks handling confidential information during examinations may need to review their internal compliance procedures to align with the updated joint guidance.",
+      "why_it_matters": "Customers and investors could see stronger protections for their financial data as banks align with updated examination protocols. Institutions that fail to meet these standards could face increased regulatory scrutiny.",
+      "high_risk": false
+    },
+    {
+      "headline": "Martinson & Company Files Annual Broker-Dealer Report with SEC",
+      "body": "Martinson & Company, Ltd. submitted an X-17A-5 filing to the Securities and Exchange Commission on July 21, 2026. The X-17A-5 is a required annual report for registered broker-dealers, covering financial condition and operational compliance. The filing, assigned accession number 0000784021-26-000001, spans approximately 3 megabytes in size.",
+      "sources": [
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/784021/000078402126000001/0000784021-26-000001-index.htm",
+          "title": "X-17A-5 - MARTINSON & COMPANY, LTD. (0000784021) (Filer)",
+          "publisher": "",
+          "published": "2026-07-21T19:17:16-04:00",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Public Policy",
+      "why_it_matters": "Annual broker-dealer filings like this one allow regulators and the public to assess a firm's financial health and compliance standing. Investors or clients working with Martinson & Company could consult this report to evaluate the firm's stability and regulatory standing before making decisions.",
+      "high_risk": false
+    },
+    {
+      "headline": "GAO Flags Six Priority Fixes for US Intelligence Oversight Agency",
+      "body": "The Government Accountability Office has identified six priority recommendations for the Office of the Director of National Intelligence, down from 14 after ODNI implemented one and eight had priority status removed. GAO is focusing attention on two areas: mitigating personnel vetting risks and addressing intelligence enterprise management challenges. Implementing all open recommendations could improve security clearance processes and strengthen programs across the intelligence community.",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-108954",
+          "title": "Priority Open Recommendations: Office of the Director of National Intelligence",
+          "publisher": "",
+          "published": "Tue, 21 Jul 2026 07:40:30 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health or Real Estate (by impact)",
+      "why_it_matters": "Unresolved gaps in personnel vetting and intelligence management could affect national security operations and government accountability. For taxpayers and policymakers, these recommendations represent potential improvements in how the intelligence community spends resources and manages risk, which could influence congressional oversight decisions and the integrity of federal security clearance processes.",
       "high_risk": false
     }
   ],
   "quick_hits": [
     {
-      "text": "The Federal Reserve's annual stress test found large banks capable of withstanding a severe recession while continuing to lend to households and businesses.",
+      "text": "The Federal Reserve announced leadership and objectives for task forces established to advance its monetary policy conduct.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
-        "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+        "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "publisher": "",
-        "published": "Wed, 24 Jun 2026 20:00:00 GMT",
+        "published": "Thu, 9 Jul 2026 19:00:00 GMT",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "The Federal Reserve Board held discount rate meetings on June 8 and June 17, 2026.",
+      "text": "Charles Schwab Corp filed an SEC document on July 21, 2026, accession number 0002028977-26-000015, totaling 5 KB.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260714a.htm",
-        "title": "Minutes of the Board's discount rate meetings on June 8 and June 17, 2026",
+        "url": "https://www.sec.gov/Archives/edgar/data/316709/000202897726000015/0002028977-26-000015-index.htm",
+        "title": "4 - SCHWAB CHARLES CORP (0000316709) (Issuer)",
         "publisher": "",
-        "published": "Tue, 14 Jul 2026 18:00:00 GMT",
+        "published": "2026-07-21T18:54:33-04:00",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "The Federal Reserve released a statement from its Federal Open Market Committee outlining its latest monetary policy decision.",
+      "text": "UN humanitarians report rapidly growing needs among over 100,000 displaced people sheltering in camps in Sudan's El Obeid city.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
-        "title": "Federal Reserve issues FOMC statement",
+        "url": "https://news.un.org/feed/view/en/story/2026/07/1167967",
+        "title": "Hunger deepens for displaced families in Sudan’s El Obeid",
         "publisher": "",
-        "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+        "published": "Fri, 17 Jul 2026 12:00:00 +0000",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "The Federal Reserve Board issued an enforcement action against a former employee of Bank of Eufaula and SNB Bancshares, Inc.",
+      "text": "GAO says over 100 federal broadband programs across 15 agencies lack a national strategy, reliable mapping data, and sufficient interagency coordination.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618b.htm",
-        "title": "Federal Reserve Board issues enforcement action with former employee of Bank of Eufaula and S N B Bancshares, Inc.",
+        "url": "https://www.gao.gov/products/gao-26-109297",
+        "title": "Broadband: Actions Needed to Strengthen Fragmented Federal Effort",
         "publisher": "",
-        "published": "Thu, 18 Jun 2026 19:00:00 GMT",
+        "published": "Tue, 21 Jul 2026 11:17:05 -0400",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "The Federal Reserve Board has issued an enforcement action against a former employee of Manufacturers and Traders Trust Company.",
+      "text": "U.S. selected services revenue reached $6,223.1 billion in Q1 2026, up 1.1% from Q4 2025 and 6.5% year-over-year.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260618a.htm",
-        "title": "Federal Reserve Board issues enforcement action with former employee of Manufacturers and Traders Trust Company",
+        "url": "https://www.census.gov/services/index.html",
+        "title": "Quarterly Services Survey",
         "publisher": "",
-        "published": "Thu, 18 Jun 2026 15:00:00 GMT",
+        "published": "Thu, 11 Jun 2026 10:00:00 -0400",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "The Federal Reserve announced the passing of former Federal Reserve Chairman Alan Greenspan.",
+      "text": "DOE has removed over 16 million tons of uranium mill tailings at Utah's Moab Mill Site, with cleanup costing nearly $1 billion and expected completion by 2029.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260622a.htm",
-        "title": "Federal Reserve notes with deep sadness the passing of Alan Greenspan",
+        "url": "https://www.gao.gov/products/gao-26-108654",
+        "title": "Nuclear Waste: DOE’s Plans to Complete Cleanup and Transfer of Moab Mill Site",
         "publisher": "",
-        "published": "Mon, 22 Jun 2026 12:45:00 GMT",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "The Federal Reserve Board has issued an enforcement action against an employee of Bank of Eufaula and SNB Bancshares, Inc.",
-      "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm",
-        "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
-        "publisher": "",
-        "published": "Thu, 25 Jun 2026 15:00:00 GMT",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "The Federal Reserve Board has terminated its enforcement action against Jiko Group, Inc.",
-      "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625a.htm",
-        "title": "Federal Reserve Board announces termination of enforcement action with Jiko Group, Inc.",
-        "publisher": "",
-        "published": "Thu, 25 Jun 2026 15:00:00 GMT",
+        "published": "Wed, 15 Jul 2026 07:12:08 -0400",
         "free_access": true
       },
       "lane": ""
@@ -199,27 +216,27 @@
         },
         {
           "label": "BTC",
-          "value": "$66,232",
+          "value": "$66,285",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-21 23:13 UTC",
+            "published": "2026-07-21 23:22 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-21 23:13 UTC"
+          "as_of": "2026-07-21 23:22 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,917",
+          "value": "$1,919",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-21 23:13 UTC",
+            "published": "2026-07-21 23:22 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-21 23:13 UTC"
+          "as_of": "2026-07-21 23:22 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -282,26 +299,36 @@
     }
   ],
   "closer": {
-    "text": "\"Let the people know the facts, and the country will be safe.\"",
+    "text": "\"The press was protected so that it could bare the secrets of government and inform the people.\"",
     "kind": "quote",
-    "attribution": "Abraham Lincoln (attributed)",
+    "attribution": "Justice Hugo Black, New York Times Co. v. United States (1971)",
     "factual": true,
     "source": {
-      "url": "https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/",
-      "title": "Abraham Lincoln (attributed)",
+      "url": "https://supreme.justia.com/cases/federal/us/403/713/",
+      "title": "Justice Hugo Black, New York Times Co. v. United States (1971)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
     }
   },
-  "receipt": null,
+  "receipt": {
+    "title": "Pedestrian and Cyclist Safety: DOT Should Take Steps to Address Risks Related to Limited Driver Visibility",
+    "description": "What GAO Found\n\nThe size of passenger vehicles on U.S. roads has grown over the past 30 years. Selected studies that GAO reviewed generally found that larger vehicles, certain design features (see fig",
+    "source": {
+      "url": "https://www.gao.gov/products/gao-26-107954",
+      "title": "Pedestrian and Cyclist Safety: DOT Should Take Steps to Address Risks Related to Limited Driver Visibility",
+      "publisher": "www.gao.gov",
+      "published": "Tue, 21 Jul 2026 07:23:33 -0400",
+      "free_access": true
+    }
+  },
   "meta": {
     "brand": "THE 6th ESTATE",
-    "structure": "2+8+2+1+1",
-    "generated_at": "2026-07-21T23:13:55.637243+00:00",
+    "structure": "4+6+2+1+1",
+    "generated_at": "2026-07-21T23:22:33.938341+00:00",
     "date_readable": "Tuesday, July 21, 2026",
     "writer_calls": 10,
     "brave_queries": 0,
-    "rss_candidates": 20
+    "rss_candidates": 94
   }
 }
