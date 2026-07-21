@@ -70,27 +70,27 @@
         },
         {
           "label": "BTC",
-          "value": "$66,281",
+          "value": "$66,221",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-21 22:45 UTC",
+            "published": "2026-07-21 22:50 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-21 22:45 UTC"
+          "as_of": "2026-07-21 22:50 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,921",
+          "value": "$1,918",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-21 22:45 UTC",
+            "published": "2026-07-21 22:50 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-21 22:45 UTC"
+          "as_of": "2026-07-21 22:50 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -153,7 +153,7 @@
     }
   ],
   "closer": {
-    "text": "\"A popular government without popular information, or the means of acquiring it, is but a prologue to a farce or a tragedy, or perhaps both.\"",
+    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
     "kind": "quote",
     "attribution": "James Madison, letter to W.T. Barry (1822)",
     "factual": true,
@@ -169,7 +169,7 @@
   "meta": {
     "brand": "THE 6th ESTATE",
     "structure": "0+0+2+1+1",
-    "generated_at": "2026-07-21T22:45:11.424101+00:00",
+    "generated_at": "2026-07-21T22:50:18.115986+00:00",
     "date_readable": "Tuesday, July 21, 2026",
     "writer_calls": 20,
     "brave_queries": 0,
