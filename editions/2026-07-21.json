@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-21",
+  "demo": false,
+  "briefings": [],
+  "quick_hits": [],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "BTC",
+          "value": "$66,320",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-21 21:13 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-21 21:13 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,920",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-21 21:13 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-21 21:13 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "NYY 0 — PIT 0",
+          "value": "Postponed",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816204/pirates-yankees",
+            "title": "NYY 0 — PIT 0",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-21",
+            "free_access": true
+          },
+          "as_of": "2026-07-21"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2025: A Bangladesh Air Force Chengdu FT-7BGI crashes shortly after takeoff into Milestone School campus in Dhaka, Bangladesh, killing 35 people and injuring 173.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Bangladesh_Air_Force",
+        "title": "On this day — 07/21",
+        "publisher": "Wikipedia",
+        "published": "2026-07-21",
+        "free_access": true
+      },
+      "as_of": "2026-07-21"
+    }
+  ],
+  "closer": {
+    "text": "\"A popular government without popular information, or the means of acquiring it, is but a prologue to a farce or a tragedy, or perhaps both.\"",
+    "kind": "quote",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "0+0+2+1+1",
+    "generated_at": "2026-07-21T21:13:37.533319+00:00",
+    "date_readable": "Tuesday, July 21, 2026",
+    "writer_calls": 0,
+    "brave_queries": 0,
+    "rss_candidates": 20
+  }
+}
