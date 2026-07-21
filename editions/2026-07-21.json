@@ -70,27 +70,39 @@
         },
         {
           "label": "BTC",
-          "value": "$66,257",
+          "value": "$66,279",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-21 22:33 UTC",
+            "published": "2026-07-21 22:36 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-21 22:33 UTC"
+          "as_of": "2026-07-21 22:36 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,921",
+          "value": "$1,922",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-21 22:33 UTC",
+            "published": "2026-07-21 22:36 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-21 22:33 UTC"
+          "as_of": "2026-07-21 22:36 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
         }
       ]
     },
@@ -141,13 +153,13 @@
     }
   ],
   "closer": {
-    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
+    "text": "\"The press was protected so that it could bare the secrets of government and inform the people.\"",
     "kind": "quote",
-    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "attribution": "Justice Hugo Black, New York Times Co. v. United States (1971)",
     "factual": true,
     "source": {
-      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
-      "title": "James Madison, letter to W.T. Barry (1822)",
+      "url": "https://supreme.justia.com/cases/federal/us/403/713/",
+      "title": "Justice Hugo Black, New York Times Co. v. United States (1971)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
@@ -157,9 +169,9 @@
   "meta": {
     "brand": "THE 6th ESTATE",
     "structure": "0+0+2+1+1",
-    "generated_at": "2026-07-21T22:33:49.892432+00:00",
+    "generated_at": "2026-07-21T22:36:39.638780+00:00",
     "date_readable": "Tuesday, July 21, 2026",
-    "writer_calls": 0,
+    "writer_calls": 20,
     "brave_queries": 0,
     "rss_candidates": 20
   }
