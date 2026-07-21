@@ -32,7 +32,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          # Need write access to commit the edition JSON + built site
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
@@ -56,7 +55,7 @@ jobs:
         run: |
           DATE="${{ github.event.inputs.date || '' }}"
           FORCE="${{ github.event.inputs.force == 'true' && '--force' || '' }}"
-          python -m sixth_estate.cli curate ${DATE:+--date "$DATE"} $FORCE
+          python -m sixth_estate.cli --freshness 0 curate ${DATE:+--date "$DATE"} $FORCE
 
       # ── 2. Preview + validate ───────────────────────────────────────────
       - name: Validate edition
@@ -64,7 +63,7 @@ jobs:
           SIXTHE_AUTOMATION_ENABLED: "true"
         run: |
           DATE="${{ github.event.inputs.date || '' }}"
-          python -m sixth_estate.cli preview ${DATE:+--date "$DATE"} --render --freshness 0
+          python -m sixth_estate.cli --freshness 0 preview ${DATE:+--date "$DATE"} --render
 
       # ── 3. Auto-approve (full auto mode) ────────────────────────────────
       - name: Approve edition
@@ -72,9 +71,7 @@ jobs:
           SIXTHE_AUTOMATION_ENABLED: "true"
         run: |
           DATE="${{ github.event.inputs.date || '' }}"
-          # Approve with floor=0 so partial editions still publish.
-          # The edition page itself shows what's available.
-          python -m sixth_estate.cli approve ${DATE:+--date "$DATE"} --floor 0 || true
+          python -m sixth_estate.cli --freshness 0 approve ${DATE:+--date "$DATE"} --floor 0 || true
 
       # ── 4. Publish (build full site) ────────────────────────────────────
       - name: Publish + build site
@@ -85,7 +82,7 @@ jobs:
         run: |
           DATE="${{ github.event.inputs.date || '' }}"
           SEND="${{ github.event.inputs.send_email == 'true' && '--send' || '' }}"
-          python -m sixth_estate.cli publish ${DATE:+--date "$DATE"} --force --freshness 0 $SEND
+          python -m sixth_estate.cli --freshness 0 publish ${DATE:+--date "$DATE"} --force $SEND
 
       # ── 5. Commit edition + site back to repo ──────────────────────────
       - name: Commit edition and site
