@@ -76,9 +76,10 @@ def _today_page(latest: Edition | None) -> str:
 
 
 def _archive_page(editions: list[Edition]) -> str:
+   demo_span = ' <span class="demo-tag">demo</span>'
     items = "".join(
         f'<li><a href="editions/{T.esc(e.date)}.html">{T.esc(e.meta.get("date_readable", e.date))}</a>'
-        f'{" <span class=\"demo-tag\">demo</span>" if e.demo else ""}</li>'
+        f'{demo_span if e.demo else ""}</li>'
         for e in editions
     )
     body = f"""
