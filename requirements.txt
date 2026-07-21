@@ -1,0 +1,9 @@
+# THE 6th ESTATE — runtime dependencies.
+#
+# The pipeline runtime is intentionally STDLIB-ONLY (dataclasses, urllib,
+# xml.etree, argparse, zoneinfo, json). There are no third-party runtime
+# packages to install, which keeps the supply-chain surface at zero and makes
+# the system trivially portable. Requires Python 3.11+ (for zoneinfo + typing).
+#
+# Development / CI tooling only (not needed to run the pipeline):
+#   pip install -r requirements-dev.txt

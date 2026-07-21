@@ -1,0 +1,39 @@
+# THE 6th ESTATE — Netlify production configuration.
+# The static editorial site is generated into ./site by the Python pipeline
+# (`python -m sixth_estate.cli build-site`). Netlify publishes that directory and
+# bundles the signup Function. There is no site build step on Netlify itself: the
+# HTML/CSS are committed (or generated in CI) static assets.
+
+[build]
+  publish = "site"
+  functions = "site/netlify/functions"
+  command = ""
+
+[functions]
+  # esbuild bundles the shared site/lib/subscribe.js into the function output so
+  # the relative require is always included.
+  node_bundler = "esbuild"
+
+# --- API: route the frontend signup call to the Brevo-backed function ---
+[[redirects]]
+  from = "/api/subscribe"
+  to = "/.netlify/functions/subscribe"
+  status = 200
+  force = true
+
+# NOTE: no catch-all/SPA fallback. Unknown paths fall through to Netlify's
+# default handling, which serves the committed site/404.html.
+
+# --- Security headers for an editorial static site ---
+# CSP allows inline styles/scripts used by the generated pages and the Google
+# Fonts stylesheet, plus a same-origin signup fetch. External object/frame
+# vectors stay blocked and base-uri/form-action are locked to self.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    Content-Security-Policy = "default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; form-action 'self'; img-src 'self' data: https:; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; connect-src 'self'"

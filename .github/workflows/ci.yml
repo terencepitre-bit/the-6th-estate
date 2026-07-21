@@ -1,0 +1,46 @@
+name: CI
+
+# Runs the offline test suite, static checks, and a demo site build on every
+# push/PR and on manual dispatch. Nothing here publishes, sends email, or
+# touches a live credential — the daily.yml workflow handles that.
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dev tooling
+        run: pip install -r requirements-dev.txt
+
+      - name: Compile-check all modules
+        run: python -m compileall sixth_estate scripts
+
+      - name: Run offline test suite (no network)
+        run: python -m pytest tests/ -q
+
+      - name: Regenerate demo edition and validate
+        run: python scripts/make_sample_edition.py
+
+      - name: Build static site (demo data)
+        run: python -m sixth_estate.cli build-site
+
+      - name: Upload built site artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: site/
