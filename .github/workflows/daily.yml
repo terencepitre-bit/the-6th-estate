@@ -51,6 +51,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
           BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+          SIXTHE_RSS_FEEDS: ${{ secrets.SIXTHE_RSS_FEEDS }}
           SIXTHE_BRAVE_ENABLED: ${{ secrets.BRAVE_API_KEY && 'true' || 'false' }}
           BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           SIXTHE_AUTOMATION_ENABLED: "true"
