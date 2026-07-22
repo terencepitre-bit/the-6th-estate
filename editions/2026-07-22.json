@@ -1,111 +1,10 @@
 {
   "date": "2026-07-22",
   "demo": false,
-  "briefings": [
-    {
-      "headline": "Regulators Release Updated List of Distressed and Underserved Rural Middle-Income Areas",
-      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations are used by financial institutions to qualify certain lending and investment activities for Community Reinvestment Act credit. The list helps regulators and banks determine which rural and small-town areas receive special consideration when evaluating community development activity.",
-      "sources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
-          "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
-          "publisher": "",
-          "published": "Tue, 30 Jun 2026 14:00:00 GMT",
-          "free_access": true
-        },
-        {
-          "url": "https://www.sec.gov/Archives/edgar/data/216851/000110465926085618/0001104659-26-085618-index.htm",
-          "title": "13F-HR - ADAMS NATURAL RESOURCES FUND, INC. (0000216851) (Filer)",
-          "publisher": "",
-          "published": "2026-07-22T07:35:49-04:00",
-          "free_access": true
-        }
-      ],
-      "lane": "World / US lead",
-      "why_it_matters": "Residents and businesses in designated areas could see increased access to loans, investments, and financial services, as banks may direct more community development activity toward these communities to meet regulatory requirements.",
-      "high_risk": false
-    },
-    {
-      "headline": "Bank Regulators Issue Joint Guidance on Handling Sensitive Exam Information",
-      "body": "Federal banking agencies have issued a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance establishes protocols for managing confidential data collected when regulators review financial institutions. The statement reflects coordinated efforts among agencies to standardize practices around sensitive examination materials.",
-      "sources": [
-        {
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
-          "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
-          "publisher": "",
-          "published": "Thu, 16 Jul 2026 18:00:00 GMT",
-          "free_access": true
-        },
-        {
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
-          "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
-          "publisher": "",
-          "published": "Thu, 16 Jul 2026 15:00:00 GMT",
-          "free_access": true
-        }
-      ],
-      "lane": "Money & Markets (with a separate 'Why it matters' line)",
-      "why_it_matters": "Clearer handling rules could strengthen data security during regulatory reviews, potentially reducing risks of sensitive financial information being mishandled or exposed, which could affect bank customers and institutions alike.",
-      "high_risk": false
-    },
-    {
-      "headline": "U.S. Business Inventories Rise Modestly in May 2026 as Sales Surge",
-      "body": "U.S. total business inventories reached $2,736.2 billion at the end of May 2026, a 0.3 percent increase from April. Business sales climbed more sharply, rising 2.1 percent to $2,135.0 billion month-over-month. April inventories were revised upward to a 0.6 percent gain.",
-      "sources": [
-        {
-          "url": "https://www.census.gov/mtis/index.html",
-          "title": "Manufacturing and Trade Inventories and Sales",
-          "publisher": "",
-          "published": "Thu, 16 Jul 2026 10:00:00 -0400",
-          "free_access": true
-        }
-      ],
-      "lane": "Business / Public Policy",
-      "why_it_matters": "When sales grow faster than inventories, it could signal tightening supply conditions, which may lead businesses to ramp up orders and production. Consumers could see shifts in product availability or pricing if this trend continues.",
-      "high_risk": false
-    },
-    {
-      "headline": "GAO Flags Six Priority Recommendations for US Intelligence Oversight Body",
-      "body": "The Government Accountability Office has identified six priority recommendations for the Office of the Director of National Intelligence as of June 2026, down from 14 in May 2025 after ODNI implemented one recommendation and eight lost priority status. GAO is focusing on two areas requiring urgent attention: mitigating personnel vetting risks and addressing intelligence enterprise management challenges. Full implementation could improve security clearance processes and strengthen operations across the intelligence community.",
-      "sources": [
-        {
-          "url": "https://www.gao.gov/products/gao-26-108954",
-          "title": "Priority Open Recommendations: Office of the Director of National Intelligence",
-          "publisher": "",
-          "published": "Tue, 21 Jul 2026 07:40:30 -0400",
-          "free_access": true
-        }
-      ],
-      "lane": "Science / Tech / Health or Real Estate (by impact)",
-      "why_it_matters": "Unresolved gaps in personnel vetting and intelligence management could leave national security programs vulnerable to inefficiency, mismanagement, or fraud. For taxpayers and policymakers, these recommendations represent potential cost savings and stronger oversight of agencies that operate largely out of public view.",
-      "high_risk": false
-    }
-  ],
+  "briefings": [],
   "quick_hits": [
     {
-      "text": "U.S. retail and food services sales reached $768.6 billion in June 2026, up 0.2% from May.",
-      "source": {
-        "url": "https://www.census.gov/retail/index.html",
-        "title": "Advance Monthly Sales for Retail and Food Services",
-        "publisher": "",
-        "published": "Thu, 16 Jul 2026 08:30:00 -0400",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "OPM's workforce shrank 35 percent between December 2024 and March 2026, losing 1,052 employees, with GAO warning of significant institutional knowledge gaps.",
-      "source": {
-        "url": "https://www.gao.gov/products/gao-26-108916",
-        "title": "GAOverview: Recent Federal Workforce Changes at OPM",
-        "publisher": "",
-        "published": "Mon, 20 Jul 2026 07:22:29 -0400",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "GAO found GSA's Login.gov has implemented most fraud-prevention recommendations but still lacks partner timelines for resolving agency-reported technical challenges.",
+      "text": "GSA's Login.gov, which received $187 million in modernization funds, still lacks partner timelines for fixing agency-reported technical issues, GAO warns.",
       "source": {
         "url": "https://www.gao.gov/products/gao-26-109261",
         "title": "Identity Verification: GSA Needs to Address Fraud Threats and Technical Issues",
@@ -116,7 +15,40 @@
       "lane": ""
     },
     {
-      "text": "The Federal Open Market Committee met on June 16-17, 2026, with minutes released documenting the proceedings of that policy meeting.",
+      "text": "GAO found 117 cybersecurity regulations from 37 federal agencies create potentially duplicative reporting burdens across nine critical infrastructure sectors, with 70 percent containing overlapping requirements.",
+      "source": {
+        "url": "https://www.gao.gov/products/gao-26-108606",
+        "title": "Cybersecurity Regulations: Multiple Sectors Are Subject to Potentially Duplicative Reporting Requirements",
+        "publisher": "",
+        "published": "Wed, 22 Jul 2026 07:27:47 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "John Deere Receivables LLC filed an 8-K with the SEC on July 22, 2026, disclosing financial statements and exhibits in a 298 KB filing.",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1762590/000110465926085708/0001104659-26-085708-index.htm",
+        "title": "8-K - John Deere Receivables LLC (0001762590) (Filer)",
+        "publisher": "",
+        "published": "2026-07-22T12:42:32-04:00",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "U.S. banking agencies issued a joint statement establishing new protocols for handling highly sensitive information during bank examinations.",
+      "source": {
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+        "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+        "publisher": "",
+        "published": "Thu, 16 Jul 2026 18:00:00 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The Federal Open Market Committee met June 16–17, 2026, to deliberate on U.S. monetary policy and interest rate decisions.",
       "source": {
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
         "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
@@ -127,23 +59,45 @@
       "lane": ""
     },
     {
-      "text": "U.S. manufactured goods new orders fell 1.3% in May to $657.4 billion, dropping $8.5 billion after four consecutive monthly increases.",
+      "text": "The Federal Reserve has announced leadership and objectives for new task forces aimed at advancing how it conducts monetary policy.",
       "source": {
-        "url": "https://www.census.gov/manufacturing/m3/",
-        "title": "Manufacturers' Shipments, Inventories, and Orders",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
+        "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
         "publisher": "",
-        "published": "Thu, 02 Jul 2026 10:00:00 -0400",
+        "published": "Thu, 9 Jul 2026 19:00:00 GMT",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "U.S. construction spending reached $2,210.2 billion in May 2026, up 0.1% from April's revised $2,207.1 billion.",
+      "text": "U.S. selected services revenue rose 1.1% in Q1 2026 to $6,223.1 billion, up 6.5% from a year earlier.",
       "source": {
-        "url": "https://www.census.gov/construction/c30/c30index.html",
-        "title": "Construction Spending",
+        "url": "https://www.census.gov/services/index.html",
+        "title": "Quarterly Services Survey",
         "publisher": "",
-        "published": "Wed, 01 Jul 2026 10:00:00 -0400",
+        "published": "Thu, 11 Jun 2026 10:00:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The Federal Reserve is seeking public comment on a proposal requiring payment stablecoin issuers to establish formal customer identification programs.",
+      "source": {
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
+        "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
+        "publisher": "",
+        "published": "Thu, 18 Jun 2026 13:00:00 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Former Ferrari F1 boss Jean Todt says everyday road commuting is statistically more dangerous than decades spent in motorsport's deadliest environments.",
+      "source": {
+        "url": "https://news.un.org/feed/view/en/story/2026/07/1167974",
+        "title": "A former Ferrari boss has a blunt message: Your commute is more dangerous than his old job",
+        "publisher": "",
+        "published": "Sat, 18 Jul 2026 12:00:00 +0000",
         "free_access": true
       },
       "lane": ""
@@ -156,7 +110,7 @@
       "metrics": [
         {
           "label": "S&P 500",
-          "value": "7509.2000000000",
+          "value": "7,509.20",
           "source": {
             "url": "https://fred.stlouisfed.org/series/SP500",
             "title": "S&P 500",
@@ -168,7 +122,7 @@
         },
         {
           "label": "Dow",
-          "value": "52224.6400000000",
+          "value": "52,224.64",
           "source": {
             "url": "https://fred.stlouisfed.org/series/DJIA",
             "title": "Dow",
@@ -180,7 +134,7 @@
         },
         {
           "label": "Nasdaq",
-          "value": "25837.2100000000",
+          "value": "25,837.21",
           "source": {
             "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
             "title": "Nasdaq",
@@ -192,7 +146,7 @@
         },
         {
           "label": "10-yr Treasury",
-          "value": "4.6000000000%",
+          "value": "4.60%",
           "source": {
             "url": "https://fred.stlouisfed.org/series/DGS10",
             "title": "10-yr Treasury",
@@ -216,27 +170,27 @@
         },
         {
           "label": "BTC",
-          "value": "$65,878",
+          "value": "$66,276",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-22 11:45 UTC",
+            "published": "2026-07-22 16:45 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-22 11:45 UTC"
+          "as_of": "2026-07-22 16:45 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,922",
+          "value": "$1,951",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-22 11:45 UTC",
+            "published": "2026-07-22 16:45 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-22 11:45 UTC"
+          "as_of": "2026-07-22 16:45 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -255,44 +209,7 @@
     {
       "kind": "sports",
       "title": "Sports Box",
-      "metrics": [
-        {
-          "label": "PHI 1 — LAD 2",
-          "value": "Final",
-          "source": {
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816202/dodgers-phillies",
-            "title": "PHI 1 — LAD 2",
-            "publisher": "ESPN (MLB)",
-            "published": "2026-07-21",
-            "free_access": true
-          },
-          "as_of": "2026-07-21"
-        },
-        {
-          "label": "CLE 5 — MIN 2",
-          "value": "Final",
-          "source": {
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816203/twins-guardians",
-            "title": "CLE 5 — MIN 2",
-            "publisher": "ESPN (MLB)",
-            "published": "2026-07-21",
-            "free_access": true
-          },
-          "as_of": "2026-07-21"
-        },
-        {
-          "label": "NYY 0 — PIT 0",
-          "value": "Postponed",
-          "source": {
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816204/pirates-yankees",
-            "title": "NYY 0 — PIT 0",
-            "publisher": "ESPN (MLB)",
-            "published": "2026-07-21",
-            "free_access": true
-          },
-          "as_of": "2026-07-21"
-        }
-      ]
+      "metrics": []
     }
   ],
   "voice_blocks": [
@@ -311,36 +228,36 @@
     }
   ],
   "closer": {
-    "text": "\"Let the people know the facts, and the country will be safe.\"",
+    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
     "kind": "quote",
-    "attribution": "Abraham Lincoln (attributed)",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
     "factual": true,
     "source": {
-      "url": "https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/",
-      "title": "Abraham Lincoln (attributed)",
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
     }
   },
   "receipt": {
-    "title": "Broadband: Actions Needed to Strengthen Fragmented Federal Effort",
-    "description": "What GAO Found\n\nFederal broadband efforts are fragmented, with over 100 programs administered by 15 agencies, as GAO reported in May 2022. Some programs support broadband as their main purpose, while ",
+    "title": "Firearms Education: ATF Should Use Performance Metrics and Information to Evaluate and Manage Outreach Campaign",
+    "description": "What GAO Found\n\nSince 2000, the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) and the National Shooting Sports Foundation (NSSF) have managed and launched the Don’t Lie for the Other Guy c",
     "source": {
-      "url": "https://www.gao.gov/products/gao-26-109297",
-      "title": "Broadband: Actions Needed to Strengthen Fragmented Federal Effort",
+      "url": "https://www.gao.gov/products/gao-26-108655",
+      "title": "Firearms Education: ATF Should Use Performance Metrics and Information to Evaluate and Manage Outreach Campaign",
       "publisher": "www.gao.gov",
-      "published": "Tue, 21 Jul 2026 11:17:05 -0400",
+      "published": "Wed, 22 Jul 2026 07:18:41 -0400",
       "free_access": true
     }
   },
   "meta": {
     "brand": "THE 6th ESTATE",
-    "structure": "4+6+2+1+1",
-    "generated_at": "2026-07-22T11:45:27.775129+00:00",
+    "structure": "0+9+2+1+1",
+    "generated_at": "2026-07-22T16:45:21.541817+00:00",
     "date_readable": "Wednesday, July 22, 2026",
-    "writer_calls": 10,
+    "writer_calls": 9,
     "brave_queries": 0,
-    "rss_candidates": 64
+    "rss_candidates": 94
   }
 }
