@@ -3,8 +3,8 @@
   "demo": false,
   "briefings": [
     {
-      "headline": "Regulators Publish Updated List of Distressed and Underserved Rural Middle-Income Areas",
-      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations are used to determine where certain community development lending and investment activities receive favorable consideration under regulatory frameworks governing financial institutions.",
+      "headline": "Regulators Release Updated List of Distressed and Underserved Rural Middle-Income Areas",
+      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations are used by financial institutions to qualify certain lending and investment activities for Community Reinvestment Act credit. The list helps regulators and banks determine which rural and small-town areas receive special consideration when evaluating community development activity.",
       "sources": [
         {
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
@@ -14,20 +14,20 @@
           "free_access": true
         },
         {
-          "url": "https://www.sec.gov/Archives/edgar/data/1765388/000176538826000004/0001765388-26-000004-index.htm",
-          "title": "13F-HR - Metropolis Capital Ltd (0001765388) (Filer)",
+          "url": "https://www.sec.gov/Archives/edgar/data/216851/000110465926085618/0001104659-26-085618-index.htm",
+          "title": "13F-HR - ADAMS NATURAL RESOURCES FUND, INC. (0000216851) (Filer)",
           "publisher": "",
-          "published": "2026-07-22T07:34:15-04:00",
+          "published": "2026-07-22T07:35:49-04:00",
           "free_access": true
         }
       ],
       "lane": "World / US lead",
-      "why_it_matters": "For residents and businesses in designated areas, this list could influence how much banks invest in local communities. Lenders operating in these geographies may receive regulatory credit for community development activities, potentially increasing access to loans and financial services in underserved rural areas.",
+      "why_it_matters": "Residents and businesses in designated areas could see increased access to loans, investments, and financial services, as banks may direct more community development activity toward these communities to meet regulatory requirements.",
       "high_risk": false
     },
     {
-      "headline": "Federal Agencies Issue Joint Guidance on Protecting Sensitive Data During Bank Exams",
-      "body": "Federal banking agencies have issued a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance establishes protocols for managing confidential data collected in the examination process, aiming to strengthen safeguards around sensitive financial and personal information shared between banks and their regulators.",
+      "headline": "Bank Regulators Issue Joint Guidance on Handling Sensitive Exam Information",
+      "body": "Federal banking agencies have issued a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance establishes protocols for managing confidential data collected when regulators review financial institutions. The statement reflects coordinated efforts among agencies to standardize practices around sensitive examination materials.",
       "sources": [
         {
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
@@ -45,12 +45,12 @@
         }
       ],
       "lane": "Money & Markets (with a separate 'Why it matters' line)",
-      "why_it_matters": "Customers and institutions could see stronger protections for sensitive financial data shared during regulatory reviews, reducing risk of mishandling or unauthorized disclosure of confidential information.",
+      "why_it_matters": "Clearer handling rules could strengthen data security during regulatory reviews, potentially reducing risks of sensitive financial information being mishandled or exposed, which could affect bank customers and institutions alike.",
       "high_risk": false
     },
     {
-      "headline": "U.S. Business Inventories Rise 0.3% in May 2026 as Sales Jump 2.1%",
-      "body": "U.S. total business inventories reached $2,736.2 billion at the end of May 2026, a 0.3 percent increase from April. Business sales climbed 2.1 percent to $2,135.0 billion over the same period. April inventories were revised to show a 0.6 percent gain. The faster growth in sales relative to inventories suggests businesses are moving goods more quickly than they are stockpiling them.",
+      "headline": "U.S. Business Inventories Rise Modestly in May 2026 as Sales Surge",
+      "body": "U.S. total business inventories reached $2,736.2 billion at the end of May 2026, a 0.3 percent increase from April. Business sales climbed more sharply, rising 2.1 percent to $2,135.0 billion month-over-month. April inventories were revised upward to a 0.6 percent gain.",
       "sources": [
         {
           "url": "https://www.census.gov/mtis/index.html",
@@ -61,12 +61,12 @@
         }
       ],
       "lane": "Business / Public Policy",
-      "why_it_matters": "When sales outpace inventory growth, it could signal strengthening consumer or business demand, which may lead companies to ramp up orders and production. For workers and investors, this ratio could point to near-term economic momentum, though tighter inventory levels could also mean some goods become harder to find or more expensive.",
+      "why_it_matters": "When sales grow faster than inventories, it could signal tightening supply conditions, which may lead businesses to ramp up orders and production. Consumers could see shifts in product availability or pricing if this trend continues.",
       "high_risk": false
     },
     {
-      "headline": "GAO Flags Six Priority Reforms for US Intelligence Oversight Body",
-      "body": "The Government Accountability Office has identified six priority recommendations for the Office of the Director of National Intelligence, down from 14 in May 2025 after ODNI implemented one recommendation and eight others lost priority status. Two areas require urgent attention: personnel vetting risks and intelligence enterprise management challenges. GAO says acting on these recommendations could improve security clearance processes and strengthen programs across the intelligence community.",
+      "headline": "GAO Flags Six Priority Recommendations for US Intelligence Oversight Body",
+      "body": "The Government Accountability Office has identified six priority recommendations for the Office of the Director of National Intelligence as of June 2026, down from 14 in May 2025 after ODNI implemented one recommendation and eight lost priority status. GAO is focusing on two areas requiring urgent attention: mitigating personnel vetting risks and addressing intelligence enterprise management challenges. Full implementation could improve security clearance processes and strengthen operations across the intelligence community.",
       "sources": [
         {
           "url": "https://www.gao.gov/products/gao-26-108954",
@@ -77,57 +77,35 @@
         }
       ],
       "lane": "Science / Tech / Health or Real Estate (by impact)",
-      "why_it_matters": "Unresolved gaps in personnel vetting and intelligence management could leave national security programs vulnerable to inefficiency, mismanagement, or fraud. For taxpayers and policymakers, failure to act could mean wasted resources and weaker oversight of agencies that operate largely outside public view.",
+      "why_it_matters": "Unresolved gaps in personnel vetting and intelligence management could leave national security programs vulnerable to inefficiency, mismanagement, or fraud. For taxpayers and policymakers, these recommendations represent potential cost savings and stronger oversight of agencies that operate largely out of public view.",
       "high_risk": false
     }
   ],
   "quick_hits": [
     {
-      "text": "GAO estimates 61% of $39 billion in congressional earmark funds for FY2022-2024 projects were obligated by end of FY2024, with 16% outlayed.",
+      "text": "U.S. retail and food services sales reached $768.6 billion in June 2026, up 0.2% from May.",
       "source": {
-        "url": "https://www.gao.gov/products/gao-26-107944",
-        "title": "Community Project Funding/Congressionally Directed Spending: Most Fiscal Year 2022-2024 Funds Are Estimated to Be Obligated",
+        "url": "https://www.census.gov/retail/index.html",
+        "title": "Advance Monthly Sales for Retail and Food Services",
         "publisher": "",
-        "published": "Thu, 16 Jul 2026 07:10:14 -0400",
+        "published": "Thu, 16 Jul 2026 08:30:00 -0400",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "U.S. selected services revenue reached $6,223.1 billion in Q1 2026, up 1.1% from Q4 2025 and 6.5% year-over-year.",
+      "text": "OPM's workforce shrank 35 percent between December 2024 and March 2026, losing 1,052 employees, with GAO warning of significant institutional knowledge gaps.",
       "source": {
-        "url": "https://www.census.gov/services/index.html",
-        "title": "Quarterly Services Survey",
+        "url": "https://www.gao.gov/products/gao-26-108916",
+        "title": "GAOverview: Recent Federal Workforce Changes at OPM",
         "publisher": "",
-        "published": "Thu, 11 Jun 2026 10:00:00 -0400",
+        "published": "Mon, 20 Jul 2026 07:22:29 -0400",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "DOE has removed over 16 million tons of uranium mill tailings at Utah's Moab Mill Site, with cleanup costing approximately $970 million and expected completion by 2029.",
-      "source": {
-        "url": "https://www.gao.gov/products/gao-26-108654",
-        "title": "Nuclear Waste: DOE’s Plans to Complete Cleanup and Transfer of Moab Mill Site",
-        "publisher": "",
-        "published": "Wed, 15 Jul 2026 07:12:08 -0400",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "The Federal Open Market Committee met June 16-17, 2026, according to minutes released by the Federal Reserve.",
-      "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-        "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
-        "publisher": "",
-        "published": "Wed, 8 Jul 2026 18:00:00 GMT",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "GAO found GSA's Login.gov has implemented most recommendations but still lacks timelines for resolving agency-reported technical challenges with the identity verification system.",
+      "text": "GAO found GSA's Login.gov has implemented most fraud-prevention recommendations but still lacks partner timelines for resolving agency-reported technical challenges.",
       "source": {
         "url": "https://www.gao.gov/products/gao-26-109261",
         "title": "Identity Verification: GSA Needs to Address Fraud Threats and Technical Issues",
@@ -138,12 +116,34 @@
       "lane": ""
     },
     {
-      "text": "The Federal Reserve released economic projections from its June 16-17 Federal Open Market Committee meeting.",
+      "text": "The Federal Open Market Committee met on June 16-17, 2026, with minutes released documenting the proceedings of that policy meeting.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
-        "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+        "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
         "publisher": "",
-        "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+        "published": "Wed, 8 Jul 2026 18:00:00 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "U.S. manufactured goods new orders fell 1.3% in May to $657.4 billion, dropping $8.5 billion after four consecutive monthly increases.",
+      "source": {
+        "url": "https://www.census.gov/manufacturing/m3/",
+        "title": "Manufacturers' Shipments, Inventories, and Orders",
+        "publisher": "",
+        "published": "Thu, 02 Jul 2026 10:00:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "U.S. construction spending reached $2,210.2 billion in May 2026, up 0.1% from April's revised $2,207.1 billion.",
+      "source": {
+        "url": "https://www.census.gov/construction/c30/c30index.html",
+        "title": "Construction Spending",
+        "publisher": "",
+        "published": "Wed, 01 Jul 2026 10:00:00 -0400",
         "free_access": true
       },
       "lane": ""
@@ -216,27 +216,27 @@
         },
         {
           "label": "BTC",
-          "value": "$65,997",
+          "value": "$65,878",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-22 11:36 UTC",
+            "published": "2026-07-22 11:45 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-22 11:36 UTC"
+          "as_of": "2026-07-22 11:45 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,927",
+          "value": "$1,922",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-22 11:36 UTC",
+            "published": "2026-07-22 11:45 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-22 11:36 UTC"
+          "as_of": "2026-07-22 11:45 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -311,13 +311,13 @@
     }
   ],
   "closer": {
-    "text": "\"The only security of all is in a free press.\"",
+    "text": "\"Let the people know the facts, and the country will be safe.\"",
     "kind": "quote",
-    "attribution": "Thomas Jefferson, letter to Lafayette (1823)",
+    "attribution": "Abraham Lincoln (attributed)",
     "factual": true,
     "source": {
-      "url": "https://founders.archives.gov/documents/Jefferson/98-01-02-3837",
-      "title": "Thomas Jefferson, letter to Lafayette (1823)",
+      "url": "https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/",
+      "title": "Abraham Lincoln (attributed)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
@@ -337,7 +337,7 @@
   "meta": {
     "brand": "THE 6th ESTATE",
     "structure": "4+6+2+1+1",
-    "generated_at": "2026-07-22T11:36:31.698705+00:00",
+    "generated_at": "2026-07-22T11:45:27.775129+00:00",
     "date_readable": "Wednesday, July 22, 2026",
     "writer_calls": 10,
     "brave_queries": 0,
