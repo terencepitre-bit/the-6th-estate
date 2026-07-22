@@ -3,8 +3,8 @@
   "demo": false,
   "briefings": [
     {
-      "headline": "Regulators Publish Updated List of Distressed and Underserved Rural Middle-Income Areas",
-      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. The designation is used under Community Reinvestment Act guidelines to determine where certain bank lending and investment activities may receive favorable regulatory consideration, directing financial resources toward rural and small-town communities that face economic hardship or limited access to capital.",
+      "headline": "Regulators Publish Updated List of Distressed and Underserved Nonmetropolitan Middle-Income Areas",
+      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations influence how financial institutions receive credit under community reinvestment frameworks for lending and investment activity in qualifying areas. Communities on the list could see increased bank interest in local lending, small business financing, and community development projects as institutions seek to meet regulatory obligations.",
       "sources": [
         {
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
@@ -22,12 +22,12 @@
         }
       ],
       "lane": "World / US",
-      "why_it_matters": "Residents and businesses in newly listed communities could find it easier to access bank loans and investment capital, as lenders have a regulatory incentive to direct financing toward these areas.",
+      "why_it_matters": "Residents and small businesses in designated rural and small-town areas could find it easier to access loans and investment capital as banks direct more resources toward these communities to satisfy federal requirements.",
       "high_risk": false
     },
     {
-      "headline": "Federal Agencies Issue Joint Statement on Protecting Sensitive Data During Bank Examinations",
-      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance aims to establish clearer standards for managing confidential data collected in the examination process, reinforcing expectations for both agencies and the institutions they oversee to safeguard sensitive financial and personal information.",
+      "headline": "Federal Agencies Issue Joint Guidance on Protecting Sensitive Data During Bank Exams",
+      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance aims to establish clearer standards for managing confidential data collected in the examination process, reflecting ongoing concerns about information security within the regulatory framework that governs financial institutions.",
       "sources": [
         {
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
@@ -45,12 +45,12 @@
         }
       ],
       "lane": "Money & Markets",
-      "why_it_matters": "Stronger data-handling standards during bank examinations could reduce the risk that sensitive customer and institutional financial information is mishandled or exposed.",
+      "why_it_matters": "Stronger handling standards for sensitive bank examination data could reduce the risk of confidential financial information being misused or improperly disclosed, offering greater protection to consumers and institutions alike.",
       "high_risk": false
     },
     {
-      "headline": "Trump Administration Set to Announce Nuclear Fuel Deal With Saudi Arabia",
-      "body": "The Trump administration is expected to announce a deal that could allow Saudi Arabia to enrich nuclear fuel. U.S. lawmakers and Israeli officials have voiced opposition to the plan, warning that a civilian nuclear project could give the kingdom a pathway to develop nuclear weapons. The announcement is scheduled for Wednesday.",
+      "headline": "Trump Administration Set to Announce Saudi Nuclear Fuel Deal",
+      "body": "The Trump administration is preparing to announce a deal that could allow Saudi Arabia to enrich nuclear fuel. U.S. lawmakers and Israeli officials have voiced opposition to the plan, warning that a civilian nuclear program could provide Saudi Arabia a pathway to develop nuclear weapons. The announcement was expected Wednesday.",
       "sources": [
         {
           "url": "https://www.nytimes.com/2026/07/21/us/politics/trump-saudi-nuclear-deal.html",
@@ -61,12 +61,12 @@
         }
       ],
       "lane": "Business / Policy",
-      "why_it_matters": "If Saudi Arabia gains uranium enrichment capabilities, it could shift the nuclear balance in the Middle East and pressure other nations in the region to pursue similar programs.",
+      "why_it_matters": "If Saudi Arabia gains uranium enrichment capability, it could shift the nuclear balance in the Middle East, potentially prompting other regional powers to pursue similar programs and raising proliferation risks that affect global security.",
       "high_risk": false
     },
     {
-      "headline": "Contagious Cancer Discovered in Fish for the First Time",
-      "body": "Scientists have identified a transmissible tumor spreading among fish in a lake, marking the first known case of contagious cancer in fish. Previously, such cancers had only been documented in a small number of other animal species. The discovery raises questions about how widely transmissible cancers could exist in nature and prompts researchers to examine whether similar mechanisms could ever pose risks in other species, including humans.",
+      "headline": "Scientists Discover First Known Contagious Cancer Spreading Among Fish in a Lake",
+      "body": "Researchers have identified what appears to be the first transmissible cancer ever documented in fish, adding a new species to the rare list of animals known to harbor contagious tumors. Previously, such cancers had been observed in only a handful of species. The discovery raises scientific questions about how widely transmissible cancers could exist in nature, and whether similar mechanisms could theoretically occur in humans.",
       "sources": [
         {
           "url": "https://www.nytimes.com/2026/07/22/science/contagious-cancer-catfish.html",
@@ -77,12 +77,12 @@
         }
       ],
       "lane": "Science / Tech / Health",
-      "why_it_matters": "Understanding how cancers can spread between animals could reshape what scientists thought were firm boundaries around infectious disease and cancer research, with potential implications for human health monitoring.",
+      "why_it_matters": "Expanding our understanding of how cancers can spread between animals could reshape research into cancer transmission risks and inform future public health precautions.",
       "high_risk": false
     },
     {
-      "headline": "Political appointee review of federal grants could reshape education research priorities",
-      "body": "A proposed 100-page overhaul of federal grant rules would add a new review layer by political appointees, raising concerns among education research organizations. Researchers warn the change could hinder the kind of long-term, multidisciplinary work that produced the science of reading movement, which drew on decades of federally supported studies across cognitive science, neuroscience, psychology, linguistics, and classroom research.",
+      "headline": "Political appointee review of federal grants could narrow education research, groups warn",
+      "body": "A proposed 100-page overhaul of federal grant rules would add a new review layer by political appointees before research funding is approved. Education research organizations say the change could make it harder to produce the kind of wide-ranging, multi-decade work that built the science of reading movement, which drew on cognitive science, neuroscience, psychology, linguistics, and classroom studies.",
       "sources": [
         {
           "url": "https://hechingerreport.org/proof-points-education-omb-comments/",
@@ -93,12 +93,12 @@
         }
       ],
       "lane": "Education",
-      "why_it_matters": "If political appointees gain influence over which studies receive federal funding, the evidence base schools rely on to adopt proven teaching methods could narrow or shift away from peer-driven scientific consensus.",
+      "why_it_matters": "If political review shapes which education studies get funded, the evidence base used to design reading programs, school policies, and classroom practices could narrow or shift, affecting how children across the country are taught.",
       "high_risk": false
     },
     {
-      "headline": "TreeSize shifts to subscription model, cutting off perpetual-license support renewals",
-      "body": "TreeSize, a disk-space analysis tool, is ending support renewals for perpetual-license holders unless they switch to a subscription plan, citing current economic conditions as the driver. Users who purchased a one-time license and want continued support will need to pay recurring fees going forward. The change reflects a broader industry trend of software vendors moving away from traditional perpetual licensing.",
+      "headline": "TreeSize shifts business model, requiring subscription to maintain perpetual-license support",
+      "body": "TreeSize is changing how it handles support for perpetual-license holders, requiring users to subscribe in order to continue receiving support. The company cited current economic conditions as the driver behind the policy shift. Users who purchased a one-time license may now face the choice of paying ongoing subscription fees or losing access to technical support for software they already own.",
       "sources": [
         {
           "url": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
@@ -109,57 +109,57 @@
         }
       ],
       "lane": "Real Estate",
-      "why_it_matters": "Customers who paid once expecting lifetime ownership could face unexpected recurring costs or lose access to support and updates, affecting how they budget for and rely on the software.",
+      "why_it_matters": "Perpetual-license holders who expected lifetime ownership without recurring costs could find themselves locked into subscription payments just to keep their software supported.",
       "high_risk": false
     }
   ],
   "quick_hits": [
     {
-      "text": "Rising temperatures are accelerating the spread of food-borne pathogens like Cyclospora, exposing critical gaps in the U.S. food safety detection system.",
+      "text": "Cameron Hamilton, who once defended FEMA against elimination, is poised to be confirmed as the agency's administrator for a second time.",
       "source": {
-        "url": "https://www.nytimes.com/2026/07/21/climate/climate-cyclospora.html",
-        "title": "What the Cyclospora Outbreak Reveals",
+        "url": "https://www.nytimes.com/2026/07/21/climate/cameron-hamilton-fema-trump.html",
+        "title": "Cameron Hamilton Poised to Lead FEMA Once More",
         "publisher": "",
-        "published": "Tue, 21 Jul 2026 20:52:11 +0000",
+        "published": "Tue, 21 Jul 2026 19:33:57 +0000",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "The Federal Reserve's annual stress test confirms all large U.S. banks can withstand a severe recession while continuing to lend to households and businesses.",
+      "text": "The Federal Reserve released initial findings from its 2025 triennial payments study, tracking how Americans use checks, cards, and digital transfers.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260624a.htm",
-        "title": "Federal Reserve Board's annual bank stress test confirms that large banks are well positioned to weather a severe recession and able to continue to lend to households and businesses",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20260701a.htm",
+        "title": "Federal Reserve issues initial findings from its 2025 triennial payments study",
         "publisher": "",
-        "published": "Wed, 24 Jun 2026 20:00:00 GMT",
+        "published": "Wed, 1 Jul 2026 18:30:00 GMT",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "Ronald Fischer, a fugitive for 20 years, was arrested in New York after hiding under the alias Richard Graydon as a biotech executive.",
+      "text": "A study found 1,700 HIV treatment sites closed following Trump administration foreign aid cuts, disproportionately affecting children and high-risk adults.",
       "source": {
-        "url": "https://arstechnica.com/health/2026/07/on-the-run-for-20-years-most-wanted-fugitive-caught-hiding-as-a-biotech-exec/",
-        "title": "On the run for 20 years, most-wanted fugitive caught hiding as a biotech exec",
+        "url": "https://www.nytimes.com/2026/07/21/health/hiv-trump-cuts-pepfar.html",
+        "title": "1,700 H.I.V. Treatment Sites Closed After Trump Aid Cuts, a Study Finds",
         "publisher": "",
-        "published": "Tue, 21 Jul 2026 22:04:56 +0000",
+        "published": "Wed, 22 Jul 2026 18:18:52 +0000",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "Monkeys share geometric shape intuition with humans, challenging the long-held belief that this spatial reasoning ability is uniquely human.",
+      "text": "A randomized trial found students whose teachers used AI tools for lesson planning and feedback scored lower on learning outcomes than peers in traditional classrooms.",
       "source": {
-        "url": "https://www.nytimes.com/2026/07/21/science/monkeys-cognition-shapes-geometry.html",
-        "title": "Monkeys Understand Shapes in Almost the Same Way as Humans",
+        "url": "https://hechingerreport.org/proof-points-ai-in-teaching/",
+        "title": "Teachers save time with AI. Their students may pay the price",
         "publisher": "",
-        "published": "Tue, 21 Jul 2026 17:58:40 +0000",
+        "published": "Mon, 13 Jul 2026 10:00:00 +0000",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "Steam Deck sales have cratered by 80 percent following Valve's recent price hike, according to bestseller chart analysis.",
+      "text": "Steam Deck sales fell 80 percent after Valve raised prices, according to analysis of recent bestseller charts.",
       "source": {
         "url": "https://arstechnica.com/gaming/2026/07/steam-deck-sales-are-losing-steam-since-mays-price-hike/",
         "title": "Sales of Valve's Steam Deck crater after recent price hike",
@@ -237,15 +237,15 @@
         },
         {
           "label": "BTC",
-          "value": "$65,801",
+          "value": "$65,807",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-22 18:50 UTC",
+            "published": "2026-07-22 18:53 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-22 18:50 UTC"
+          "as_of": "2026-07-22 18:53 UTC"
         },
         {
           "label": "ETH",
@@ -254,10 +254,10 @@
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-22 18:50 UTC",
+            "published": "2026-07-22 18:53 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-22 18:50 UTC"
+          "as_of": "2026-07-22 18:53 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -295,13 +295,13 @@
     }
   ],
   "closer": {
-    "text": "\"Let the people know the facts, and the country will be safe.\"",
+    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
     "kind": "quote",
-    "attribution": "Abraham Lincoln (attributed)",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
     "factual": true,
     "source": {
-      "url": "https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/",
-      "title": "Abraham Lincoln (attributed)",
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
@@ -311,7 +311,7 @@
   "meta": {
     "brand": "THE 6th ESTATE",
     "structure": "6+5+2+1+1",
-    "generated_at": "2026-07-22T18:50:16.303524+00:00",
+    "generated_at": "2026-07-22T18:53:51.756069+00:00",
     "date_readable": "Wednesday, July 22, 2026",
     "writer_calls": 11,
     "brave_queries": 0,
