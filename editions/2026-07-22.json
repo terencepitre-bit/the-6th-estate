@@ -1,0 +1,346 @@
+{
+  "date": "2026-07-22",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Regulators Publish Updated List of Distressed and Underserved Rural Middle-Income Areas",
+      "body": "Federal agencies have released an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations are used to determine where certain community development lending and investment activities receive favorable consideration under regulatory frameworks governing financial institutions.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
+          "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+          "publisher": "",
+          "published": "Tue, 30 Jun 2026 14:00:00 GMT",
+          "free_access": true
+        },
+        {
+          "url": "https://www.sec.gov/Archives/edgar/data/1765388/000176538826000004/0001765388-26-000004-index.htm",
+          "title": "13F-HR - Metropolis Capital Ltd (0001765388) (Filer)",
+          "publisher": "",
+          "published": "2026-07-22T07:34:15-04:00",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US lead",
+      "why_it_matters": "For residents and businesses in designated areas, this list could influence how much banks invest in local communities. Lenders operating in these geographies may receive regulatory credit for community development activities, potentially increasing access to loans and financial services in underserved rural areas.",
+      "high_risk": false
+    },
+    {
+      "headline": "Federal Agencies Issue Joint Guidance on Protecting Sensitive Data During Bank Exams",
+      "body": "Federal banking agencies have issued a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance establishes protocols for managing confidential data collected in the examination process, aiming to strengthen safeguards around sensitive financial and personal information shared between banks and their regulators.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+          "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 18:00:00 GMT",
+          "free_access": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
+          "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 15:00:00 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets (with a separate 'Why it matters' line)",
+      "why_it_matters": "Customers and institutions could see stronger protections for sensitive financial data shared during regulatory reviews, reducing risk of mishandling or unauthorized disclosure of confidential information.",
+      "high_risk": false
+    },
+    {
+      "headline": "U.S. Business Inventories Rise 0.3% in May 2026 as Sales Jump 2.1%",
+      "body": "U.S. total business inventories reached $2,736.2 billion at the end of May 2026, a 0.3 percent increase from April. Business sales climbed 2.1 percent to $2,135.0 billion over the same period. April inventories were revised to show a 0.6 percent gain. The faster growth in sales relative to inventories suggests businesses are moving goods more quickly than they are stockpiling them.",
+      "sources": [
+        {
+          "url": "https://www.census.gov/mtis/index.html",
+          "title": "Manufacturing and Trade Inventories and Sales",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 10:00:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Public Policy",
+      "why_it_matters": "When sales outpace inventory growth, it could signal strengthening consumer or business demand, which may lead companies to ramp up orders and production. For workers and investors, this ratio could point to near-term economic momentum, though tighter inventory levels could also mean some goods become harder to find or more expensive.",
+      "high_risk": false
+    },
+    {
+      "headline": "GAO Flags Six Priority Reforms for US Intelligence Oversight Body",
+      "body": "The Government Accountability Office has identified six priority recommendations for the Office of the Director of National Intelligence, down from 14 in May 2025 after ODNI implemented one recommendation and eight others lost priority status. Two areas require urgent attention: personnel vetting risks and intelligence enterprise management challenges. GAO says acting on these recommendations could improve security clearance processes and strengthen programs across the intelligence community.",
+      "sources": [
+        {
+          "url": "https://www.gao.gov/products/gao-26-108954",
+          "title": "Priority Open Recommendations: Office of the Director of National Intelligence",
+          "publisher": "",
+          "published": "Tue, 21 Jul 2026 07:40:30 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health or Real Estate (by impact)",
+      "why_it_matters": "Unresolved gaps in personnel vetting and intelligence management could leave national security programs vulnerable to inefficiency, mismanagement, or fraud. For taxpayers and policymakers, failure to act could mean wasted resources and weaker oversight of agencies that operate largely outside public view.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "GAO estimates 61% of $39 billion in congressional earmark funds for FY2022-2024 projects were obligated by end of FY2024, with 16% outlayed.",
+      "source": {
+        "url": "https://www.gao.gov/products/gao-26-107944",
+        "title": "Community Project Funding/Congressionally Directed Spending: Most Fiscal Year 2022-2024 Funds Are Estimated to Be Obligated",
+        "publisher": "",
+        "published": "Thu, 16 Jul 2026 07:10:14 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "U.S. selected services revenue reached $6,223.1 billion in Q1 2026, up 1.1% from Q4 2025 and 6.5% year-over-year.",
+      "source": {
+        "url": "https://www.census.gov/services/index.html",
+        "title": "Quarterly Services Survey",
+        "publisher": "",
+        "published": "Thu, 11 Jun 2026 10:00:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "DOE has removed over 16 million tons of uranium mill tailings at Utah's Moab Mill Site, with cleanup costing approximately $970 million and expected completion by 2029.",
+      "source": {
+        "url": "https://www.gao.gov/products/gao-26-108654",
+        "title": "Nuclear Waste: DOE’s Plans to Complete Cleanup and Transfer of Moab Mill Site",
+        "publisher": "",
+        "published": "Wed, 15 Jul 2026 07:12:08 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The Federal Open Market Committee met June 16-17, 2026, according to minutes released by the Federal Reserve.",
+      "source": {
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
+        "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+        "publisher": "",
+        "published": "Wed, 8 Jul 2026 18:00:00 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "GAO found GSA's Login.gov has implemented most recommendations but still lacks timelines for resolving agency-reported technical challenges with the identity verification system.",
+      "source": {
+        "url": "https://www.gao.gov/products/gao-26-109261",
+        "title": "Identity Verification: GSA Needs to Address Fraud Threats and Technical Issues",
+        "publisher": "",
+        "published": "Wed, 15 Jul 2026 14:11:12 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The Federal Reserve released economic projections from its June 16-17 Federal Open Market Committee meeting.",
+      "source": {
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617b.htm",
+        "title": "Federal Reserve Board and Federal Open Market Committee release economic projections from the June 16-17 FOMC meeting",
+        "publisher": "",
+        "published": "Wed, 17 Jun 2026 18:00:00 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7509.2000000000",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-21",
+            "free_access": true
+          },
+          "as_of": "2026-07-21"
+        },
+        {
+          "label": "Dow",
+          "value": "52224.6400000000",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-21",
+            "free_access": true
+          },
+          "as_of": "2026-07-21"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "25837.2100000000",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-21",
+            "free_access": true
+          },
+          "as_of": "2026-07-21"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.6000000000%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-20",
+            "free_access": true
+          },
+          "as_of": "2026-07-20"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.55%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-16",
+            "free_access": true
+          },
+          "as_of": "2026-07-16"
+        },
+        {
+          "label": "BTC",
+          "value": "$65,997",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-22 11:36 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-22 11:36 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,927",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-22 11:36 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-22 11:36 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "PHI 1 — LAD 2",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816202/dodgers-phillies",
+            "title": "PHI 1 — LAD 2",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-21",
+            "free_access": true
+          },
+          "as_of": "2026-07-21"
+        },
+        {
+          "label": "CLE 5 — MIN 2",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816203/twins-guardians",
+            "title": "CLE 5 — MIN 2",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-21",
+            "free_access": true
+          },
+          "as_of": "2026-07-21"
+        },
+        {
+          "label": "NYY 0 — PIT 0",
+          "value": "Postponed",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816204/pirates-yankees",
+            "title": "NYY 0 — PIT 0",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-21",
+            "free_access": true
+          },
+          "as_of": "2026-07-21"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2019: Chandrayaan-2, the second lunar exploration mission developed by Indian Space Research Organisation after Chandrayaan-1 is launched from Satish Dhawan Space Centre in a GSLV Mark III M1. It consists of a lunar orbiter, and also included the Vikram lander, and the Pragyan lunar rover.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Chandrayaan-2",
+        "title": "On this day — 07/22",
+        "publisher": "Wikipedia",
+        "published": "2026-07-22",
+        "free_access": true
+      },
+      "as_of": "2026-07-22"
+    }
+  ],
+  "closer": {
+    "text": "\"The only security of all is in a free press.\"",
+    "kind": "quote",
+    "attribution": "Thomas Jefferson, letter to Lafayette (1823)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Jefferson/98-01-02-3837",
+      "title": "Thomas Jefferson, letter to Lafayette (1823)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": {
+    "title": "Broadband: Actions Needed to Strengthen Fragmented Federal Effort",
+    "description": "What GAO Found\n\nFederal broadband efforts are fragmented, with over 100 programs administered by 15 agencies, as GAO reported in May 2022. Some programs support broadband as their main purpose, while ",
+    "source": {
+      "url": "https://www.gao.gov/products/gao-26-109297",
+      "title": "Broadband: Actions Needed to Strengthen Fragmented Federal Effort",
+      "publisher": "www.gao.gov",
+      "published": "Tue, 21 Jul 2026 11:17:05 -0400",
+      "free_access": true
+    }
+  },
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "4+6+2+1+1",
+    "generated_at": "2026-07-22T11:36:31.698705+00:00",
+    "date_readable": "Wednesday, July 22, 2026",
+    "writer_calls": 10,
+    "brave_queries": 0,
+    "rss_candidates": 64
+  }
+}
