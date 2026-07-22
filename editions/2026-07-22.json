@@ -1,103 +1,170 @@
 {
   "date": "2026-07-22",
   "demo": false,
-  "briefings": [],
+  "briefings": [
+    {
+      "headline": "Regulators Identify Distressed and Underserved Rural Middle-Income Areas",
+      "body": "Federal agencies have released an updated list of distressed or underserved nonmetropolitan middle-income geographies. These designations influence how financial institutions receive credit under community reinvestment rules for lending and investment activity in qualifying areas. Communities on the list may attract more bank lending and development activity as institutions seek regulatory credit for serving these locations.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
+          "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+          "publisher": "",
+          "published": "Tue, 30 Jun 2026 14:00:00 GMT",
+          "free_access": true
+        },
+        {
+          "url": "https://www.nytimes.com/2026/07/20/science/sewer-diet-research.html",
+          "title": "The Sewer Knows What You Ate",
+          "publisher": "",
+          "published": "Mon, 20 Jul 2026 19:00:06 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Residents in designated rural areas could see increased access to loans, housing investment, and financial services as banks direct more resources toward qualifying communities.",
+      "high_risk": false
+    },
+    {
+      "headline": "Federal Agencies Issue Joint Guidance on Protecting Sensitive Data During Bank Examinations",
+      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance sets expectations for protecting confidential data collected in the examination process. Regulators aim to standardize practices across agencies to reduce the risk of sensitive information being mishandled or exposed during oversight reviews of financial institutions.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+          "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 18:00:00 GMT",
+          "free_access": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
+          "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 15:00:00 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Stronger data-handling standards during bank examinations could better protect customers whose financial information is reviewed as part of the regulatory process.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Administration Set to Announce Nuclear Fuel Deal With Saudi Arabia",
+      "body": "The Trump administration is expected to announce a deal that could allow Saudi Arabia to enrich nuclear fuel as part of a civilian nuclear program. U.S. lawmakers and Israeli officials have raised opposition to the plan, warning that enrichment capability could give the kingdom a pathway toward developing nuclear weapons.",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2026/07/21/us/politics/trump-saudi-nuclear-deal.html",
+          "title": "Trump Administration to Announce Deal That Could Let Saudis Enrich Nuclear Fuel",
+          "publisher": "",
+          "published": "Wed, 22 Jul 2026 15:36:40 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "If Saudi Arabia gains uranium enrichment capability, it could shift the nuclear balance in the Middle East and increase pressure on other nations in the region to pursue similar programs.",
+      "high_risk": false
+    },
+    {
+      "headline": "Contagious Cancer Discovered Spreading Among Fish in Lake",
+      "body": "Scientists have identified what appears to be a transmissible cancer spreading among fish in a lake, marking the first reported case of a contagious tumor in fish. Until now, transmissible cancers had only been documented in a small number of animal species. Researchers are examining how the disease spreads and whether similar mechanisms could exist elsewhere in nature, including questions about whether such transmission could theoretically occur in humans.",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2026/07/22/science/contagious-cancer-catfish.html",
+          "title": "Deep in This Lake, a Contagious Cancer Is Spreading",
+          "publisher": "",
+          "published": "Wed, 22 Jul 2026 15:23:31 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "The discovery expands what scientists thought possible about how cancer spreads in nature, and ongoing research into transmission mechanisms could eventually shape our understanding of cancer risk across species, including humans.",
+      "high_risk": false
+    },
+    {
+      "headline": "Proposed federal grant overhaul could put political appointees in charge of education research approvals",
+      "body": "A proposed 100-page overhaul of federal grant rules would add a new review layer by political appointees over federally funded research. Education research organizations warn the change could restrict the kinds of studies that receive support, potentially limiting the broad, multi-disciplinary work that produced major advances like the science of reading movement, which drew on cognitive science, neuroscience, psychology, linguistics, and classroom research developed over decades.",
+      "sources": [
+        {
+          "url": "https://hechingerreport.org/proof-points-education-omb-comments/",
+          "title": "Education researchers warn political review of federal grants could reshape what gets studied",
+          "publisher": "",
+          "published": "Mon, 20 Jul 2026 10:00:00 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "If political review influences which studies get funded, the evidence base that schools and policymakers rely on to improve teaching and learning could narrow, affecting what educational practices reach students in classrooms.",
+      "high_risk": false
+    },
+    {
+      "headline": "TreeSize moves to subscription model, leaving perpetual-license holders behind",
+      "body": "TreeSize, a disk-space analysis tool, is changing its support policy so that users who purchased perpetual licenses will no longer receive continued support unless they switch to a subscription plan. The company cited current economic conditions as the reason for the shift. Existing perpetual-license holders could lose access to updates and technical support without paying recurring fees going forward.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/gadgets/2026/07/treesize-wont-renew-perpetual-license-support-unless-users-subscribe/",
+          "title": "TreeSize won't renew perpetual-license support unless users subscribe",
+          "publisher": "",
+          "published": "Tue, 21 Jul 2026 15:18:23 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Real Estate",
+      "why_it_matters": "Users who paid once expecting lifetime ownership of their software could face pressure to pay ongoing subscription fees or lose access to support and updates, a pattern that could affect how people evaluate software purchases more broadly.",
+      "high_risk": false
+    }
+  ],
   "quick_hits": [
     {
-      "text": "GSA's Login.gov, which received $187 million in modernization funds, still lacks partner timelines for fixing agency-reported technical issues, GAO warns.",
+      "text": "Santa Clara County officials began door-to-door searches Monday to collect potentially infested grapevines sold at Costco stores.",
       "source": {
-        "url": "https://www.gao.gov/products/gao-26-109261",
-        "title": "Identity Verification: GSA Needs to Address Fraud Threats and Technical Issues",
+        "url": "https://www.nytimes.com/2026/07/15/us/california-costco-plants-recall.html",
+        "title": "Door-to-Door Search for Grapevines Sold at Costco Begins in California’s Santa Clara County",
         "publisher": "",
-        "published": "Wed, 15 Jul 2026 14:11:12 -0400",
+        "published": "Wed, 15 Jul 2026 22:30:28 +0000",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "GAO found 117 cybersecurity regulations from 37 federal agencies create potentially duplicative reporting burdens across nine critical infrastructure sectors, with 70 percent containing overlapping requirements.",
+      "text": "The Federal Reserve Board issued an enforcement action against an employee of Bank of Eufaula and SNB Bancshares, Inc.",
       "source": {
-        "url": "https://www.gao.gov/products/gao-26-108606",
-        "title": "Cybersecurity Regulations: Multiple Sectors Are Subject to Potentially Duplicative Reporting Requirements",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260625b.htm",
+        "title": "Federal Reserve Board issues enforcement action with employee of Bank of Eufaula and S N B Bancshares, Inc.",
         "publisher": "",
-        "published": "Wed, 22 Jul 2026 07:27:47 -0400",
+        "published": "Thu, 25 Jun 2026 15:00:00 GMT",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "John Deere Receivables LLC filed an 8-K with the SEC on July 22, 2026, disclosing financial statements and exhibits in a 298 KB filing.",
+      "text": "Genetic risk prediction models, trained predominantly on European DNA, perform significantly worse for non-European patients, threatening to widen existing healthcare disparities.",
       "source": {
-        "url": "https://www.sec.gov/Archives/edgar/data/1762590/000110465926085708/0001104659-26-085708-index.htm",
-        "title": "8-K - John Deere Receivables LLC (0001762590) (Filer)",
+        "url": "https://www.nytimes.com/2026/07/20/science/polygenic-risk-scores-diversity.html",
+        "title": "The Best Genetic Risk Tools Don’t Work Equally for Everyone",
         "publisher": "",
-        "published": "2026-07-22T12:42:32-04:00",
+        "published": "Mon, 20 Jul 2026 19:07:44 +0000",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "U.S. banking agencies issued a joint statement establishing new protocols for handling highly sensitive information during bank examinations.",
+      "text": "Monkeys share humans' geometric intuition, suggesting this spatial reasoning ability evolved before the primate lineage split millions of years ago.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
-        "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+        "url": "https://www.nytimes.com/2026/07/21/science/monkeys-cognition-shapes-geometry.html",
+        "title": "Monkeys Understand Shapes in Almost the Same Way as Humans",
         "publisher": "",
-        "published": "Thu, 16 Jul 2026 18:00:00 GMT",
+        "published": "Tue, 21 Jul 2026 17:58:40 +0000",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "The Federal Open Market Committee met June 16–17, 2026, to deliberate on U.S. monetary policy and interest rate decisions.",
+      "text": "Steam Deck sales dropped 80 percent from 2025's rate following Valve's recent price hike, according to bestseller chart analysis.",
       "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260708a.htm",
-        "title": "Minutes of the Federal Open Market Committee, June 16-17, 2026",
+        "url": "https://arstechnica.com/gaming/2026/07/steam-deck-sales-are-losing-steam-since-mays-price-hike/",
+        "title": "Sales of Valve's Steam Deck crater after recent price hike",
         "publisher": "",
-        "published": "Wed, 8 Jul 2026 18:00:00 GMT",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "The Federal Reserve has announced leadership and objectives for new task forces aimed at advancing how it conducts monetary policy.",
-      "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260709a.htm",
-        "title": "Federal Reserve announces the leadership and objectives of its task forces to advance the conduct of monetary policy",
-        "publisher": "",
-        "published": "Thu, 9 Jul 2026 19:00:00 GMT",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "U.S. selected services revenue rose 1.1% in Q1 2026 to $6,223.1 billion, up 6.5% from a year earlier.",
-      "source": {
-        "url": "https://www.census.gov/services/index.html",
-        "title": "Quarterly Services Survey",
-        "publisher": "",
-        "published": "Thu, 11 Jun 2026 10:00:00 -0400",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "The Federal Reserve is seeking public comment on a proposal requiring payment stablecoin issuers to establish formal customer identification programs.",
-      "source": {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260618a.htm",
-        "title": "Federal Reserve Board requests comment on proposal to require certain payment stablecoin issuers to maintain an effective customer identification program",
-        "publisher": "",
-        "published": "Thu, 18 Jun 2026 13:00:00 GMT",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "Former Ferrari F1 boss Jean Todt says everyday road commuting is statistically more dangerous than decades spent in motorsport's deadliest environments.",
-      "source": {
-        "url": "https://news.un.org/feed/view/en/story/2026/07/1167974",
-        "title": "A former Ferrari boss has a blunt message: Your commute is more dangerous than his old job",
-        "publisher": "",
-        "published": "Sat, 18 Jul 2026 12:00:00 +0000",
+        "published": "Tue, 21 Jul 2026 17:12:34 +0000",
         "free_access": true
       },
       "lane": ""
@@ -170,27 +237,27 @@
         },
         {
           "label": "BTC",
-          "value": "$66,276",
+          "value": "$66,191",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-22 16:45 UTC",
+            "published": "2026-07-22 16:59 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-22 16:45 UTC"
+          "as_of": "2026-07-22 16:59 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,951",
+          "value": "$1,949",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-22 16:45 UTC",
+            "published": "2026-07-22 16:59 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-22 16:45 UTC"
+          "as_of": "2026-07-22 16:59 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -228,36 +295,26 @@
     }
   ],
   "closer": {
-    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
+    "text": "\"The only security of all is in a free press.\"",
     "kind": "quote",
-    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "attribution": "Thomas Jefferson, letter to Lafayette (1823)",
     "factual": true,
     "source": {
-      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
-      "title": "James Madison, letter to W.T. Barry (1822)",
+      "url": "https://founders.archives.gov/documents/Jefferson/98-01-02-3837",
+      "title": "Thomas Jefferson, letter to Lafayette (1823)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
     }
   },
-  "receipt": {
-    "title": "Firearms Education: ATF Should Use Performance Metrics and Information to Evaluate and Manage Outreach Campaign",
-    "description": "What GAO Found\n\nSince 2000, the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) and the National Shooting Sports Foundation (NSSF) have managed and launched the Don’t Lie for the Other Guy c",
-    "source": {
-      "url": "https://www.gao.gov/products/gao-26-108655",
-      "title": "Firearms Education: ATF Should Use Performance Metrics and Information to Evaluate and Manage Outreach Campaign",
-      "publisher": "www.gao.gov",
-      "published": "Wed, 22 Jul 2026 07:18:41 -0400",
-      "free_access": true
-    }
-  },
+  "receipt": null,
   "meta": {
     "brand": "THE 6th ESTATE",
-    "structure": "0+9+2+1+1",
-    "generated_at": "2026-07-22T16:45:21.541817+00:00",
+    "structure": "6+5+2+1+1",
+    "generated_at": "2026-07-22T16:59:19.493567+00:00",
     "date_readable": "Wednesday, July 22, 2026",
-    "writer_calls": 9,
+    "writer_calls": 11,
     "brave_queries": 0,
-    "rss_candidates": 94
+    "rss_candidates": 80
   }
 }
