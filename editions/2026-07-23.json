@@ -1,0 +1,341 @@
+{
+  "date": "2026-07-23",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Federal Agencies Release List of Distressed and Underserved Nonmetropolitan Middle-Income Areas",
+      "body": "Federal agencies have published an updated list identifying distressed or underserved nonmetropolitan middle-income geographies. These designations influence where financial institutions receive Community Reinvestment Act credit for certain lending and investment activities, directing capital toward rural and smaller communities that regulators have determined face economic hardship or lack adequate access to financial services.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260630a.htm",
+          "title": "Agencies release list of distressed or underserved nonmetropolitan middle-income geographies",
+          "publisher": "",
+          "published": "Tue, 30 Jun 2026 14:00:00 GMT",
+          "free_access": true
+        },
+        {
+          "url": "https://www.nytimes.com/2026/07/23/science/orcas-sunfish-ramming.html",
+          "title": "How to Eat a 2,000-Pound Fish? These Orcas Choose to Pulverize It.",
+          "publisher": "",
+          "published": "Thu, 23 Jul 2026 04:00:06 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Residents and small businesses in designated areas could see increased access to loans, investment, and financial products as banks seek CRA credit for activity in these communities.",
+      "high_risk": false
+    },
+    {
+      "headline": "Federal Agencies Issue Joint Guidance on Protecting Sensitive Data During Bank Examinations",
+      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance outlines expectations for protecting confidential data collected in the examination process. Regulators aim to strengthen safeguards around sensitive financial and personal information that examiners access when reviewing bank operations, reducing the risk that such data could be mishandled or exposed.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+          "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 18:00:00 GMT",
+          "free_access": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20260716a.htm",
+          "title": "Federal Reserve Board issues enforcement action with former chief lending officer of Heritage State Bank",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 15:00:00 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Stronger handling rules for sensitive examination data could better protect the personal and financial information of bank customers whose records are reviewed during regulatory inspections.",
+      "high_risk": false
+    },
+    {
+      "headline": "U.S. and Saudi Arabia Reach Nuclear Fuel Enrichment Deal",
+      "body": "The U.S. and Saudi Arabia have reached an agreement that could allow the kingdom to enrich nuclear fuel, with a formal announcement expected Wednesday. U.S. lawmakers and Israeli officials have voiced opposition to the plan, citing concerns that a civilian nuclear program could provide Saudi Arabia a pathway to develop nuclear weapons.",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2026/07/21/us/politics/trump-saudi-nuclear-deal.html",
+          "title": "Saudis Reach Deal With U.S. That Could Let Them Enrich Nuclear Fuel",
+          "publisher": "",
+          "published": "Wed, 22 Jul 2026 15:36:41 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "If Saudi Arabia gains uranium enrichment capabilities, it could shift the nuclear balance in the Middle East and pressure other regional nations to pursue similar programs.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Loosens Nuclear Standards in Saudi Deal, Raising Proliferation Fears",
+      "body": "The Trump administration has relaxed nuclear standards as part of a deal with Saudi Arabia, according to nuclear experts who warn the move could accelerate atomic proliferation. Experts say the arrangement creates a destabilizing situation that could raise the risk of nuclear war. The policy shift marks a significant departure from longstanding U.S. nonproliferation norms applied to close allies receiving American nuclear cooperation.",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2026/07/22/us/politics/trump-saudi-nuclear-standards.html",
+          "title": "With Saudi Deal, Trump Loosens Nuclear Standards for One Close Ally",
+          "publisher": "",
+          "published": "Wed, 22 Jul 2026 23:05:44 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Looser nuclear standards for one U.S. ally could pressure other nations to demand similar terms, potentially increasing the number of countries with pathways to nuclear weapons development.",
+      "high_risk": false
+    },
+    {
+      "headline": "Under pressure, colleges are fighting each other over students and degrees",
+      "body": "As political scrutiny and falling enrollment strain higher education, colleges are increasingly competing against one another rather than presenting a unified front. In Illinois, a proposal backed by Gov. JB Pritzker would allow community colleges to award bachelor's degrees in certain fields, targeting rural residents and working adults far from four-year campuses. Four-year universities have pushed back, reflecting a broader national pattern of institutional infighting over enrollment, turf, and resources.",
+      "sources": [
+        {
+          "url": "https://hechingerreport.org/under-political-attack-and-with-enrollment-falling-colleges-take-the-fight-to-each-other/",
+          "title": "Facing political attack and falling enrollment, colleges take the fight to … each other",
+          "publisher": "",
+          "published": "Thu, 23 Jul 2026 09:00:00 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "When colleges compete rather than cooperate, prospective students could face a more fragmented and confusing landscape of degree options, potentially limiting affordable pathways to credentials for working adults and rural communities.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "A federal judge stripped the dunes sagebrush lizard of its endangered status, reversing a two-year-old classification protecting the Permian Basin species.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/07/22/climate/dunes-sagebrush-lizard-trump.html",
+        "title": "Dunes Sagebrush Lizard Stripped of Endangered Status by Judge",
+        "publisher": "",
+        "published": "Wed, 22 Jul 2026 18:55:54 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Children were left devastated in 2024 when Embodied Inc. shut down Moxie, the AI robot many kids called their best friend since 2020.",
+      "source": {
+        "url": "https://hechingerreport.org/dont-let-ai-raise-your-kids/",
+        "title": "Don’t let AI raise your kids",
+        "publisher": "",
+        "published": "Thu, 09 Jul 2026 17:45:00 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The incoming Space Force chief rejected the concept of space privateers, echoing arguments Benjamin Franklin made 240 years ago against maritime privateering.",
+      "source": {
+        "url": "https://arstechnica.com/space/2026/07/next-space-force-chief-throws-cold-water-on-the-idea-of-space-privateers/",
+        "title": "Next Space Force chief throws cold water on the idea of space privateers",
+        "publisher": "",
+        "published": "Wed, 22 Jul 2026 17:02:44 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Monkeys share geometric intuition with humans, suggesting this spatial reasoning ability predates human evolution by millions of years.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/07/21/science/monkeys-cognition-shapes-geometry.html",
+        "title": "Monkeys Understand Shapes in Almost the Same Way as Humans",
+        "publisher": "",
+        "published": "Tue, 21 Jul 2026 17:58:40 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Cameron Hamilton, who once defended FEMA against elimination, is poised to be confirmed as the agency's administrator for a second time.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/07/21/climate/cameron-hamilton-fema-trump.html",
+        "title": "Cameron Hamilton Poised to Lead FEMA Once More",
+        "publisher": "",
+        "published": "Tue, 21 Jul 2026 19:33:57 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,498.96",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-22",
+            "free_access": true
+          },
+          "as_of": "2026-07-22"
+        },
+        {
+          "label": "Dow",
+          "value": "52,218.58",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-22",
+            "free_access": true
+          },
+          "as_of": "2026-07-22"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "25,690.90",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-22",
+            "free_access": true
+          },
+          "as_of": "2026-07-22"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.63%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-21",
+            "free_access": true
+          },
+          "as_of": "2026-07-21"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.55%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-16",
+            "free_access": true
+          },
+          "as_of": "2026-07-16"
+        },
+        {
+          "label": "BTC",
+          "value": "$65,519",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-23 11:49 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-23 11:49 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,925",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-23 11:49 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-23 11:49 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "NYY 3 — PIT 5",
+          "value": "Final/10",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816219/pirates-yankees",
+            "title": "NYY 3 — PIT 5",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-22",
+            "free_access": true
+          },
+          "as_of": "2026-07-22"
+        },
+        {
+          "label": "BOS 6 — BAL 3",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401898715/orioles-red-sox",
+            "title": "BOS 6 — BAL 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-22",
+            "free_access": true
+          },
+          "as_of": "2026-07-22"
+        },
+        {
+          "label": "MIL 4 — NYM 3",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816225/mets-brewers",
+            "title": "MIL 4 — NYM 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-22",
+            "free_access": true
+          },
+          "as_of": "2026-07-22"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2018: A wildfire in East Attica kills at least 102 people. It is the deadliest wildfire in the history of Greece.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2018_Attica_wildfires",
+        "title": "On this day — 07/23",
+        "publisher": "Wikipedia",
+        "published": "2026-07-23",
+        "free_access": true
+      },
+      "as_of": "2026-07-23"
+    }
+  ],
+  "closer": {
+    "text": "\"The press was protected so that it could bare the secrets of government and inform the people.\"",
+    "kind": "quote",
+    "attribution": "Justice Hugo Black, New York Times Co. v. United States (1971)",
+    "factual": true,
+    "source": {
+      "url": "https://supreme.justia.com/cases/federal/us/403/713/",
+      "title": "Justice Hugo Black, New York Times Co. v. United States (1971)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "5+5+2+1+1",
+    "generated_at": "2026-07-23T11:49:05.392319+00:00",
+    "date_readable": "Thursday, July 23, 2026",
+    "writer_calls": 10,
+    "brave_queries": 0,
+    "rss_candidates": 81
+  }
+}
