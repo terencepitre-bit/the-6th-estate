@@ -3,8 +3,8 @@
   "demo": false,
   "briefings": [
     {
-      "headline": "Former nun details 12 years inside a Carmelite monastery in new memoir",
-      "body": "Catherine Coldstream entered a Carmelite monastery at age 24 and spent 12 years living a cloistered life of prayer and obedience before leaving. She recounts her experience in her memoir, Cloistered: My Years as a Nun. Her account offers a rare firsthand perspective on life inside a contemplative religious community and the personal journey that led her to eventually walk away.",
+      "headline": "Former nun recounts 12 years of cloistered life in new memoir",
+      "body": "Catherine Coldstream entered a Carmelite monastery at age 24 and spent 12 years living under strict religious vows before eventually leaving. Her memoir, Cloistered: My Years as a Nun, details her experience of prayer and obedience inside the monastery walls. Coldstream has since spoken publicly about what led her to walk away from that life.",
       "sources": [
         {
           "url": "https://www.npr.org/2026/07/24/nx-s1-5904598/a-former-nun-explains-why-she-ran-away-from-her-cloistered-life",
@@ -15,12 +15,12 @@
         }
       ],
       "lane": "World / US",
-      "why_it_matters": "First-person accounts of cloistered religious life are rarely made public, and Coldstream's memoir could offer readers an unusually candid window into an institution that affects the lives of thousands of people who enter or consider entering monastic communities.",
+      "why_it_matters": "First-person accounts of cloistered religious life are rare, and Coldstream's story could offer readers an uncommon window into institutions that typically remain hidden from public view.",
       "high_risk": false
     },
     {
-      "headline": "West Virginia's paid relocation program is turning temporary remote workers into permanent residents",
-      "body": "West Virginia's Ascend program, launched during COVID, offered cash incentives to attract remote workers to the state. The initiative is one of dozens of similar relocation programs across the country aimed at providing economic boosts to regions struggling with population and workforce decline. Many participants who originally relocated temporarily have chosen to stay, suggesting these incentive-based programs could be an effective tool for reversing population loss.",
+      "headline": "West Virginia's paid relocation program draws remote workers — and many are staying",
+      "body": "West Virginia's Ascend program offered cash incentives to attract remote workers during COVID, and it is one of dozens of similar initiatives launched across the country to boost local economies. The program appears to be achieving lasting results, with many participants choosing to remain in the state long-term rather than treating the incentive as a short-term gain.",
       "sources": [
         {
           "url": "https://www.npr.org/2026/07/24/nx-s1-5869402/remote-work-west-virginia-cash-incentive",
@@ -31,12 +31,12 @@
         }
       ],
       "lane": "Money & Markets",
-      "why_it_matters": "For remote workers weighing where to live, paid relocation programs could offer financial support while the communities offering them could see lasting economic and demographic benefits.",
+      "why_it_matters": "Relocation incentive programs could offer remote workers a financial pathway to lower costs of living while helping struggling communities rebuild their economies.",
       "high_risk": false
     },
     {
-      "headline": "Justice Department drops New York Times subpoenas after judicial pushback",
-      "body": "The Justice Department has withdrawn subpoenas seeking grand jury testimony and phone records from New York Times journalists, retreating after a federal judge sharply questioned the government's position during a Thursday hearing. The move ends an immediate legal threat to the reporters' sources and communications.",
+      "headline": "Justice Department drops subpoenas against New York Times journalists",
+      "body": "The Justice Department has withdrawn subpoenas demanding grand jury testimony and phone records from New York Times journalists. The move came after a federal judge sharply questioned the government's position during a Thursday hearing. The department's reversal ends an immediate legal threat to the reporters involved.",
       "sources": [
         {
           "url": "https://www.npr.org/2026/07/23/nx-s1-5905732/nyt-subpoenas-trump-air-force-one-plane-qatar-security",
@@ -47,12 +47,12 @@
         }
       ],
       "lane": "Business / Policy",
-      "why_it_matters": "When the government backs down from compelling journalists to testify or hand over records, it could help protect the confidential sources that reporters rely on to bring sensitive information to the public.",
+      "why_it_matters": "When the government backs down from subpoenaing journalists, it could help protect reporters' ability to gather news from confidential sources without fear of compelled disclosure.",
       "high_risk": false
     },
     {
-      "headline": "Best friends discover they are biological siblings after years of close friendship",
-      "body": "Andrea Urmston had long known she had a brother placed with another family through adoption, but had no idea he was already her closest friend. The two had formed a tight bond before uncovering their biological connection. Their story highlights how adoption records and limited family information can leave siblings unaware of each other's existence, sometimes for decades, even when living in close proximity.",
+      "headline": "Best friends discover they are biological siblings after years-long bond",
+      "body": "Andrea Urmston had always known she had a brother placed with another family through adoption, but did not know his identity. After forming a close friendship, the two discovered they were the biological siblings they had each been searching for. The reunion highlights how adoption records and limited disclosure policies can leave siblings unaware they are living in proximity to their closest relatives.",
       "sources": [
         {
           "url": "https://www.bbc.co.uk/news/articles/c4g397rl4nzo?at_medium=RSS&at_campaign=rss",
@@ -63,12 +63,12 @@
         }
       ],
       "lane": "Science / Tech / Health",
-      "why_it_matters": "For the estimated millions of people separated from siblings through adoption, this case underscores how accessible DNA testing and open adoption records could help families identify connections hiding in plain sight.",
+      "why_it_matters": "For adoptees and birth families, the story underscores how little information many people have about biological relatives, and could prompt individuals in similar situations to explore legal avenues for accessing adoption records.",
       "high_risk": false
     },
     {
-      "headline": "Schools Face a Growing Crisis in Teaching Students to Write",
-      "body": "As schools have made progress on reading instruction, writing has emerged as the next major literacy challenge. At Sand Creek Elementary in Highlands Ranch, Colorado, teachers are working to explicitly teach students how to compose written work, with some reporting stronger student growth than in previous years. Research suggests that writing instruction has long been inconsistent or undertaught in American classrooms, leaving many students underprepared for academic and professional demands.",
+      "headline": "Schools turn focus to writing instruction after reading reform gains",
+      "body": "As schools have made progress tackling the reading crisis, educators are identifying writing as the next major literacy gap. At Sand Creek Elementary in Highlands Ranch, Colorado, teachers are implementing structured writing lessons starting in kindergarten and first grade, guiding young students through composing paragraphs step by step. Teachers report seeing stronger writing growth with more explicit instruction, suggesting that direct teaching methods similar to those used in reading reform could produce gains in student writing skills.",
       "sources": [
         {
           "url": "https://hechingerreport.org/the-next-literacy-challenge-teaching-students-how-to-write/",
@@ -79,12 +79,12 @@
         }
       ],
       "lane": "Education",
-      "why_it_matters": "Weak writing skills could limit students' academic achievement and career prospects, making the quality of writing instruction in local schools a concern for parents and communities alike.",
+      "why_it_matters": "Weak writing skills could limit students' academic success and long-term career prospects, making early, structured writing instruction a consequential shift for families to watch in their local schools.",
       "high_risk": false
     },
     {
       "headline": "Rayner Rules Out Rent Controls in England",
-      "body": "Housing Secretary Angela Rayner has told the BBC that rent controls will not be introduced in England, arguing that the Renters Rights Act is already having a significant impact on the housing market. Rayner indicated the government is relying on existing legislation rather than price caps to address affordability concerns for tenants across England.",
+      "body": "Housing Secretary Angela Rayner has told the BBC that rent controls will not be introduced in England, citing the Renters Rights Act as already delivering significant impact on the housing market. Rayner indicated the government considers existing legislation sufficient to address tenant concerns, signalling that further regulatory intervention on pricing is not planned for the foreseeable future.",
       "sources": [
         {
           "url": "https://www.bbc.co.uk/news/articles/cx2dg54vprno?at_medium=RSS&at_campaign=rss",
@@ -95,18 +95,18 @@
         }
       ],
       "lane": "Real Estate",
-      "why_it_matters": "Renters hoping for government-imposed limits on what landlords can charge will need to look to other measures for relief, as rent levels in England could continue to be set by market forces.",
+      "why_it_matters": "Renters hoping for government caps on rising rental costs could need to look to existing tenant protections rather than new pricing regulations for relief.",
       "high_risk": false
     }
   ],
   "quick_hits": [
     {
-      "text": "Oil hit $100 per barrel after Houthi rebels attacked two Saudi tankers, while Trump simultaneously rolled out a new round of tariffs.",
+      "text": "A BBC visit to Minab, Iran, found grief still raw nearly five months after an airstrike killed 120 children at a school.",
       "source": {
-        "url": "https://www.npr.org/2026/07/24/g-s1-135418/up-first-newsletter-iran-war-oil-prices-tariffs-wisconsin-corey-ruiz",
-        "title": "Oil surges to $100 per barrel. And, Trump imposes a new round of tariffs",
+        "url": "https://www.bbc.co.uk/news/articles/cewrx0ldlkko?at_medium=RSS&at_campaign=rss",
+        "title": "'What was their crime?': BBC visits Iran school where strike killed 120 children",
         "publisher": "",
-        "published": "Fri, 24 Jul 2026 07:37:58 -0400",
+        "published": "Thu, 23 Jul 2026 04:49:24 GMT",
         "free_access": true
       },
       "lane": ""
@@ -123,7 +123,7 @@
       "lane": ""
     },
     {
-      "text": "The Justice Department withdrew subpoenas targeting New York Times reporters, with lead newsroom lawyer David McCraw speaking publicly about the reversal.",
+      "text": "The Justice Department withdrew subpoenas targeting New York Times reporters, according to the paper's lead newsroom lawyer David McCraw.",
       "source": {
         "url": "https://www.npr.org/2026/07/24/nx-s1-5905774/new-york-times-lawyer-talks-about-doj-withdrawing-subpoenas-sent-to-times-reporters",
         "title": "New York Times lawyer talks about DOJ withdrawing subpoenas sent to Times' reporters",
@@ -134,7 +134,7 @@
       "lane": ""
     },
     {
-      "text": "A historic cyclospora outbreak is devastating Michigan, leaving some residents rushing to the bathroom up to 20 times daily.",
+      "text": "A historic cyclospora outbreak is devastating Michigan, with infected residents reporting up to 20 bathroom trips daily amid a spreading US crisis.",
       "source": {
         "url": "https://www.bbc.co.uk/news/articles/c8dn92m0mqjo?at_medium=RSS&at_campaign=rss",
         "title": "Using a bathroom 20 times a day - life in the middle of US cyclospora outbreak",
@@ -145,12 +145,12 @@
       "lane": ""
     },
     {
-      "text": "The final trailer for Coyote vs. Acme features Tweety Bird facing intense interrogation in the Looney Tunes legal comedy.",
+      "text": "University of Chicago mathematician Yu Deng won a Fields Medal for breakthrough work on the Navier-Stokes equation governing fluid mechanics.",
       "source": {
-        "url": "https://arstechnica.com/culture/2026/07/final-coyote-vs-acme-trailer-drops-at-sdcc/",
-        "title": "Tweety gets the third degree in final Coyote vs. Acme trailer",
+        "url": "https://www.nytimes.com/2026/07/23/science/yu-deng-fields-medal.html",
+        "title": "Yu Deng Predicts the Actions of the Whole From Its Tiniest Parts",
         "publisher": "",
-        "published": "Thu, 23 Jul 2026 18:01:46 +0000",
+        "published": "Thu, 23 Jul 2026 14:34:15 +0000",
         "free_access": true
       },
       "lane": ""
@@ -223,27 +223,27 @@
         },
         {
           "label": "BTC",
-          "value": "$64,060",
+          "value": "$63,970",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-24 16:28 UTC",
+            "published": "2026-07-24 16:34 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-24 16:28 UTC"
+          "as_of": "2026-07-24 16:34 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,860",
+          "value": "$1,858",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-24 16:28 UTC",
+            "published": "2026-07-24 16:34 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-24 16:28 UTC"
+          "as_of": "2026-07-24 16:34 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -281,13 +281,13 @@
     }
   ],
   "closer": {
-    "text": "\"Let the people know the facts, and the country will be safe.\"",
+    "text": "\"A popular government without popular information, or the means of acquiring it, is but a prologue to a farce or a tragedy, or perhaps both.\"",
     "kind": "quote",
-    "attribution": "Abraham Lincoln (attributed)",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
     "factual": true,
     "source": {
-      "url": "https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/",
-      "title": "Abraham Lincoln (attributed)",
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
@@ -297,7 +297,7 @@
   "meta": {
     "brand": "THE 6th ESTATE",
     "structure": "6+5+2+1+1",
-    "generated_at": "2026-07-24T16:28:23.544881+00:00",
+    "generated_at": "2026-07-24T16:34:23.348484+00:00",
     "date_readable": "Friday, July 24, 2026",
     "writer_calls": 11,
     "brave_queries": 0,
