@@ -3,8 +3,8 @@
   "demo": false,
   "briefings": [
     {
-      "headline": "Oil hits $100 a barrel as Houthi attacks on Saudi tankers rattle markets",
-      "body": "Oil surged to $100 per barrel after Iran-backed Houthi rebels attacked two Saudi tankers in the Red Sea, disrupting a critical global shipping corridor. Simultaneously, President Trump replaced a set of expiring tariffs with a new round of trade levies, adding further pressure to markets already reacting to the supply shock.",
+      "headline": "Oil hits $100 a barrel as Houthi attacks and new Trump tariffs shake markets",
+      "body": "Oil surged to $100 per barrel after Iran-backed Houthi rebels attacked two Saudi tankers in the Red Sea, rattling global energy markets. Simultaneously, President Trump replaced a set of expiring tariffs with a new round of trade levies. The twin developments signal rising pressure on global supply chains and energy costs, with both geopolitical tension and trade policy tightening in the same window.",
       "sources": [
         {
           "url": "https://www.npr.org/2026/07/24/g-s1-135418/up-first-newsletter-iran-war-oil-prices-tariffs-wisconsin-corey-ruiz",
@@ -22,12 +22,12 @@
         }
       ],
       "lane": "World / US",
-      "why_it_matters": "Rising oil prices and new tariffs could drive up costs for fuel, goods, and transportation, hitting consumers directly at the pump and in stores.",
+      "why_it_matters": "Higher oil prices and new tariffs could push up costs for everyday goods, from fuel at the pump to imported products, squeezing household budgets.",
       "high_risk": false
     },
     {
-      "headline": "West Virginia's paid relocation program is turning temporary transplants into permanent residents",
-      "body": "West Virginia's Ascend program, launched during COVID to attract remote workers with cash incentives, is seeing participants choose to stay long-term. The initiative is one of dozens of similar relocation programs across the country aimed at giving economically struggling regions a boost. Early results suggest financial incentives can successfully shift where remote workers choose to put down roots.",
+      "headline": "West Virginia's paid relocation program is turning temporary remote workers into permanent residents",
+      "body": "West Virginia's Ascend program, launched during COVID, offered cash incentives to attract digital nomads to the state. The initiative is one of dozens of similar relocation programs across the country designed to provide economic boosts to communities in need. The program appears to be achieving longer-term results, with a notable share of participants choosing to remain in the state beyond their initial relocation period.",
       "sources": [
         {
           "url": "https://www.npr.org/2026/07/24/nx-s1-5869402/remote-work-west-virginia-cash-incentive",
@@ -38,12 +38,12 @@
         }
       ],
       "lane": "Money & Markets",
-      "why_it_matters": "Remote workers considering a move could find paid relocation programs a viable way to lower living costs while states competing for residents may expand similar incentive offers.",
+      "why_it_matters": "For remote workers weighing where to live, paid relocation programs could offer financial support while opening access to lower costs of living — and for struggling communities, retained residents could mean sustained economic growth.",
       "high_risk": false
     },
     {
-      "headline": "Justice Dept. drops New York Times subpoenas after federal judge's sharp questioning",
-      "body": "The Justice Department has withdrawn subpoenas demanding grand jury testimony and phone records from New York Times journalists. The decision came after a federal judge questioned the subpoenas sharply during a Thursday hearing. The move ends an immediate legal confrontation between federal prosecutors and the Times over compelled journalist cooperation with a grand jury investigation.",
+      "headline": "Justice Dept. drops subpoenas targeting New York Times journalists after judicial pushback",
+      "body": "The Justice Department has withdrawn subpoenas that sought grand jury testimony and phone records from New York Times journalists. The decision came after a federal judge sharply questioned the government's position during a Thursday hearing. The move ends an immediate legal threat to the reporters, though the broader tension between federal investigations and press freedom remains unresolved.",
       "sources": [
         {
           "url": "https://www.npr.org/2026/07/23/nx-s1-5905732/nyt-subpoenas-trump-air-force-one-plane-qatar-security",
@@ -54,12 +54,12 @@
         }
       ],
       "lane": "Business / Policy",
-      "why_it_matters": "Journalists at major outlets could face less pressure to hand over source information or testify before grand juries, at least in the near term.",
+      "why_it_matters": "When the government backs down from demanding journalists' records, it could help protect reporters' ability to gather news from confidential sources without fear of exposure.",
       "high_risk": false
     },
     {
-      "headline": "Musk Says He Is Unbothered by Public Criticism Amid Growing AI Concerns",
-      "body": "Elon Musk, speaking to The Economist, said he does not care if people hate him and denied being a racist. His comments came as fears around artificial intelligence continue to mount. Musk, who has been a prominent voice on AI development, struck a defiant tone, describing the current moment with the phrase 'let's enjoy the ride' as scrutiny of both his views and the technology intensifies.",
+      "headline": "Musk Shrugs Off Public Backlash as AI Concerns Grow",
+      "body": "Elon Musk, speaking to The Economist, said he does not care if people hate him and denied being a racist. His comments come amid mounting public fears about artificial intelligence. Musk urged an attitude of embracing the moment, saying 'let's enjoy the ride.' The interview signals that Musk remains unbothered by reputational pressure even as scrutiny of his influence over AI development intensifies.",
       "sources": [
         {
           "url": "https://www.bbc.co.uk/news/articles/c4gkxppljpyo?at_medium=RSS&at_campaign=rss",
@@ -70,12 +70,12 @@
         }
       ],
       "lane": "Science / Tech / Health",
-      "why_it_matters": "As one of the most influential figures shaping AI development and public policy, Musk's attitudes and statements could influence how quickly guardrails on powerful technologies are pursued or abandoned.",
+      "why_it_matters": "Musk's dismissiveness toward public concern could shape how the broader AI industry responds to calls for accountability and caution.",
       "high_risk": false
     },
     {
-      "headline": "Schools tackle writing instruction as the next frontier in literacy reform",
-      "body": "As reading instruction has gained renewed focus in recent years, educators are turning attention to a parallel gap: students are not being taught to write effectively. At Sand Creek Elementary in Highlands Ranch, Colorado, teachers are implementing structured writing lessons beginning in kindergarten and first grade, with early results showing measurable growth. Experts suggest writing has long been undertaught in American classrooms, leaving students underprepared for academic and professional demands.",
+      "headline": "Schools face a growing push to teach writing with the same rigor applied to reading",
+      "body": "A Colorado elementary school is among those rethinking how writing is taught to young students, with teachers reporting stronger student progress when explicit, structured writing instruction is used. The effort mirrors the recent science-of-reading movement that reshaped how schools approach literacy, and educators say writing has long been undertaught compared to reading. First-grade students at Sand Creek Elementary in suburban Denver are practicing foundational paragraph-building skills as part of the shift.",
       "sources": [
         {
           "url": "https://hechingerreport.org/the-next-literacy-challenge-teaching-students-how-to-write/",
@@ -86,12 +86,12 @@
         }
       ],
       "lane": "Education",
-      "why_it_matters": "Students who never receive explicit writing instruction could struggle to communicate clearly in higher education and the workforce, affecting their long-term economic and academic opportunities.",
+      "why_it_matters": "Students who do not receive strong early writing instruction could struggle with communication skills that affect academic performance, job prospects, and civic participation throughout their lives.",
       "high_risk": false
     },
     {
       "headline": "Rayner Rules Out Rent Controls in England",
-      "body": "Housing Secretary Angela Rayner has told the BBC that rent controls will not be introduced in England, arguing the Renters Rights Act is already having a significant impact on the housing market. The decision closes off a policy option that tenant advocates had pushed for as a tool to curb rising rents, signalling the government's approach will rely on existing tenancy reforms rather than direct price intervention.",
+      "body": "Housing Secretary Angela Rayner has told the BBC that rent controls will not be introduced in England, citing the Renters Rights Act as already delivering significant impact on the housing market. Rayner's comments appear to close the door on a policy some housing advocates have pushed for as a way to ease affordability pressures on tenants facing rising rents across the country.",
       "sources": [
         {
           "url": "https://www.bbc.co.uk/news/articles/cx2dg54vprno?at_medium=RSS&at_campaign=rss",
@@ -102,13 +102,13 @@
         }
       ],
       "lane": "Real Estate",
-      "why_it_matters": "Renters facing rising housing costs could find their options for relief limited to protections already established under the Renters Rights Act, with no government cap on how much landlords can charge.",
+      "why_it_matters": "Renters hoping for government caps on rent increases could face continued market-rate rises, making it harder for lower-income households to secure or remain in stable housing.",
       "high_risk": false
     }
   ],
   "quick_hits": [
     {
-      "text": "A BBC visit to Minab, Iran reveals ongoing grief nearly five months after an airstrike killed 120 children at a school.",
+      "text": "A BBC visit to Minab, Iran, found grief still raw nearly five months after an airstrike killed 120 children at a school.",
       "source": {
         "url": "https://www.bbc.co.uk/news/articles/cewrx0ldlkko?at_medium=RSS&at_campaign=rss",
         "title": "'What was their crime?': BBC visits Iran school where strike killed 120 children",
@@ -130,7 +130,7 @@
       "lane": ""
     },
     {
-      "text": "The Justice Department withdrew subpoenas targeting New York Times reporters, according to the paper's lead newsroom lawyer David McCraw.",
+      "text": "The Justice Department withdrew subpoenas targeting New York Times reporters, with lead newsroom lawyer David McCraw confirming the reversal to NPR.",
       "source": {
         "url": "https://www.npr.org/2026/07/24/nx-s1-5905774/new-york-times-lawyer-talks-about-doj-withdrawing-subpoenas-sent-to-times-reporters",
         "title": "New York Times lawyer talks about DOJ withdrawing subpoenas sent to Times' reporters",
@@ -141,7 +141,7 @@
       "lane": ""
     },
     {
-      "text": "A historic cyclospora outbreak is devastating Michigan, with infected residents reporting bathroom trips up to 20 times daily.",
+      "text": "A historic cyclospora outbreak has hit Michigan hardest, with some residents reporting up to 20 bathroom trips daily amid a spreading US crisis.",
       "source": {
         "url": "https://www.bbc.co.uk/news/articles/c8dn92m0mqjo?at_medium=RSS&at_campaign=rss",
         "title": "Using a bathroom 20 times a day - life in the middle of US cyclospora outbreak",
@@ -152,7 +152,7 @@
       "lane": ""
     },
     {
-      "text": "The Trump administration eliminated SNAP-Ed, a federal nutrition education program, despite championing its Make America Healthy Again initiative.",
+      "text": "The Trump administration eliminated SNAP-Ed, a federal nutrition education program, despite championing its Make America Healthy Again agenda, baffling public health experts.",
       "source": {
         "url": "https://www.npr.org/2026/07/23/nx-s1-5896280/snap-ed-healthy-eating-cuts-maha",
         "title": "The White House pushes healthy eating. It cut a landmark nutrition education program",
@@ -230,27 +230,27 @@
         },
         {
           "label": "BTC",
-          "value": "$64,444",
+          "value": "$64,210",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-24 13:23 UTC",
+            "published": "2026-07-24 13:52 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-24 13:23 UTC"
+          "as_of": "2026-07-24 13:52 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,868",
+          "value": "$1,861",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-24 13:23 UTC",
+            "published": "2026-07-24 13:52 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-24 13:23 UTC"
+          "as_of": "2026-07-24 13:52 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -325,13 +325,13 @@
     }
   ],
   "closer": {
-    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
+    "text": "\"Let the people know the facts, and the country will be safe.\"",
     "kind": "quote",
-    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "attribution": "Abraham Lincoln (attributed)",
     "factual": true,
     "source": {
-      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
-      "title": "James Madison, letter to W.T. Barry (1822)",
+      "url": "https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/",
+      "title": "Abraham Lincoln (attributed)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
@@ -341,7 +341,7 @@
   "meta": {
     "brand": "THE 6th ESTATE",
     "structure": "6+5+2+1+1",
-    "generated_at": "2026-07-24T13:23:06.694905+00:00",
+    "generated_at": "2026-07-24T13:52:32.389716+00:00",
     "date_readable": "Friday, July 24, 2026",
     "writer_calls": 11,
     "brave_queries": 0,
