@@ -1,0 +1,357 @@
+{
+  "date": "2026-07-24",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Oil hits $100 a barrel after Houthi tanker attacks; Trump rolls out new tariffs",
+      "body": "Oil prices surged to $100 per barrel after Iran-backed Houthi rebels attacked two Saudi tankers in the Red Sea, rattling global energy markets. Separately, President Trump replaced a set of expiring tariffs with a new round of trade levies overnight. The dual developments signal rising pressure on both energy supply chains and international trade flows.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/24/g-s1-135418/up-first-newsletter-iran-war-oil-prices-tariffs-wisconsin-corey-ruiz",
+          "title": "Oil surges to $100 per barrel. And, Trump imposes a new round of tariffs",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 07:37:58 -0400",
+          "free_access": true
+        },
+        {
+          "url": "https://www.npr.org/2026/07/24/g-s1-134821/jimothy-ai-uk-mamdani-strait-iran-news-quiz",
+          "title": "What animal is the deformed-but-adorable Jimothy? The quiz knows — do you?",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 05:01:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Higher oil prices could push up fuel and consumer goods costs for everyday shoppers, while the new tariffs could raise prices on imported products and disrupt businesses that rely on international supply chains.",
+      "high_risk": false
+    },
+    {
+      "headline": "West Virginia's paid relocation program keeps digital nomads coming back",
+      "body": "West Virginia's Ascend program, launched during COVID, offered cash incentives to attract remote workers to the state. The initiative is one of dozens of similar relocation programs across the country aimed at giving struggling local economies an economic boost. The program appears to be producing lasting results, with a notable share of participants choosing to stay long-term rather than move on after collecting the incentive.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/24/nx-s1-5869402/remote-work-west-virginia-cash-incentive",
+          "title": "West Virginia paid digital nomads to move there during COVID. Many are staying",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 05:00:00 -0400",
+          "free_access": true
+        },
+        {
+          "url": "https://www.npr.org/2026/07/24/nx-s1-5905783/trump-tariff-trade-global-canada",
+          "title": "Trump refuses to give up on tariffs — a pillar of his economic legacy",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 05:00:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "For remote workers weighing where to live, paid relocation programs could offer real financial upside, while communities in economically struggling regions could see lasting population and tax-base growth.",
+      "high_risk": false
+    },
+    {
+      "headline": "Richard Jewell's False Accusation in the 1996 Atlanta Olympics Bombing Revisited 30 Years Later",
+      "body": "Security guard Richard Jewell, who initially helped save lives by spotting a suspicious backpack at the 1996 Atlanta Olympics, was publicly named the primary bombing suspect before being cleared. His friend and attorney reflects on how the false accusation derailed Jewell's life and reputation. The case remains a landmark example of media and law enforcement rushing to judgment before an investigation was complete.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/24/nx-s1-5900837/he-was-falsely-accused-in-the-1996-atlanta-olympics-bombing-how-it-changed-his-life",
+          "title": "He was falsely accused in the 1996 Atlanta Olympics bombing. How it changed his life",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 04:42:45 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "The Jewell case illustrates how premature public accusations — amplified by media — could permanently damage an innocent person's career, mental health, and standing in their community before any verdict is reached.",
+      "high_risk": false
+    },
+    {
+      "headline": "U.S. and Iran exchange airstrikes as Trump weighs massive escalation",
+      "body": "The United States continued airstrikes against Iran while Tehran launched retaliatory attacks on U.S. targets in the Gulf region. President Trump stated he was close to deciding whether to authorize what he described as a massive attack against Iran. The tit-for-tat exchanges signal a sharp escalation in hostilities between the two countries, with no immediate signs of de-escalation.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/24/g-s1-135417/us-iran-war-updates",
+          "title": "Trump threatens Iran with further escalation as tit-for-tat airstrikes continue",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 07:30:08 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "A broader U.S.-Iran conflict could disrupt global oil supplies, trigger wider regional instability, and raise the risk of military casualties that draw in additional nations.",
+      "high_risk": false
+    },
+    {
+      "headline": "Former Kenyan governor convicted of murdering pregnant student he had affair with",
+      "body": "Okoth Obado, a former governor in Kenya, has been found guilty of murdering Sharon Otieno, a student with whom he had conducted an affair. Otieno was pregnant at the time of her death. The conviction marks a significant legal outcome in a case that drew widespread public attention in Kenya.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cvg9l039ljyo?at_medium=RSS&at_campaign=rss",
+          "title": "Ex-governor convicted of murdering a pregnant student in Kenya",
+          "publisher": "",
+          "published": "Thu, 23 Jul 2026 16:07:24 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "The conviction of a senior political figure for murder could signal to Kenyan citizens that high-profile officials are not beyond the reach of the justice system.",
+      "high_risk": false
+    },
+    {
+      "headline": "Oil Prices Top $100 a Barrel for First Time Since May",
+      "body": "Brent crude prices surged more than 6% on Thursday, pushing oil above $100 a barrel for the first time since May as conflict in the Middle East continues to escalate. The sharp rise reflects growing market concern that regional instability could disrupt global oil supply chains, driving up costs for energy producers and consumers alike.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
+          "title": "Oil prices hit $100 for the first time since May",
+          "publisher": "",
+          "published": "Thu, 23 Jul 2026 15:31:00 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Real Estate",
+      "why_it_matters": "Higher oil prices typically feed through quickly to fuel costs at the pump and to broader consumer prices, meaning households could soon face steeper bills for transportation, heating, and everyday goods.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "A historic cyclospora outbreak is devastating Michigan residents, with some infected people reporting up to 20 bathroom trips daily.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c8dn92m0mqjo?at_medium=RSS&at_campaign=rss",
+        "title": "Using a bathroom 20 times a day - life in the middle of US cyclospora outbreak",
+        "publisher": "",
+        "published": "Fri, 24 Jul 2026 10:58:10 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Google has been fined $1 billion by the EU under the Digital Markets Act, becoming the third tech giant penalized under the landmark law.",
+      "source": {
+        "url": "https://arstechnica.com/tech-policy/2026/07/google-hit-with-1-billion-in-fines-as-eu-braces-for-trump-battle/",
+        "title": "Google hit with $1 billion in fines as EU braces for Trump battle",
+        "publisher": "",
+        "published": "Thu, 23 Jul 2026 16:41:36 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Southport killer Axel Rudakubana has been transferred from prison to a secure psychiatric hospital in Berkshire, prompting families' lawyers to allege system manipulation.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cjrvy450jv5o?at_medium=RSS&at_campaign=rss",
+        "title": "Southport killer Axel Rudakubana appears to be manipulating the system, families' lawyer says",
+        "publisher": "",
+        "published": "Fri, 24 Jul 2026 11:43:40 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "British Paralympic medallist Daphne Schrager received a two-year ban after testing positive for a banned substance, which she insists was unintentional.",
+      "source": {
+        "url": "https://www.bbc.co.uk/sport/cycling/articles/cp30y17l074o?at_medium=RSS&at_campaign=rss",
+        "title": "GB Paralympian Schrager given two-year ban after failed drug test",
+        "publisher": "",
+        "published": "Fri, 24 Jul 2026 11:18:30 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A BBC visit to Minab, Iran, found families still devastated nearly five months after a strike killed 120 children at a local school.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cewrx0ldlkko?at_medium=RSS&at_campaign=rss",
+        "title": "'What was their crime?': BBC visits Iran school where strike killed 120 children",
+        "publisher": "",
+        "published": "Thu, 23 Jul 2026 04:49:24 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,408.30",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "Dow",
+          "value": "51,711.65",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "25,137.69",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.67%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-22",
+            "free_access": true
+          },
+          "as_of": "2026-07-22"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.58%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "BTC",
+          "value": "$64,804",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-24 12:52 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-24 12:52 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,875",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-24 12:52 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-24 12:52 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "ATL 6 — SD 5",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816233/padres-braves",
+            "title": "ATL 6 — SD 5",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "CLE 1 — MIN 3",
+          "value": "Final/12",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816232/twins-guardians",
+            "title": "CLE 1 — MIN 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "TOR 3 — TB 1",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816234/rays-blue-jays",
+            "title": "TOR 3 — TB 1",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2025: Angara Airlines Flight 2311 crashes on approach to Tynda Airport, killing all 48 people on board.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Angara_Airlines_Flight_2311",
+        "title": "On this day — 07/24",
+        "publisher": "Wikipedia",
+        "published": "2026-07-24",
+        "free_access": true
+      },
+      "as_of": "2026-07-24"
+    }
+  ],
+  "closer": {
+    "text": "\"The only security of all is in a free press.\"",
+    "kind": "quote",
+    "attribution": "Thomas Jefferson, letter to Lafayette (1823)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Jefferson/98-01-02-3837",
+      "title": "Thomas Jefferson, letter to Lafayette (1823)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+5+2+1+1",
+    "generated_at": "2026-07-24T12:52:28.506454+00:00",
+    "date_readable": "Friday, July 24, 2026",
+    "writer_calls": 11,
+    "brave_queries": 0,
+    "rss_candidates": 238
+  }
+}
