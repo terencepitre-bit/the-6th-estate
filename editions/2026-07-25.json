@@ -1,0 +1,350 @@
+{
+  "date": "2026-07-25",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Trump's Tariff Push Creates Prolonged Economic Uncertainty",
+      "body": "President Trump's pursuit of new legal justifications for tariffs could extend uncertainty across U.S. and global economies. Rather than signaling a retreat, the administration's approach suggests tariffs may remain a lasting fixture of trade policy, with potential ripple effects on prices, supply chains, and international trade relationships that businesses and consumers could feel for an extended period.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/25/nx-s1-5905692/trump-tariffs-economy-inflation",
+          "title": "Trump is hellbent on tariffs. Here are 5 implications",
+          "publisher": "",
+          "published": "Sat, 25 Jul 2026 05:00:00 -0400",
+          "free_access": true
+        },
+        {
+          "url": "https://www.npr.org/2026/07/24/g-s1-135418/up-first-newsletter-iran-war-oil-prices-tariffs-wisconsin-corey-ruiz",
+          "title": "Oil surges to $100 per barrel. And, Trump imposes a new round of tariffs",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 07:37:58 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Prolonged tariff uncertainty could affect the prices Americans pay for goods, the stability of businesses that rely on global supply chains, and the broader health of the U.S. economy.",
+      "high_risk": false
+    },
+    {
+      "headline": "Federal Agencies Issue Joint Guidance on Protecting Sensitive Data in Bank Exams",
+      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance establishes expectations for safeguarding confidential data collected in the examination process. Regulatory bodies aim to strengthen data protection practices across the banking sector, reducing the risk that sensitive financial or personal information could be mishandled or exposed during routine supervisory activities.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+          "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 18:00:00 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Stronger data handling rules during bank examinations could better protect customers whose sensitive financial information is reviewed by regulators.",
+      "high_risk": false
+    },
+    {
+      "headline": "Paramount Pauses Warner Acquisition Amid Legal Challenges",
+      "body": "Paramount has announced it will pause its acquisition of Warner while legal challenges from a dozen states and the Writers Guild of America play out. The halt puts the merger on hold until courts address the outstanding objections. The outcome could reshape the media landscape, affecting how major entertainment properties are owned, distributed, and produced across both companies.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/24/nx-s1-5906818/paramount-warner-bros-merger-pause-lawsuits",
+          "title": "Paramount says it will pause its Warner acquisition while legal challenges play out",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 18:26:21 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "A blocked or delayed merger could affect jobs, content availability, and streaming options for millions of viewers and entertainment industry workers.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Orders Smithsonian to Flag 'Inaccurate' History Exhibits",
+      "body": "The Trump administration has ordered the Smithsonian Institution to post warnings on exhibits it deems historically inaccurate, citing what it describes as an anti-American bias within the world's largest research museum complex. The directive represents a direct intervention by the federal government into how one of the country's most visited cultural institutions presents history to the public.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&at_campaign=rss",
+          "title": "Trump orders Smithsonian to post warnings about 'inaccurate' US history",
+          "publisher": "",
+          "published": "Sat, 25 Jul 2026 02:23:09 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Millions of visitors rely on Smithsonian exhibits as authoritative sources of American history, and government-mandated warning labels could shape how that history is perceived and taught for years to come.",
+      "high_risk": false
+    },
+    {
+      "headline": "Schools Face a New Literacy Frontier: Teaching Students to Write",
+      "body": "As reading instruction has gained renewed focus in recent years, writing has emerged as the next major challenge for schools. At Sand Creek Elementary in Highlands Ranch, Colorado, first grade teachers are using structured writing lessons to build composition skills early, with educators reporting stronger student growth than in prior years. Experts say writing instruction has long been inconsistent, leaving many students underprepared for academic and workplace demands.",
+      "sources": [
+        {
+          "url": "https://hechingerreport.org/the-next-literacy-challenge-teaching-students-how-to-write/",
+          "title": "The next literacy challenge: Teaching students how to write",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 05:00:00 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "Weak writing skills could limit students' academic advancement and career opportunities, making the quality of classroom writing instruction a direct factor in long-term economic mobility.",
+      "high_risk": false
+    },
+    {
+      "headline": "The Illharmonic Orchestra blends hip-hop and classical music with all-Black ensembles to build community",
+      "body": "The Illharmonic Orchestra combines hip-hop and classical music in live performances featuring all-Black musicians. The group's leaders spoke with NPR about how their shows go beyond entertainment, using the fusion of genres to foster community connection. The orchestra's approach challenges traditional boundaries of both classical and hip-hop spaces while centering Black artists in both forms.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/24/nx-s1-5863498/the-illharmonic-orchestra-hip-hop-classical-music",
+          "title": "How The Illharmonic's mix of hip-hop and classical builds community, one show at a time",
+          "publisher": "",
+          "published": "Fri, 24 Jul 2026 16:00:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Culture",
+      "why_it_matters": "Audiences seeking live music that reflects broader cultural identities could find in the Illharmonic a model for how performance spaces can be more inclusive and community-driven.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "Trump warned of a 'massive attack' on Iran as U.S. airstrikes entered a 14th night amid Iranian retaliatory strikes on U.S. Gulf targets.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/24/g-s1-135417/us-iran-war-updates",
+        "title": "Trump threatens a major escalation in Iran after 13 straight nights of strikes",
+        "publisher": "",
+        "published": "Fri, 24 Jul 2026 07:30:08 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "West Virginia's Ascend program, one of dozens of U.S. relocation initiatives offering cash incentives, successfully convinced many recruited digital nomads to permanently settle in the state.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/24/nx-s1-5869402/remote-work-west-virginia-cash-incentive",
+        "title": "West Virginia paid digital nomads to move there during COVID. Many are staying",
+        "publisher": "",
+        "published": "Fri, 24 Jul 2026 05:00:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Roku has raised streaming stick prices by up to 60 percent, blaming a RAM shortage despite its CEO praising supply constraints as 'great' for business in May.",
+      "source": {
+        "url": "https://arstechnica.com/gadgets/2026/07/roku-raises-streaming-stick-prices-by-up-to-60-percent/",
+        "title": "Roku raises streaming stick prices by up to 60 percent",
+        "publisher": "",
+        "published": "Fri, 24 Jul 2026 19:41:06 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Relativity Space announced plans to build a second rocket factory near Cape Canaveral, Florida, expanding its manufacturing footprint.",
+      "source": {
+        "url": "https://arstechnica.com/space/2026/07/rocket-report-lightning-strikes-in-china-starship-launch-on-deck/",
+        "title": "Rocket Report: Lightning strikes in China; Starship launch on deck",
+        "publisher": "",
+        "published": "Fri, 24 Jul 2026 14:34:25 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A newly transcribed handwritten story by Alan Turing, written a year before his 1954 death, reveals a more personal side of the mathematician.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/07/24/world/europe/alan-turing-short-story-cambridge.html",
+        "title": "Life of Alan Turing Emerges in Richer Detail From Short Story",
+        "publisher": "",
+        "published": "Fri, 24 Jul 2026 14:46:32 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,411.98",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "Dow",
+          "value": "51,947.25",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "24,975.82",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.71%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.58%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "BTC",
+          "value": "$64,013",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-25 11:06 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-25 11:06 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,858",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-25 11:06 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-25 11:06 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "MIL 2 — COL 5",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816246/rockies-brewers",
+            "title": "MIL 2 — COL 5",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "PIT 2 — CHC 3",
+          "value": "Final/10",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816237/cubs-pirates",
+            "title": "PIT 2 — CHC 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "DET 2 — KC 1",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816239/royals-tigers",
+            "title": "DET 2 — KC 1",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2019: National extreme heat records set this day in the UK, Belgium, The Netherlands and Germany during the July 2019 European heat wave.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2019_European_heatwaves",
+        "title": "On this day — 07/25",
+        "publisher": "Wikipedia",
+        "published": "2026-07-25",
+        "free_access": true
+      },
+      "as_of": "2026-07-25"
+    }
+  ],
+  "closer": {
+    "text": "\"The only security of all is in a free press.\"",
+    "kind": "quote",
+    "attribution": "Thomas Jefferson, letter to Lafayette (1823)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Jefferson/98-01-02-3837",
+      "title": "Thomas Jefferson, letter to Lafayette (1823)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+5+2+1+1",
+    "generated_at": "2026-07-25T11:07:01.082044+00:00",
+    "date_readable": "Saturday, July 25, 2026",
+    "writer_calls": 11,
+    "brave_queries": 0,
+    "rss_candidates": 221
+  }
+}
