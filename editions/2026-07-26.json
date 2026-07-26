@@ -1,0 +1,343 @@
+{
+  "date": "2026-07-26",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Public Media Stations Adapt One Year After Federal Funding Ends",
+      "body": "One year after President Trump signed legislation ending roughly six decades of federal funding for public media, television and radio stations across the country are navigating a landscape marked by reinvention, donor-driven revenue surges sometimes called rage-giving, and significant financial anxiety. Stations are experimenting with new funding models while facing pressure to maintain programming and staffing without government support.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/26/nx-s1-5884022/pbs-npr-public-radio-tv-funding-trump",
+          "title": "Rage-giving, innovation and cuts: How public media has survived without federal funds",
+          "publisher": "",
+          "published": "Sun, 26 Jul 2026 06:00:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Listeners and viewers who rely on public radio and television for local news, educational content, and emergency information could see programming cuts or service reductions if stations fail to close the funding gap.",
+      "high_risk": false
+    },
+    {
+      "headline": "Federal Agencies Issue Joint Guidance on Protecting Sensitive Data During Bank Examinations",
+      "body": "Federal banking agencies have issued a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance aims to standardize procedures for managing confidential data collected when regulators review financial institutions. Proper handling of such information is considered critical to maintaining both the integrity of the examination process and the security of sensitive financial and personal data involved.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+          "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 18:00:00 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Stronger protocols for handling sensitive examination data could reduce the risk of confidential financial information being mishandled or exposed, offering greater protection to bank customers and institutions alike.",
+      "high_risk": false
+    },
+    {
+      "headline": "Pet-Friendly Rental Searches Drop After Law Change",
+      "body": "Searches for pet-friendly rental properties have declined following recent legislative changes, with agents reporting that some renters mistakenly believe the new rules guarantee them the right to keep pets in any rental home. Landlords still retain the ability to refuse pets in certain circumstances, meaning renters who assume automatic approval could face disappointment or disputes when seeking or renewing tenancies.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cj3gd312d8yo?at_medium=RSS&at_campaign=rss",
+          "title": "Rental searches for pet friendly properties drop after law change",
+          "publisher": "",
+          "published": "Sun, 26 Jul 2026 00:00:49 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "Renters who misunderstand the new rules could make housing decisions based on incorrect assumptions, potentially leading to failed applications or unexpected costs if a landlord lawfully declines their pet.",
+      "high_risk": false
+    },
+    {
+      "headline": "One Dead, Several Injured After Vehicle Rams Crowd at Berlin Pride Event",
+      "body": "A vehicle plowed into a crowd at a Berlin Pride event, killing one person and injuring several others. Berlin police have identified a suspect described as known to authorities and connected to Islamist circles. The attack occurred at a public gathering, raising immediate concerns about security at large outdoor events in the city.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/25/nx-s1-5907997/germany-lgbtq-event-dead-injured-pride",
+          "title": "One dead, several injured after vehicle plows through crowd at Berlin Pride event",
+          "publisher": "",
+          "published": "Sat, 25 Jul 2026 21:10:56 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Attacks targeting public celebrations could prompt heightened security measures at similar events across Europe, affecting how freely people gather in shared public spaces.",
+      "high_risk": false
+    },
+    {
+      "headline": "India's Education Minister Resigns as Youth Protesters Declare Victory",
+      "body": "India's education minister has resigned, prompting the youth-led Cockroach Janta Party to call off its protest shortly after the announcement. The CJP had been leading demonstrations that pressured the minister to step down. The group ended its campaign within hours of the resignation, signaling that their core demand had been met.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/videos/cly949k3g1do?at_medium=RSS&at_campaign=rss",
+          "title": "Protesters celebrate resignation of India's education minister",
+          "publisher": "",
+          "published": "Sat, 25 Jul 2026 13:44:01 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "The resignation demonstrates that sustained youth-led protest movements could influence high-level government accountability in India, potentially encouraging similar civic action on other issues.",
+      "high_risk": false
+    },
+    {
+      "headline": "Alabama Town Reverses AI-Themed Festival Rebrand After Public Backlash",
+      "body": "Irondale, Alabama, renamed its annual festival 'AI Love Irondale Day' as part of a rebranding effort around artificial intelligence. The decision drew significant online criticism from residents and observers, prompting officials to abandon the new name and return to the festival's original title. The episode highlights growing public sensitivity around AI branding by local governments and community institutions.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/23/nx-s1-5896481-e1/a-town-renamed-its-festival-ai-love-irondale-day-then-came-the-comments",
+          "title": "A town renamed its festival 'AI Love Irondale Day.' Then came the comments",
+          "publisher": "",
+          "published": "Thu, 23 Jul 2026 16:36:35 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Culture",
+      "why_it_matters": "As municipalities experiment with AI-themed initiatives to signal modernization, public resistance in Irondale suggests communities could push back when residents feel the technology is being imposed on local traditions without meaningful input.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "A San Diego Comic-Con teaser offered the first clear look at Blade Runner 2099, alongside new trailers for Lanterns and Rings of Power Season 3.",
+      "source": {
+        "url": "https://arstechnica.com/culture/2026/07/sdcc-teaser-gives-us-our-first-good-look-at-blade-runner-2099/",
+        "title": "SDCC teaser gives us our first good look at Blade Runner 2099",
+        "publisher": "",
+        "published": "Sat, 25 Jul 2026 20:52:30 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Trump ordered the Smithsonian, the world's largest museum complex, to post warnings labeling exhibits he deems historically inaccurate or anti-American.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c1w10gwnj74o?at_medium=RSS&at_campaign=rss",
+        "title": "Trump orders Smithsonian to post warnings about 'inaccurate' US history",
+        "publisher": "",
+        "published": "Sat, 25 Jul 2026 02:23:09 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A new children's book by Sophie Blackall and Phoebe Wahl follows 2nd graders weaving old clothes and curtains into a handmade 'Story Rug' for their teacher.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/25/nx-s1-5718191/story-rug-sophie-blackall-phoebe-wahl",
+        "title": "Left over center, right over center — 2nd graders are braiding a 'Story Rug'",
+        "publisher": "",
+        "published": "Sat, 25 Jul 2026 07:00:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Wildfires across France and Spain have forced more than 200,000 residents to evacuate their homes, with at least one person killed in Spain.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/25/nx-s1-5907963/wildfires-spain-france-evacuations",
+        "title": "France and Spain fires force more than 200,000 to flee homes",
+        "publisher": "",
+        "published": "Sat, 25 Jul 2026 21:05:45 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Despite no scientific evidence, false claims that sunscreen causes cancer resurface online every summer, discouraging use of proven skin protection.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/videos/cy4kv8ezpdyo?at_medium=RSS&at_campaign=rss",
+        "title": "Sunscreen doesn't cause cancer. Why do those claims keep spreading?",
+        "publisher": "",
+        "published": "Sat, 25 Jul 2026 23:37:45 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,411.98",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "Dow",
+          "value": "51,947.25",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "24,975.82",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.71%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.58%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "BTC",
+          "value": "$64,465",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-26 11:17 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-26 11:17 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,886",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-26 11:17 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-26 11:17 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "DET 2 — KC 3",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816254/royals-tigers",
+            "title": "DET 2 — KC 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-25",
+            "free_access": true
+          },
+          "as_of": "2026-07-25"
+        },
+        {
+          "label": "WSH 5 — ARI 3",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816250/diamondbacks-nationals",
+            "title": "WSH 5 — ARI 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-25",
+            "free_access": true
+          },
+          "as_of": "2026-07-25"
+        },
+        {
+          "label": "SF 9 — LAA 2",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816264/angels-giants",
+            "title": "SF 9 — LAA 2",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-25",
+            "free_access": true
+          },
+          "as_of": "2026-07-25"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2016: The Sagamihara stabbings occur in Kanagawa Prefecture in Japan. Nineteen people are killed.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Sagamihara_stabbings",
+        "title": "On this day — 07/26",
+        "publisher": "Wikipedia",
+        "published": "2026-07-26",
+        "free_access": true
+      },
+      "as_of": "2026-07-26"
+    }
+  ],
+  "closer": {
+    "text": "\"The only security of all is in a free press.\"",
+    "kind": "quote",
+    "attribution": "Thomas Jefferson, letter to Lafayette (1823)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Jefferson/98-01-02-3837",
+      "title": "Thomas Jefferson, letter to Lafayette (1823)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+5+2+1+1",
+    "generated_at": "2026-07-26T11:17:30.478782+00:00",
+    "date_readable": "Sunday, July 26, 2026",
+    "writer_calls": 11,
+    "brave_queries": 0,
+    "rss_candidates": 223
+  }
+}
