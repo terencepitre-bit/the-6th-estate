@@ -1,1 +1,2 @@
-from .brevo import build_email_html, send_edition, EmailSendDisabled  # noqa: F401
+from .brevo import (build_email_html, make_brevo_transport, send_edition,  # noqa: F401
+                    EmailSendDisabled)
