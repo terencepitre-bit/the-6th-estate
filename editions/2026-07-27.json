@@ -1,0 +1,350 @@
+{
+  "date": "2026-07-27",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Three killed in Seattle festival shooting as U.S. and Iran exchange diplomatic messages amid ceasefire signals",
+      "body": "A mass shooting at a festival in Seattle has left three people dead. Separately, the United States and Iran have been exchanging diplomatic messages after nearly two weeks of intense fighting between the two countries, signaling a possible pause in hostilities.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/27/g-s1-135621/up-first-newsletter-mass-shooting-seattle-iran-us-war-democrats-senate-midterms",
+          "title": "3 dead in mass shooting in Seattle. And, U.S. and Iran pause fighting",
+          "publisher": "",
+          "published": "Mon, 27 Jul 2026 07:45:56 -0400",
+          "free_access": true
+        },
+        {
+          "url": "https://www.npr.org/2026/07/27/g-s1-135611/can-the-u-s-and-iran-take-the-off-ramp",
+          "title": "Can the U.S. and Iran take the off-ramp?",
+          "publisher": "",
+          "published": "Mon, 27 Jul 2026 01:57:59 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "A potential de-escalation between the U.S. and Iran could affect energy prices, regional stability, and the risk of broader conflict that would have far-reaching consequences for civilians and economies worldwide.",
+      "high_risk": false
+    },
+    {
+      "headline": "Shein Posts $99M Loss as Trump Tariffs Squeeze Fast Fashion Giant",
+      "body": "Shein has swung to a $99 million loss as Trump-era tariffs weigh on sales, a significant reversal for the fast fashion retailer. The financial setback comes as Shein prepares for a stock market debut in Hong Kong. The tariffs, which target goods imported from China, have disrupted the company's low-cost business model that relied heavily on cheap cross-border shipping directly to consumers.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/clyj8v0rek8o?at_medium=RSS&at_campaign=rss",
+          "title": "Shein swings to $99m loss as Trump tariffs hit sales",
+          "publisher": "",
+          "published": "Mon, 27 Jul 2026 02:08:36 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Shoppers who rely on Shein for affordable clothing could see higher prices or reduced product availability as the company absorbs tariff costs ahead of its public listing.",
+      "high_risk": false
+    },
+    {
+      "headline": "TV presenter and comedian Bill Oddie dies at 85",
+      "body": "Bill Oddie, the broadcaster, comedian, and conservationist, has died at the age of 85. His agent paid tribute to his work, describing him as a multi-talented figure who made significant contributions across entertainment and wildlife conservation. Oddie was widely known for his television presenting and comedy career, which spanned decades and reached audiences across generations.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cjejw8pq5elo?at_medium=RSS&at_campaign=rss",
+          "title": "TV presenter and comedian Bill Oddie dies at 85",
+          "publisher": "",
+          "published": "Mon, 27 Jul 2026 12:47:47 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "Oddie's passing marks the loss of a prominent public figure whose work in both entertainment and conservation influenced how many people engage with the natural world.",
+      "high_risk": false
+    },
+    {
+      "headline": "Baltimore Expands 911 to Connect Callers With Social Services Before Crisis Hits",
+      "body": "Baltimore is reshaping its 911 system to do more than dispatch emergency responders. Callers whose situations do not require police could instead be connected to social services and healthcare resources, addressing needs before they escalate into full emergencies. The shift reflects a broader rethinking of who responds to which calls, aiming to match residents with appropriate help rather than defaulting to law enforcement.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/27/nx-s1-5874720/baltimore-will-turn-911-into-more-than-just-an-emergency-number",
+          "title": "Baltimore will turn 911 into more than just an emergency number",
+          "publisher": "",
+          "published": "Mon, 27 Jul 2026 05:00:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Residents facing housing instability, mental health challenges, or other non-emergency needs could get connected to support through a number they already know, potentially preventing situations from worsening before professional help arrives.",
+      "high_risk": false
+    },
+    {
+      "headline": "India's Gen Z Protesters Force Out Education Minister in Rare Win Against Modi Government",
+      "body": "Young protesters in India have secured the resignation of the country's education minister, marking an unusual setback for Prime Minister Narendra Modi's administration. The demonstration of student-led pressure has energized demonstrators who see the outcome as proof their voices can influence government decisions, with many describing the resignation as only an opening move in a broader campaign for accountability.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c8dng1v72lno?at_medium=RSS&at_campaign=rss",
+          "title": "'This is just the start': India's Gen Z protesters force out a minister, but what next?",
+          "publisher": "",
+          "published": "Mon, 27 Jul 2026 05:59:22 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "The episode signals that sustained youth-led protest could shift political outcomes in India, potentially encouraging young citizens to more actively challenge government policy.",
+      "high_risk": false
+    },
+    {
+      "headline": "Bootleg copy of The Odyssey leaks on X before release",
+      "body": "Universal Pictures moved to remove a high-quality pirated version of its film The Odyssey after it appeared on X and was viewed by millions. The studio took down the leaked copy, but not before widespread distribution across the platform. Leaks of this scale ahead of a film's release could affect box office performance and prompt studios to tighten digital distribution controls.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c1m1ev5j3m2o?at_medium=RSS&at_campaign=rss",
+          "title": "Millions see leaked copy of The Odyssey movie on X",
+          "publisher": "",
+          "published": "Mon, 27 Jul 2026 09:21:10 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Culture",
+      "why_it_matters": "High-profile pre-release leaks could push studios to impose stricter viewing restrictions or delay digital releases, affecting how and when audiences access new films.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "Laura Kuenssberg was granted unprecedented behind-the-scenes access to Andy Burnham's first days as UK Prime Minister at No 10.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c79gdjlv78wo?at_medium=RSS&at_campaign=rss",
+        "title": "Behind-the-scenes at No 10 as Andy Burnham became PM",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 05:00:13 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Jodrell Bank, the UK's iconic radio telescope operating since 1945, faces closure under proposed government science funding cuts.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c5y6r9rdxygo?at_medium=RSS&at_campaign=rss",
+        "title": "UK's iconic Jodrell Bank telescope faces axe in science cuts",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 11:50:13 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Bill Oddie, comedian and Goodie turned ornithologist, used birdwatching as a refuge from severe depression throughout his life.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c4nnkylr0llo?at_medium=RSS&at_campaign=rss",
+        "title": "Bill Oddie: Comedian who found nature a welcome refuge from mental illness",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 09:51:51 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Paul Andrews, who founded a Woodstock-style UFO convention in the California desert for extraterrestrial believers, died at 77.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/07/26/us/paul-andrews-dead.html",
+        "title": "Paul Andrews, Founder of the Woodstock of U.F.O.s, Dies at 77",
+        "publisher": "",
+        "published": "Sun, 26 Jul 2026 14:00:18 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A Hechinger Report opinion piece argues that rejecting education technology entirely misreads the problem, as dashboards continue labeling silent, tablet-staring students as 'engaged learners.'",
+      "source": {
+        "url": "https://hechingerreport.org/opinion-walking-away-from-education-technology-isnt-the-answer-to-the-latest-backlash/",
+        "title": "OPINION: Walking away from education technology isn’t the answer to the latest backlash",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 05:00:00 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,411.98",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "Dow",
+          "value": "51,947.25",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "24,975.82",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.71%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.58%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "BTC",
+          "value": "$64,997",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-27 12:54 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-27 12:54 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,954",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-27 12:54 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-27 12:54 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "TB 1 — CLE 0",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816268/guardians-rays",
+            "title": "TB 1 — CLE 0",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-26",
+            "free_access": true
+          },
+          "as_of": "2026-07-26"
+        },
+        {
+          "label": "WSH 10 — ARI 7",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816265/diamondbacks-nationals",
+            "title": "WSH 10 — ARI 7",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-26",
+            "free_access": true
+          },
+          "as_of": "2026-07-26"
+        },
+        {
+          "label": "BAL 2 — ATL 3",
+          "value": "Final/11",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816266/braves-orioles",
+            "title": "BAL 2 — ATL 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-26",
+            "free_access": true
+          },
+          "as_of": "2026-07-26"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2015: Seven people are killed and many injured after gunmen attack an Indian police station in Punjab.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2015_Gurdaspur_attack",
+        "title": "On this day — 07/27",
+        "publisher": "Wikipedia",
+        "published": "2026-07-27",
+        "free_access": true
+      },
+      "as_of": "2026-07-27"
+    }
+  ],
+  "closer": {
+    "text": "\"A popular government without popular information, or the means of acquiring it, is but a prologue to a farce or a tragedy, or perhaps both.\"",
+    "kind": "quote",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+5+2+1+1",
+    "generated_at": "2026-07-27T12:54:25.386492+00:00",
+    "date_readable": "Monday, July 27, 2026",
+    "writer_calls": 11,
+    "brave_queries": 0,
+    "rss_candidates": 227
+  }
+}
