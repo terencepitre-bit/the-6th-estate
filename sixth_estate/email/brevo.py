@@ -112,6 +112,49 @@ def build_email_html(ed: Edition) -> str:
 </table></td></tr></table></body></html>"""
 
 
+def make_brevo_transport(api_key: str) -> Callable:
+    """Build the real Brevo v3 transport: create campaign, then sendNow.
+
+    The api_key lives only inside this closure (injected by the composition
+    root, e.g. cli.py reading the environment). It is never logged. Brevo's
+    sendNow returns 204 with an empty body, so empty responses parse as {}.
+    """
+    import json as _json
+    import urllib.error
+    import urllib.request
+
+    from ..http_util import HttpError
+
+    def _post(path: str, payload: Optional[dict] = None) -> dict:
+        url = f"{config.BREVO_API_BASE}{path}"
+        data = _json.dumps(payload or {}).encode("utf-8")
+        req = urllib.request.Request(url, data=data, method="POST", headers={
+            "Content-Type": "application/json",
+            "Accept": "application/json",
+            "api-key": api_key,
+            "User-Agent": "6E-bot/1.0",
+        })
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                body = resp.read().decode("utf-8", errors="replace").strip()
+                return _json.loads(body) if body else {}
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode("utf-8", errors="replace")[:200]
+            raise HttpError(e.code, url, detail) from e
+        except urllib.error.URLError as e:
+            raise HttpError(0, url, str(e.reason)) from e
+
+    def transport(payload: dict) -> dict:
+        created = _post("/emailCampaigns", payload)
+        cid = created.get("id")
+        if cid is None:
+            raise RuntimeError(f"Brevo campaign creation returned no id: {created}")
+        _post(f"/emailCampaigns/{cid}/sendNow")
+        return {"id": cid}
+
+    return transport
+
+
 def build_campaign_payload(ed: Edition, html_content: str) -> dict:
     """Brevo v3 'create email campaign' payload (createdCampaign → sendNow)."""
     date_readable = ed.meta.get("date_readable", ed.date)
