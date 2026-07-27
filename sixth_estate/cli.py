@@ -180,9 +180,13 @@ def cmd_publish(args) -> int:
 
     # Email is a strictly-gated post-publish side effect.
     if args.send:
-        from .email import send_edition
+        import os
+
+        from .email import make_brevo_transport, send_edition
+        api_key = os.environ.get("BREVO_API_KEY", "").strip()
+        transport = make_brevo_transport(api_key) if api_key else None
         try:
-            res = send_edition(ed, st, send=True)
+            res = send_edition(ed, st, send=True, transport=transport)
             print(f"Email: {res}")
             log.info("email", **{k: v for k, v in res.items() if k != "html"})
         except Exception as e:
