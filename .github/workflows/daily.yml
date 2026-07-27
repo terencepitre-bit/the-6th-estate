@@ -1,6 +1,7 @@
 name: Daily Edition
 
-# Runs every morning at 10:00 UTC (6:00 AM ET).
+# Runs every morning at 10:00 UTC (6:00 AM ET) and EMAILS subscribers.
+# Manual runs only email when send_email=true is checked.
 # Also manually triggerable for re-runs or testing.
 on:
   schedule:
@@ -82,11 +83,11 @@ jobs:
       - name: Publish + build site
         env:
           SIXTHE_AUTOMATION_ENABLED: "true"
-          SIXTHE_EMAIL_ENABLED: ${{ github.event.inputs.send_email == 'true' && '1' || '0' }}
+          SIXTHE_EMAIL_ENABLED: ${{ (github.event_name == 'schedule' || github.event.inputs.send_email == 'true') && '1' || '0' }}
           BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
         run: |
           DATE="${{ github.event.inputs.date || '' }}"
-          SEND="${{ github.event.inputs.send_email == 'true' && '--send' || '' }}"
+          SEND="${{ (github.event_name == 'schedule' || github.event.inputs.send_email == 'true') && '--send' || '' }}"
           python -m sixth_estate.cli --freshness 0 publish ${DATE:+--date "$DATE"} --force $SEND
 
       # ── 5. Commit edition + site back to repo ──────────────────────────
