@@ -1,0 +1,350 @@
+{
+  "date": "2026-07-28",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Trump meets Zelenskyy and Netanyahu as TPS deportation threat looms",
+      "body": "President Trump is scheduled to hold separate meetings with Ukrainian President Volodymyr Zelenskyy and Israeli Prime Minister Benjamin Netanyahu. Separately, individuals holding Temporary Protected Status in the United States could soon face deportation, as the administration moves to roll back protections that have shielded hundreds of thousands of migrants from removal.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/28/g-s1-135845/up-first-newsletter-trump-zelenskyy-netanyahu-lindsey-graham-tps-political-corruption",
+          "title": "Trump to meet with Zelenskyy, Netanyahu. And, TPS holders could soon face deportation",
+          "publisher": "",
+          "published": "Tue, 28 Jul 2026 07:26:09 -0400",
+          "free_access": true
+        },
+        {
+          "url": "https://www.npr.org/2026/07/28/g-s1-135833/trump-netanyahu-iran-war",
+          "title": "Netanyahu to meet Trump in a first encounter since the Iran war began",
+          "publisher": "",
+          "published": "Tue, 28 Jul 2026 03:42:11 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "TPS holders who have built lives in the United States could face forced removal, directly affecting families and communities across the country.",
+      "high_risk": false
+    },
+    {
+      "headline": "Federal Agencies Issue Joint Statement on Protecting Sensitive Data During Bank Exams",
+      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance aims to establish clearer standards for managing confidential data collected in the examination process, reflecting ongoing concerns about information security and the appropriate use of sensitive financial data by regulators.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
+          "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+          "publisher": "",
+          "published": "Thu, 16 Jul 2026 18:00:00 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Stronger data-handling standards during bank examinations could better protect customers whose personal and financial information flows through institutions under regulatory review.",
+      "high_risk": false
+    },
+    {
+      "headline": "AI Tokens Emerge as a Key Economic Metric for Tracking AI Adoption",
+      "body": "Economists are beginning to use AI tokens — the units AI companies already use to measure usage and bill customers — as a tool to track how broadly AI is spreading through the economy. Much like the kilowatt-hour became a standard measure of electrical consumption, tokens could serve as a common unit for gauging AI activity across industries, giving researchers and policymakers a clearer picture of adoption trends.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/sections/planet-money/2026/07/28/g-s1-135475/ai-tokens-could-become-the-kilowatt-hour-of-the-ai-age",
+          "title": "AI tokens could become the kilowatt-hour of the AI age",
+          "publisher": "",
+          "published": "Tue, 28 Jul 2026 06:30:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "A standardized way to measure AI usage could help workers, businesses, and governments better understand how quickly AI is reshaping industries and where its economic impact is being felt most.",
+      "high_risk": false
+    },
+    {
+      "headline": "Ecuador's Police Battle Surging Cocaine Trade on Route to Europe",
+      "body": "Ecuador has become a major transit point for cocaine moving from South America to Europe, with police facing a significant rise in drug-related crime. The BBC accompanied Ecuadorian officers on patrol as they attempt to counter the growing power of drug gangs operating through the country. Authorities are under mounting pressure as trafficking networks expand their reach along what has emerged as a key smuggling corridor.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
+          "title": "The cocaine superhighway from Ecuador to Europe - the BBC reports on gangs and the police fightback",
+          "publisher": "",
+          "published": "Tue, 28 Jul 2026 05:01:19 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "The expansion of cocaine trafficking routes through Ecuador could drive up drug availability and gang violence in destination countries across Europe, affecting public safety and law enforcement priorities far beyond South America.",
+      "high_risk": false
+    },
+    {
+      "headline": "Southern Oregon University Fights for Survival as Closure Threat Looms",
+      "body": "Southern Oregon University in Ashland faces a genuine risk of closure, a scenario once considered unthinkable for a public campus. The university has deep ties to its surrounding community, including outreach programs that have connected local students to music and other academic pursuits for years. Declining enrollment and financial strain have pushed the institution to a critical point, forcing students, faculty, and local residents to mobilize in an effort to keep it open.",
+      "sources": [
+        {
+          "url": "https://hechingerreport.org/could-a-public-campus-really-close-the-fight-to-save-southern-oregon-university/",
+          "title": "Could a public campus really close? The fight to save Southern Oregon University",
+          "publisher": "",
+          "published": "Tue, 28 Jul 2026 05:00:00 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "If a public university can close, residents in rural and small-city regions could lose affordable, nearby access to higher education, forcing students to relocate or forgo degrees entirely.",
+      "high_risk": false
+    },
+    {
+      "headline": "Colorado Mountain Town Bets on Crafts Hub to Foster Year-Round Community",
+      "body": "A Colorado mountain tourist town is investing in a dedicated building for craftspeople, paired with affordable housing, in an effort to build a more stable year-round community. The initiative aims to move beyond seasonal tourism dependence by giving local artisans a permanent base to live and work. The project reflects a broader challenge facing resort towns where housing costs often push workers and creatives out.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/27/nx-s1-5902021/colorado-tourist-town-invests-in-crafts-to-build-community",
+          "title": "Colorado tourist town invests in crafts to build community",
+          "publisher": "",
+          "published": "Mon, 27 Jul 2026 16:43:02 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Real Estate",
+      "why_it_matters": "Combining workspace with affordable housing could offer a replicable model for other tourist-dependent towns struggling to retain residents and sustain local economies beyond peak seasons.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "Wildfires rage in France's Gironde region as two major blazes in central Spain come under control before a fourth summer heat wave.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/27/nx-s1-5909107/france-spain-wildfires-updates",
+        "title": "France continues to fight devastating wildfires, while progress is made in Spain",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 06:50:09 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Verizon signed a $1 billion dark fiber deal with Google to support AI data centers, calling it the first of many such agreements.",
+      "source": {
+        "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/",
+        "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 18:48:41 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A $1.5 billion Anthropic copyright ruling awarded authors roughly $3,100 per title, a sum many writers call inadequate given ongoing AI threats.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/27/nx-s1-5904606/anthropic-vs-bartz-ai-copyright-lawsuit-pros-cons",
+        "title": "Authors have mixed feelings about the $1.5B Anthropic copyright infringement ruling",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 16:49:57 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The FDA is reviewing whether compounding pharmacies should be permitted to produce previously banned peptides including BPC-157 and TB-500.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/07/23/well/peptides-fda-research.html",
+        "title": "What to Know About Peptides the FDA Is Considering for Use",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 19:38:15 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A Hechinger Report opinion argues that despite widespread classroom backlash, abandoning education technology entirely would be a costly mistake for American students.",
+      "source": {
+        "url": "https://hechingerreport.org/opinion-walking-away-from-education-technology-isnt-the-answer-to-the-latest-backlash/",
+        "title": "OPINION: Walking away from education technology isn’t the answer to the latest backlash",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 05:00:00 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,413.18",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-27",
+            "free_access": true
+          },
+          "as_of": "2026-07-27"
+        },
+        {
+          "label": "Dow",
+          "value": "52,210.08",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-27",
+            "free_access": true
+          },
+          "as_of": "2026-07-27"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "24,932.08",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-27",
+            "free_access": true
+          },
+          "as_of": "2026-07-27"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.69%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-24",
+            "free_access": true
+          },
+          "as_of": "2026-07-24"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.58%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "BTC",
+          "value": "$63,436",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-28 11:54 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-28 11:54 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,875",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-28 11:54 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-28 11:54 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "TEX 7 — SEA 3",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816288/mariners-rangers",
+            "title": "TEX 7 — SEA 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-27",
+            "free_access": true
+          },
+          "as_of": "2026-07-27"
+        },
+        {
+          "label": "PIT 3 — ARI 2",
+          "value": "Final/10",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816280/diamondbacks-pirates",
+            "title": "PIT 3 — ARI 2",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-27",
+            "free_access": true
+          },
+          "as_of": "2026-07-27"
+        },
+        {
+          "label": "DET 5 — BAL 8",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816282/orioles-tigers",
+            "title": "DET 5 — BAL 8",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-27",
+            "free_access": true
+          },
+          "as_of": "2026-07-27"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2022: Catastrophic floods devastate Eastern Kentucky, resulting in 45 fatalities and causing damage to thousands of homes and businesses.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2022_Appalachian_floods",
+        "title": "On this day — 07/28",
+        "publisher": "Wikipedia",
+        "published": "2026-07-28",
+        "free_access": true
+      },
+      "as_of": "2026-07-28"
+    }
+  ],
+  "closer": {
+    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
+    "kind": "quote",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+5+2+1+1",
+    "generated_at": "2026-07-28T11:54:59.970150+00:00",
+    "date_readable": "Tuesday, July 28, 2026",
+    "writer_calls": 11,
+    "brave_queries": 0,
+    "rss_candidates": 220
+  }
+}
