@@ -86,6 +86,16 @@ QUICK_HIT_MIN_INTEREST_SCORE = 2  # 1-5 scale; 2 filters out the dullest stories
 # Max age (hours) for a quick hit candidate. Stories older than this are dropped.
 QUICK_HIT_MAX_AGE_HOURS = 36
 
+# ── Briefing quality filters ─────────────────────────────────────────────────
+# Max age (hours) for a briefing candidate. Slightly looser than quick hits
+# because a major story can legitimately carry into a second day.
+BRIEFING_MAX_AGE_HOURS = 48
+
+# No-repeat window: how many days of past editions to scan for URLs that have
+# already been published. Any URL that appeared in a briefing, quick hit, or
+# receipt within this window will never be selected again.
+NO_REPEAT_DAYS = 7
+
 # Recommended briefing lanes — display labels only. Prompt-level instructions
 # belong in the writer module, not here. Adding Education and Personal Excellence
 # as optional lanes (indices 4-7) for diversity.

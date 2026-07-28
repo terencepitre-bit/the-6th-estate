@@ -19,6 +19,7 @@ Design rules:
 """
 from __future__ import annotations
 
+import json
 import re
 import random
 from datetime import date, datetime, timedelta, timezone
@@ -178,6 +179,57 @@ def _is_fresh(cand: Candidate, max_age_hours: int) -> bool:
         return True  # unknown date — keep it rather than silently drop
     cutoff = datetime.now(timezone.utc) - timedelta(hours=max_age_hours)
     return dt >= cutoff
+
+
+_EPOCH = datetime(1970, 1, 1, tzinfo=timezone.utc)
+
+
+def _recency_key(cand: Candidate) -> datetime:
+    """Sort key: parsed publish date, or epoch (sorts last) if unknown."""
+    dt = _parse_pub_date(cand.published)
+    return dt if dt else _EPOCH
+
+
+def _recent_edition_urls(edition_date: str) -> set[str]:
+    """URLs already published in editions within the last NO_REPEAT_DAYS.
+
+    Scans editions/*.json dated strictly before edition_date (so a forced
+    re-run of today regenerates freely). Collects every URL that appeared in
+    a briefing source, quick hit source, or receipt. Per-file failures are
+    silent — a corrupt or missing edition file never blocks the pipeline.
+    """
+    urls: set[str] = set()
+    try:
+        target = datetime.strptime(edition_date, "%Y-%m-%d").date()
+    except ValueError:
+        return urls
+    cutoff = target - timedelta(days=config.NO_REPEAT_DAYS)
+    for path in sorted(config.EDITIONS_DIR.glob("*.json")):
+        try:
+            d = datetime.strptime(path.stem, "%Y-%m-%d").date()
+        except ValueError:
+            continue
+        if d >= target or d < cutoff:
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        for b in data.get("briefings") or []:
+            for s in b.get("sources") or []:
+                u = s.get("url")
+                if u:
+                    urls.add(u)
+        for q in data.get("quick_hits") or []:
+            u = (q.get("source") or {}).get("url")
+            if u:
+                urls.add(u)
+        r = data.get("receipt")
+        if r and r.get("source"):
+            u = r["source"].get("url")
+            if u:
+                urls.add(u)
+    return urls
 
 
 def _classify_lane(cand: Candidate) -> int:
@@ -345,7 +397,8 @@ def _is_related_source(primary: Candidate, alt: Candidate) -> bool:
 
 
 def _build_briefings(writer: ClaudeWriter, candidates: list[Candidate],
-                     brave: Optional[BraveClient], log: EditionLogger
+                     brave: Optional[BraveClient], log: EditionLogger,
+                     published_urls: Optional[set[str]] = None
                      ) -> list[Briefing]:
     """Produce 4-6 briefings from discovered candidates.
 
@@ -353,10 +406,18 @@ def _build_briefings(writer: ClaudeWriter, candidates: list[Candidate],
     are attempted first and get Brave fallback. Optional lanes (4+: Education,
     Personal Excellence, Real Estate, Culture) fill remaining slots if available.
 
+    Selection quality (per lane pool, before picking):
+      - Freshness: candidates older than BRIEFING_MAX_AGE_HOURS are dropped.
+      - History: URLs published within the last NO_REPEAT_DAYS are dropped.
+      - Recency sort: remaining candidates are ordered newest-first, so the
+        most recent qualifying story wins instead of whatever the feed
+        happened to list first.
+
     Deduplication: stories with highly similar titles across different lanes are
     skipped after the first appearance. Source linking: second sources are only
     added if they are about the same story as the primary candidate.
     """
+    published_urls = published_urls or set()
     buckets = _pick_candidates(candidates)
     lanes = config.BRIEFING_LANES
     briefings: list[Briefing] = []
@@ -372,11 +433,22 @@ def _build_briefings(writer: ClaudeWriter, candidates: list[Candidate],
         lane_name = lanes[idx] if idx < len(lanes) else f"General {idx}"
         pool = buckets.get(idx, [])
 
+        # Freshness + no-repeat filters, then newest-first ordering
+        pre_filter = len(pool)
+        pool = [c for c in pool
+                if _is_fresh(c, config.BRIEFING_MAX_AGE_HOURS)
+                and c.url not in published_urls]
+        pool.sort(key=_recency_key, reverse=True)
+        if pre_filter and len(pool) < pre_filter:
+            log.info("briefing_pool_filtered", lane=idx,
+                     before=pre_filter, after=len(pool))
+
         # Brave fallback only for core lanes (0-3)
         if not pool and brave and idx < core_count:
             query = _LANE_QUERIES.get(idx, "news today")
             try:
-                pool = brave.search(query, count=3)
+                pool = [c for c in brave.search(query, count=3)
+                        if c.url not in published_urls]
                 log.info("brave_fallback", lane=idx, query=query, results=len(pool))
             except (BraveDisabled, BraveCapExceeded) as e:
                 log.warning("brave_unavailable", lane=idx, error=str(e)[:80])
@@ -640,6 +712,8 @@ def _find_receipt(candidates: list[Candidate], used_urls: set[str],
     for c in candidates:
         if c.url in used_urls:
             continue
+        if not _is_fresh(c, config.BRIEFING_MAX_AGE_HOURS):
+            continue
         try:
             host = urlparse(c.url).netloc.lower()
         except Exception:
@@ -725,10 +799,19 @@ def run_pipeline(edition_date: Optional[str] = None,
         brave = BraveClient(logger=log)
         print(f"  Brave search: enabled")
 
+    # 1b. Load publication history for the no-repeat window
+    published_urls = _recent_edition_urls(edition_date)
+    if published_urls:
+        print(f"  No-repeat history: {len(published_urls)} URLs from the last "
+              f"{config.NO_REPEAT_DAYS} days.")
+        log.info("history_loaded", urls=len(published_urls),
+                 days=config.NO_REPEAT_DAYS)
+
     # 2. Briefings (4-6)
     print(f"  [2/7] Writing briefings...")
     try:
-        briefings = _build_briefings(writer, candidates, brave, log)
+        briefings = _build_briefings(writer, candidates, brave, log,
+                                     published_urls=published_urls)
     except Exception as e:
         print(f"  ERROR in briefings: {e}")
         briefings = []
@@ -736,7 +819,7 @@ def run_pipeline(edition_date: Optional[str] = None,
     log.info("briefings_done", count=len(briefings),
              writer_calls=writer.calls_used)
 
-    used_urls = {s.url for b in briefings for s in b.sources}
+    used_urls = {s.url for b in briefings for s in b.sources} | published_urls
 
     # 3. Quick hits — fill to reach 10-15 total articles
     print(f"  [3/7] Writing quick hits...")
