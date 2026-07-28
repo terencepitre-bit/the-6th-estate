@@ -3,134 +3,116 @@
   "demo": false,
   "briefings": [
     {
-      "headline": "Trump meets Zelenskyy and Netanyahu as TPS deportation threat looms",
-      "body": "President Trump is scheduled to hold separate meetings with Ukrainian President Volodymyr Zelenskyy and Israeli Prime Minister Benjamin Netanyahu. Separately, individuals holding Temporary Protected Status in the United States could soon face deportation, as the administration moves to roll back protections that have shielded hundreds of thousands of migrants from removal.",
+      "headline": "Parents on benefits could receive up to £4,500 when child starts apprenticeship",
+      "body": "Some parents receiving benefits could get up to £4,500 if their child begins an apprenticeship, under proposals aimed at removing a financial disincentive built into the current system. Existing benefit rules can leave parents worse off when a dependent child enters paid apprenticeship training, which could discourage families from supporting that pathway. The payment is designed to offset those losses and encourage uptake of apprenticeships among young people from lower-income households.",
       "sources": [
         {
-          "url": "https://www.npr.org/2026/07/28/g-s1-135845/up-first-newsletter-trump-zelenskyy-netanyahu-lindsey-graham-tps-political-corruption",
-          "title": "Trump to meet with Zelenskyy, Netanyahu. And, TPS holders could soon face deportation",
+          "url": "https://www.bbc.co.uk/news/articles/cwy4v6e9d2go?at_medium=RSS&at_campaign=rss",
+          "title": "Some parents on benefits to get up to £4,500 for child starting apprenticeship",
           "publisher": "",
-          "published": "Tue, 28 Jul 2026 07:26:09 -0400",
-          "free_access": true
-        },
-        {
-          "url": "https://www.npr.org/2026/07/28/g-s1-135833/trump-netanyahu-iran-war",
-          "title": "Netanyahu to meet Trump in a first encounter since the Iran war began",
-          "publisher": "",
-          "published": "Tue, 28 Jul 2026 03:42:11 -0400",
+          "published": "Tue, 28 Jul 2026 17:32:56 GMT",
           "free_access": true
         }
       ],
       "lane": "World / US",
-      "why_it_matters": "TPS holders who have built lives in the United States could face forced removal, directly affecting families and communities across the country.",
+      "why_it_matters": "Families on benefits who previously faced a financial penalty when a child chose an apprenticeship over staying in education could now receive direct compensation, making that career route more accessible for lower-income young people.",
       "high_risk": false
     },
     {
-      "headline": "Federal Agencies Issue Joint Statement on Protecting Sensitive Data During Bank Exams",
-      "body": "Federal banking agencies have released a joint statement addressing how highly sensitive information should be handled during bank examinations. The guidance aims to establish clearer standards for managing confidential data collected in the examination process, reflecting ongoing concerns about information security and the appropriate use of sensitive financial data by regulators.",
+      "headline": "Verizon Touts $1B Dark Fiber Deal With Google as Template for AI Infrastructure Push",
+      "body": "Verizon is positioning a $1 billion dark fiber agreement with Google to support data centers as the first in a series of similar deals. The telecom company expects to generate significant AI-related revenue by leasing dark fiber and retrofitting existing data centers for AI workloads. Executives described the Google deal as a model for future contracts as demand for AI infrastructure continues to grow.",
       "sources": [
         {
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260716a.htm",
-          "title": "Agencies issue joint statement on handling of highly sensitive information during bank examinations",
+          "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/",
+          "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
           "publisher": "",
-          "published": "Thu, 16 Jul 2026 18:00:00 GMT",
+          "published": "Mon, 27 Jul 2026 18:48:41 +0000",
           "free_access": true
         }
       ],
       "lane": "Money & Markets",
-      "why_it_matters": "Stronger data-handling standards during bank examinations could better protect customers whose personal and financial information flows through institutions under regulatory review.",
+      "why_it_matters": "Increased investment in AI-focused telecom infrastructure could accelerate data center expansion and influence broadband capacity and pricing for both businesses and consumers over time.",
       "high_risk": false
     },
     {
-      "headline": "AI Tokens Emerge as a Key Economic Metric for Tracking AI Adoption",
-      "body": "Economists are beginning to use AI tokens — the units AI companies already use to measure usage and bill customers — as a tool to track how broadly AI is spreading through the economy. Much like the kilowatt-hour became a standard measure of electrical consumption, tokens could serve as a common unit for gauging AI activity across industries, giving researchers and policymakers a clearer picture of adoption trends.",
+      "headline": "Play-Based Early Childhood Programs Build Skills That Last",
+      "body": "Play-based early childhood programs could help young children develop emotional regulation and problem-solving abilities, according to research into early learning approaches. These skills, formed during formative early years, may support children's development well beyond the early childhood period. Experts point to structured play as a meaningful vehicle for learning, suggesting that how young children spend their time in educational settings could shape long-term outcomes.",
       "sources": [
         {
-          "url": "https://www.npr.org/sections/planet-money/2026/07/28/g-s1-135475/ai-tokens-could-become-the-kilowatt-hour-of-the-ai-age",
-          "title": "AI tokens could become the kilowatt-hour of the AI age",
+          "url": "https://theconversation.com/play-is-essential-for-young-children-including-when-it-comes-to-their-learning-285572",
+          "title": "Play is essential for young children, including when it comes to their learning",
           "publisher": "",
-          "published": "Tue, 28 Jul 2026 06:30:00 -0400",
+          "published": "2026-07-28T12:13:53Z",
           "free_access": true
         }
       ],
       "lane": "Business / Policy",
-      "why_it_matters": "A standardized way to measure AI usage could help workers, businesses, and governments better understand how quickly AI is reshaping industries and where its economic impact is being felt most.",
+      "why_it_matters": "Parents and caregivers choosing early childhood programs could find that play-focused environments offer developmental benefits that extend far into their child's academic and social life.",
       "high_risk": false
     },
     {
-      "headline": "Ecuador's Police Battle Surging Cocaine Trade on Route to Europe",
-      "body": "Ecuador has become a major transit point for cocaine moving from South America to Europe, with police facing a significant rise in drug-related crime. The BBC accompanied Ecuadorian officers on patrol as they attempt to counter the growing power of drug gangs operating through the country. Authorities are under mounting pressure as trafficking networks expand their reach along what has emerged as a key smuggling corridor.",
+      "headline": "Funeral Director Allegedly Left Baby Remains on Floor for Two Years",
+      "body": "A funeral director named Robert Bush is facing accusations that he left infant remains on the floor for approximately two years and gave grieving families the wrong ashes. Victims who lost babies testified tearfully about the ordeal. The case highlights serious failures in the handling of infant remains by a funeral professional entrusted with one of the most sensitive responsibilities a family could face.",
       "sources": [
         {
-          "url": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
-          "title": "The cocaine superhighway from Ecuador to Europe - the BBC reports on gangs and the police fightback",
+          "url": "https://www.bbc.co.uk/news/articles/cg5lv0jp5veo?at_medium=RSS&at_campaign=rss",
+          "title": "Funeral director 'left baby's remains on floor for two years'",
           "publisher": "",
-          "published": "Tue, 28 Jul 2026 05:01:19 GMT",
+          "published": "Tue, 28 Jul 2026 16:48:13 GMT",
           "free_access": true
         }
       ],
       "lane": "Science / Tech / Health",
-      "why_it_matters": "The expansion of cocaine trafficking routes through Ecuador could drive up drug availability and gang violence in destination countries across Europe, affecting public safety and law enforcement priorities far beyond South America.",
+      "why_it_matters": "Families who have lost infants rely on funeral directors to handle remains with care and accuracy, and failures like those alleged here could mean bereaved parents never receive their child's actual ashes.",
       "high_risk": false
     },
     {
-      "headline": "Southern Oregon University Fights for Survival as Closure Threat Looms",
-      "body": "Southern Oregon University in Ashland faces a genuine risk of closure, a scenario once considered unthinkable for a public campus. The university has deep ties to its surrounding community, including outreach programs that have connected local students to music and other academic pursuits for years. Declining enrollment and financial strain have pushed the institution to a critical point, forcing students, faculty, and local residents to mobilize in an effort to keep it open.",
+      "headline": "Burnham Proposes Technical Education Pathway Starting at Age 14",
+      "body": "Andy Burnham has outlined education reforms that would make technical subjects available to students from the age of 14, positioning apprenticeships as a potential solution to youth unemployment. The proposal represents a structural shift in how young people could access vocational training earlier in their education, potentially opening alternative routes into skilled employment before traditional school-leaving age.",
       "sources": [
         {
-          "url": "https://hechingerreport.org/could-a-public-campus-really-close-the-fight-to-save-southern-oregon-university/",
-          "title": "Could a public campus really close? The fight to save Southern Oregon University",
+          "url": "https://www.bbc.co.uk/sounds/play/p0p13746?at_medium=RSS&at_campaign=rss",
+          "title": "Are Apprenticeships The Answer To Youth Unemployment?",
           "publisher": "",
-          "published": "Tue, 28 Jul 2026 05:00:00 +0000",
+          "published": "Tue, 28 Jul 2026 16:11:00 GMT",
           "free_access": true
         }
       ],
       "lane": "Education",
-      "why_it_matters": "If a public university can close, residents in rural and small-city regions could lose affordable, nearby access to higher education, forcing students to relocate or forgo degrees entirely.",
+      "why_it_matters": "Young people and their families could see earlier access to vocational pathways, affecting school choices, career trajectories, and long-term employment prospects.",
       "high_risk": false
     },
     {
-      "headline": "Colorado Mountain Town Bets on Crafts Hub to Foster Year-Round Community",
-      "body": "A Colorado mountain tourist town is investing in a dedicated building for craftspeople, paired with affordable housing, in an effort to build a more stable year-round community. The initiative aims to move beyond seasonal tourism dependence by giving local artisans a permanent base to live and work. The project reflects a broader challenge facing resort towns where housing costs often push workers and creatives out.",
+      "headline": "Colorado Finds Ways to Cut Affordable Housing Construction Costs",
+      "body": "Affordable housing in Colorado is becoming less expensive to build relative to market-rate housing, bucking a national trend where subsidized units often cost more to construct than standard ones. Lower land costs and recent statewide housing policy reforms have positioned Colorado as an outlier. These changes could make it easier for developers to build more income-restricted units without relying as heavily on public subsidies to close financing gaps.",
       "sources": [
         {
-          "url": "https://www.npr.org/2026/07/27/nx-s1-5902021/colorado-tourist-town-invests-in-crafts-to-build-community",
-          "title": "Colorado tourist town invests in crafts to build community",
+          "url": "https://theconversation.com/affordable-housing-often-costs-more-to-build-than-market-rate-housing-colorado-is-closing-the-gap-286630",
+          "title": "Affordable housing often costs more to build than market-rate housing – Colorado is closing the gap",
           "publisher": "",
-          "published": "Mon, 27 Jul 2026 16:43:02 -0400",
+          "published": "2026-07-28T12:06:46Z",
           "free_access": true
         }
       ],
       "lane": "Real Estate",
-      "why_it_matters": "Combining workspace with affordable housing could offer a replicable model for other tourist-dependent towns struggling to retain residents and sustain local economies beyond peak seasons.",
+      "why_it_matters": "Reduced construction costs for affordable housing could lead to more units being built in Colorado, expanding options for lower-income residents facing limited availability and high rents.",
       "high_risk": false
     }
   ],
   "quick_hits": [
     {
-      "text": "Wildfires rage in France's Gironde region as two major blazes in central Spain come under control before a fourth summer heat wave.",
+      "text": "Wildfires sweeping Spain and France have forced hundreds of thousands of people from their homes in record-breaking blazes across both nations.",
       "source": {
-        "url": "https://www.npr.org/2026/07/27/nx-s1-5909107/france-spain-wildfires-updates",
-        "title": "France continues to fight devastating wildfires, while progress is made in Spain",
+        "url": "https://www.npr.org/2026/07/28/g-s1-135880/photos-spain-france-wildfires-climate-change",
+        "title": "Photos: Spain and France's battle record wildfires",
         "publisher": "",
-        "published": "Mon, 27 Jul 2026 06:50:09 -0400",
+        "published": "Tue, 28 Jul 2026 11:24:07 -0400",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "Verizon signed a $1 billion dark fiber deal with Google to support AI data centers, calling it the first of many such agreements.",
-      "source": {
-        "url": "https://arstechnica.com/ai/2026/07/verizon-seeks-ai-profits-with-mini-data-centers-1b-dark-fiber-deal-with-google/",
-        "title": "Verizon touts $1B dark fiber deal for Google data centers as first of many",
-        "publisher": "",
-        "published": "Mon, 27 Jul 2026 18:48:41 +0000",
-        "free_access": true
-      },
-      "lane": ""
-    },
-    {
-      "text": "A $1.5 billion Anthropic copyright ruling awarded authors roughly $3,100 per title, a sum many writers call inadequate given ongoing AI threats.",
+      "text": "A $1.5B Anthropic copyright ruling drew mixed author reactions, with some calling the $3,100 per-title payout insufficient against ongoing generative AI threats.",
       "source": {
         "url": "https://www.npr.org/2026/07/27/nx-s1-5904606/anthropic-vs-bartz-ai-copyright-lawsuit-pros-cons",
         "title": "Authors have mixed feelings about the $1.5B Anthropic copyright infringement ruling",
@@ -141,23 +123,34 @@
       "lane": ""
     },
     {
-      "text": "The FDA is reviewing whether compounding pharmacies should be permitted to produce previously banned peptides including BPC-157 and TB-500.",
+      "text": "Richard Hammond was fined £999 after being caught speeding twice in Herefordshire within three weeks, magistrates heard.",
       "source": {
-        "url": "https://www.nytimes.com/2026/07/23/well/peptides-fda-research.html",
-        "title": "What to Know About Peptides the FDA Is Considering for Use",
+        "url": "https://www.bbc.co.uk/news/articles/cvgv7n0k57eo?at_medium=RSS&at_campaign=rss",
+        "title": "Richard Hammond fined £999 for  speeding offences",
         "publisher": "",
-        "published": "Mon, 27 Jul 2026 19:38:15 +0000",
+        "published": "Tue, 28 Jul 2026 12:43:07 GMT",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "A Hechinger Report opinion argues that despite widespread classroom backlash, abandoning education technology entirely would be a costly mistake for American students.",
+      "text": "A Colorado mountain tourist town is converting a dedicated building into craft studios paired with affordable housing to foster a year-round residential community.",
       "source": {
-        "url": "https://hechingerreport.org/opinion-walking-away-from-education-technology-isnt-the-answer-to-the-latest-backlash/",
-        "title": "OPINION: Walking away from education technology isn’t the answer to the latest backlash",
+        "url": "https://www.npr.org/2026/07/27/nx-s1-5902021/colorado-tourist-town-invests-in-crafts-to-build-community",
+        "title": "Colorado tourist town invests in crafts to build community",
         "publisher": "",
-        "published": "Mon, 27 Jul 2026 05:00:00 +0000",
+        "published": "Mon, 27 Jul 2026 16:43:02 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Leïla Slimani's new novel I'll Take the Fire completes a trilogy drawn from her Moroccan-French family's multigenerational history.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/27/nx-s1-5906473/leila-slimani-i-ll-take-the-fire",
+        "title": "A novelist followed her mother's advice: The more you read, the freer you are",
+        "publisher": "",
+        "published": "Mon, 27 Jul 2026 14:43:20 -0400",
         "free_access": true
       },
       "lane": ""
@@ -230,27 +223,27 @@
         },
         {
           "label": "BTC",
-          "value": "$63,436",
+          "value": "$63,561",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-28 11:54 UTC",
+            "published": "2026-07-28 17:55 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-28 11:54 UTC"
+          "as_of": "2026-07-28 17:55 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,875",
+          "value": "$1,897",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-28 11:54 UTC",
+            "published": "2026-07-28 17:55 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-28 11:54 UTC"
+          "as_of": "2026-07-28 17:55 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -271,40 +264,16 @@
       "title": "Sports Box",
       "metrics": [
         {
-          "label": "TEX 7 — SEA 3",
-          "value": "Final",
+          "label": "NYM 0 — ATL 0",
+          "value": "Postponed",
           "source": {
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816288/mariners-rangers",
-            "title": "TEX 7 — SEA 3",
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816293/braves-mets",
+            "title": "NYM 0 — ATL 0",
             "publisher": "ESPN (MLB)",
-            "published": "2026-07-27",
+            "published": "2026-07-28",
             "free_access": true
           },
-          "as_of": "2026-07-27"
-        },
-        {
-          "label": "PIT 3 — ARI 2",
-          "value": "Final/10",
-          "source": {
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816280/diamondbacks-pirates",
-            "title": "PIT 3 — ARI 2",
-            "publisher": "ESPN (MLB)",
-            "published": "2026-07-27",
-            "free_access": true
-          },
-          "as_of": "2026-07-27"
-        },
-        {
-          "label": "DET 5 — BAL 8",
-          "value": "Final",
-          "source": {
-            "url": "https://www.espn.com/mlb/game/_/gameId/401816282/orioles-tigers",
-            "title": "DET 5 — BAL 8",
-            "publisher": "ESPN (MLB)",
-            "published": "2026-07-27",
-            "free_access": true
-          },
-          "as_of": "2026-07-27"
+          "as_of": "2026-07-28"
         }
       ]
     }
@@ -325,13 +294,13 @@
     }
   ],
   "closer": {
-    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
+    "text": "\"The press was protected so that it could bare the secrets of government and inform the people.\"",
     "kind": "quote",
-    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "attribution": "Justice Hugo Black, New York Times Co. v. United States (1971)",
     "factual": true,
     "source": {
-      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
-      "title": "James Madison, letter to W.T. Barry (1822)",
+      "url": "https://supreme.justia.com/cases/federal/us/403/713/",
+      "title": "Justice Hugo Black, New York Times Co. v. United States (1971)",
       "publisher": "Public record",
       "published": "",
       "free_access": true
@@ -341,10 +310,10 @@
   "meta": {
     "brand": "THE 6th ESTATE",
     "structure": "6+5+2+1+1",
-    "generated_at": "2026-07-28T11:54:59.970150+00:00",
+    "generated_at": "2026-07-28T17:55:27.635766+00:00",
     "date_readable": "Tuesday, July 28, 2026",
-    "writer_calls": 11,
+    "writer_calls": 12,
     "brave_queries": 0,
-    "rss_candidates": 220
+    "rss_candidates": 226
   }
 }
