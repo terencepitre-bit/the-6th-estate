@@ -1,11 +1,13 @@
 name: Daily Edition
 
-# Runs every morning at 10:00 UTC (6:00 AM ET) and EMAILS subscribers.
-# Manual runs only email when send_email=true is checked.
-# Also manually triggerable for re-runs or testing.
+# Builds every morning at 08:00 UTC (4:00 AM EDT / 3:00 AM EST). The email
+# campaign is SCHEDULED in Brevo for 6:00 AM ET delivery (see brevo.py
+# scheduledAt), so subscribers always receive it at 6 AM regardless of build
+# duration or daylight-saving shifts. Manual runs only email when
+# send_email=true is checked.
 on:
   schedule:
-    - cron: "0 10 * * *"         # 10:00 UTC = 6:00 AM ET
+    - cron: "0 8 * * *"          # 08:00 UTC = 4:00 AM EDT build; email lands 6 AM ET
   workflow_dispatch:               # manual trigger button in GitHub UI
     inputs:
       date:
