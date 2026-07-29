@@ -3,40 +3,40 @@
   "demo": false,
   "briefings": [
     {
-      "headline": "Teenage Norwegian 'hitman' found guilty in UK murder plot",
-      "body": "A teenage Norwegian national, Johannes Natland, has been found guilty of travelling to Huddersfield to carry out a paid murder plot. Natland made the journey in March of last year with the intent to kill. The case highlights the cross-border nature of organised violence-for-hire schemes, raising questions about how such arrangements are made and who commissions them.",
+      "headline": "Oscar-Winning Songwriter Glen Hansard Dies in Crash at 56",
+      "body": "Glen Hansard, the songwriter who won the Academy Award for Best Original Song for his work on the 2007 low-budget musical film Once, was killed in a crash. He was 56.",
       "sources": [
         {
-          "url": "https://www.bbc.co.uk/news/articles/cwyqggvyp1do?at_medium=RSS&at_campaign=rss",
-          "title": "Teenage Norwegian 'hitman' guilty of UK murder plot",
+          "url": "https://www.bbc.co.uk/news/articles/c3ekn9d37qvo?at_medium=RSS&at_campaign=rss",
+          "title": "Oscar-winning songwriter Glen Hansard killed in crash",
           "publisher": "",
-          "published": "Wed, 29 Jul 2026 11:56:13 GMT",
+          "published": "Wed, 29 Jul 2026 13:11:10 GMT",
           "free_access": true
         }
       ],
       "lane": "World / US",
-      "why_it_matters": "The case demonstrates that hired violence can cross international borders, meaning communities anywhere in the UK could be targeted by individuals recruited from abroad.",
+      "why_it_matters": "Hansard's death marks the loss of one of independent film music's most celebrated voices, whose Oscar win brought global attention to small-budget storytelling.",
       "high_risk": false
     },
     {
-      "headline": "Elon Musk Launches X Money Amid Exclusions From Major US Financial Markets",
-      "body": "Elon Musk has launched X Money, a financial services feature on the X platform, though the rollout is expected to face significant hurdles. Major US financial markets are excluded from the initial offering, raising questions about how broadly usable the service will be for most Americans. Early access and functionality could be limited depending on users' location and financial institutions.",
+      "headline": "Fed Holds Rates Steady Wednesday, But a Hike Remains on the Table",
+      "body": "Federal Reserve policymakers met Wednesday to decide on interest rates. The central bank was widely expected to hold rates at their current level. However, officials left open the possibility of a rate increase to address persistent inflation, which has resisted previous policy tightening efforts.",
       "sources": [
         {
-          "url": "https://arstechnica.com/tech-policy/2026/07/elon-musk-finally-launches-x-money-what-could-possibly-go-wrong/",
-          "title": "Elon Musk finally launches X Money. What could possibly go wrong?",
+          "url": "https://www.npr.org/2026/07/29/nx-s1-5910558/federal-reserve-interest-rates-inflation",
+          "title": "The Federal Reserve faces a critical decision on interest rates",
           "publisher": "",
-          "published": "Wed, 29 Jul 2026 10:00:51 +0000",
+          "published": "Wed, 29 Jul 2026 05:00:00 -0400",
           "free_access": true
         }
       ],
       "lane": "Money & Markets",
-      "why_it_matters": "If X Money cannot connect with major US financial markets, users who sign up could find the service too restricted to replace or supplement their existing payment tools.",
+      "why_it_matters": "A rate hike would raise borrowing costs on mortgages, car loans, and credit cards for millions of Americans already strained by elevated prices.",
       "high_risk": false
     },
     {
-      "headline": "French Climate Ruling Could Reshape Corporate Accountability for Oil Companies",
-      "body": "A French court ruling has expanded legal options for holding oil companies accountable for climate-related damages, according to a new report. The decision could influence similar lawsuits in the United States and other countries, offering advocates new legal strategies. Analysts suggest the ruling may signal a broader shift in how courts worldwide approach corporate liability for climate harm.",
+      "headline": "French Court Ruling Opens New Legal Front Against Oil Companies",
+      "body": "A French court ruling expanded the options available for corporate accountability lawsuits against oil companies, setting a precedent that legal observers say may influence similar efforts in the United States and other countries. The decision broadens the legal pathways plaintiffs can use to pursue climate-related claims against energy corporations in French courts, and it signals a growing willingness by judiciary bodies to engage with climate liability arguments at the corporate level.",
       "sources": [
         {
           "url": "https://theconversation.com/french-climate-lawsuit-offers-a-window-into-the-next-round-of-the-global-legal-fight-287829",
@@ -47,28 +47,28 @@
         }
       ],
       "lane": "Business / Policy",
-      "why_it_matters": "If this legal approach spreads internationally, energy consumers and investors could face higher costs or market uncertainty as oil companies confront mounting litigation risks.",
+      "why_it_matters": "The ruling could shape how American courts and legislators respond to the next wave of climate lawsuits targeting major oil companies.",
       "high_risk": false
     },
     {
-      "headline": "Russell T Davies reflects on death of husband as 'greatest loss'",
-      "body": "Doctor Who writer Russell T Davies has spoken publicly about the death of his husband Andrew Smith, who died in 2018 from a brain tumour, describing the loss as the most significant of his life. Davies, known for reviving the long-running BBC series, opened up about the personal grief that has shaped him since Smith's passing. The comments offer a rare glimpse into the private life of one of British television's most prominent figures.",
+      "headline": "Fauci Invokes Fifth Amendment, Refuses Senate Committee Questions",
+      "body": "Dr. Anthony Fauci invoked the Fifth Amendment and refused to answer questions before a Senate committee. Panel chairman Rand Paul has long accused Fauci of funding research that triggered the Covid pandemic and of lying to Congress about it. Fauci denies both charges.",
       "sources": [
         {
-          "url": "https://www.bbc.co.uk/news/articles/c36d56x3ln6o?at_medium=RSS&at_campaign=rss",
-          "title": "Russell T Davies says death of late husband has been his 'greatest loss'",
+          "url": "https://www.nytimes.com/2026/07/29/us/politics/fauci-testifies-rand-paul.html",
+          "title": "Fauci Invokes the Fifth Amendment, Refusing to Answer Senate Committee Questions",
           "publisher": "",
-          "published": "Wed, 29 Jul 2026 11:16:21 GMT",
+          "published": "Wed, 29 Jul 2026 13:05:55 +0000",
           "free_access": true
         }
       ],
       "lane": "Science / Tech / Health",
-      "why_it_matters": "Davies's openness about grief and loss from a brain tumour could resonate with others who have experienced similar bereavements and may help reduce stigma around public figures discussing personal trauma.",
+      "why_it_matters": "The invocation marks a significant escalation in the congressional investigation into the origins of Covid-19 and federal research funding decisions that affected public health policy.",
       "high_risk": false
     },
     {
-      "headline": "New York School District Pauses AI Robot Teacher Deployment After Backlash",
-      "body": "An upstate New York school district has paused plans to place a humanoid AI-powered robot in classrooms following objections from state education officials, teachers, and local residents. The concerns prompted the district to halt the initiative before it launched. The pause reflects growing public unease about how artificial intelligence tools are introduced into K-12 learning environments without broader community input.",
+      "headline": "Upstate New York School Halts AI Humanoid Robot Teacher After Backlash",
+      "body": "An upstate New York school district paused plans to deploy a humanoid AI-powered robot in classrooms after state education officials, teachers, and local residents raised concerns. The district had planned to use the humanlike robot as a teaching tool before the objections prompted the halt.",
       "sources": [
         {
           "url": "https://www.npr.org/2026/07/29/g-s1-136072/ai-robot-teacher",
@@ -79,40 +79,40 @@
         }
       ],
       "lane": "Education",
-      "why_it_matters": "Parents and educators in other districts could face similar decisions as schools increasingly consider AI tools, making community engagement in those choices more important than ever.",
+      "why_it_matters": "The pushback signals that parents, educators, and state officials are drawing early lines around how AI enters their children's classrooms.",
       "high_risk": false
     },
     {
-      "headline": "Renter-Owner Wealth Gap Reaches Record High Amid Soaring Housing Costs",
-      "body": "Record high housing costs have widened the wealth gap between renters and homeowners to historic levels. Rising property values have significantly boosted the financial position of existing owners, while many prospective buyers find themselves priced out of the market entirely and locked into renting. The divide means wealth is increasingly concentrated among those who already own property.",
+      "headline": "Swift Rescue Mission Crippled After Two of Three Reaction Wheels Fail",
+      "body": "A preliminary investigation found that two of Link's three reaction wheels are not operable, leaving the Swift rescue mission severely compromised in orbit. Reaction wheels are critical for controlling a spacecraft's orientation and pointing. With only one of three wheels functioning, the mission faces significant operational constraints that put its primary objectives at risk.",
       "sources": [
         {
-          "url": "https://www.npr.org/2026/07/28/nx-s1-5853585/as-many-are-priced-out-of-buying-the-renter-owner-wealth-gap-is-wider-than-ever",
-          "title": "As many are priced out of buying, the renter-owner wealth gap is wider than ever",
+          "url": "https://arstechnica.com/space/2026/07/reaction-wheel-failures-leave-swift-rescue-mission-spinning-in-orbit/",
+          "title": "Reaction wheel failures leave Swift rescue mission spinning in orbit",
           "publisher": "",
-          "published": "Tue, 28 Jul 2026 16:14:20 -0400",
+          "published": "Tue, 28 Jul 2026 22:09:00 +0000",
           "free_access": true
         }
       ],
-      "lane": "Real Estate",
-      "why_it_matters": "Renters who cannot enter the housing market could fall further behind financially over time, making it harder to build the generational wealth that homeownership has historically provided.",
+      "lane": "Personal Excellence",
+      "why_it_matters": "Reaction wheel failures can render a spacecraft uncontrollable, jeopardizing any mission objectives Link was launched to accomplish.",
       "high_risk": false
     }
   ],
   "quick_hits": [
     {
-      "text": "A new airliner flew nonstop from Australia to France in 24 hours, validating Qantas Airways' planned Project Sunrise ultra-long-haul routes launching in 2027.",
+      "text": "Rescuers searching collapsed buildings in southwestern Japan after a powerful earthquake killed at least 18 people, including one foreigner.",
       "source": {
-        "url": "https://arstechnica.com/gadgets/2026/07/new-airliner-sets-record-flying-24-hrs-nonstop-from-australia-to-france/",
-        "title": "New airliner sets record flying 24 hrs nonstop from Australia to France",
+        "url": "https://www.npr.org/2026/07/29/nx-s1-5911613/japan-earthquake-updates",
+        "title": "Death toll rises to 18 as rescuers comb through quake rubble in southwestern Japan",
         "publisher": "",
-        "published": "Tue, 28 Jul 2026 18:43:36 +0000",
+        "published": "Wed, 29 Jul 2026 01:34:42 -0400",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "Analysis of 15 million real AI interactions found most tasks at most jobs remain unaffected by automation, contradicting widespread AI replacement fears.",
+      "text": "A Google analysis of 15 million AI interactions found most tasks at most jobs remain unaffected by automation.",
       "source": {
         "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
         "title": "Despite AI hype, Google's data shows workers aren't automating themselves away",
@@ -123,7 +123,7 @@
       "lane": ""
     },
     {
-      "text": "Economists are adopting AI tokens, the billing unit used by AI companies, as a measurable indicator to track artificial intelligence's spread through the economy.",
+      "text": "Economists are adopting AI tokens as a standardized unit to measure and track artificial intelligence's spread through the broader economy.",
       "source": {
         "url": "https://www.npr.org/sections/planet-money/2026/07/28/g-s1-135475/ai-tokens-could-become-the-kilowatt-hour-of-the-ai-age",
         "title": "AI tokens could become the kilowatt-hour of the AI age",
@@ -134,18 +134,18 @@
       "lane": ""
     },
     {
-      "text": "Dr. Anthony Fauci will face Senator Rand Paul at a congressional hearing over Paul's accusation that Fauci lied about funding Covid-linked research.",
+      "text": "The Trump administration banned new Chinese humanoid robots from the US market, escalating the ongoing rivalry between the two nations over AI and robotics dominance.",
       "source": {
-        "url": "https://www.nytimes.com/2026/07/29/us/politics/fauci-testifies-rand-paul.html",
-        "title": "Fauci and His Senate Nemesis Rand Paul to Face Off in Hearing",
+        "url": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
+        "title": "Trump administration bans new Chinese humanoid robots",
         "publisher": "",
-        "published": "Wed, 29 Jul 2026 11:12:11 +0000",
+        "published": "Wed, 29 Jul 2026 02:30:50 GMT",
         "free_access": true
       },
       "lane": ""
     },
     {
-      "text": "Southern Oregon University in Ashland faces potential closure as declining enrollment and funding shortfalls threaten the public campus's survival.",
+      "text": "Southern Oregon University in Ashland faces possible closure as the public campus battles a financial crisis threatening its survival.",
       "source": {
         "url": "https://hechingerreport.org/could-a-public-campus-really-close-the-fight-to-save-southern-oregon-university/",
         "title": "Could a public campus really close? The fight to save Southern Oregon University",
@@ -154,6 +154,61 @@
         "free_access": true
       },
       "lane": ""
+    },
+    {
+      "text": "An immersive AI art museum called Dataland has opened in Los Angeles, treating machines as creative collaborators.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/29/nx-s1-5894941/ai-art-dataland-refik-anadol",
+        "title": "'Machines are collaborators' at this new museum of AI art",
+        "publisher": "",
+        "published": "Wed, 29 Jul 2026 05:00:00 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "The wealth gap between homeowners and renters has never been wider, as record housing costs lock more people out.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/28/nx-s1-5853585/as-many-are-priced-out-of-buying-the-renter-owner-wealth-gap-is-wider-than-ever",
+        "title": "As many are priced out of buying, the renter-owner wealth gap is wider than ever",
+        "publisher": "",
+        "published": "Tue, 28 Jul 2026 16:14:20 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Scientists posted marmot wildlife videos on OnlyFans to fund research after government budget cuts hit their work.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/07/25/science/ucla-marmot-onlyfans-research-onlymarms.html",
+        "title": "‘OnlyMarms’: Marmots Are on OnlyFans to Raise Money for Research",
+        "publisher": "",
+        "published": "Tue, 28 Jul 2026 20:50:09 +0000",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "eBay has paid $46M to journalists it once terrorised with deliveries including a bloody pig mask.",
+      "source": {
+        "url": "https://arstechnica.com/tech-policy/2026/07/ebay-former-execs-pay-56m-to-settle-bloody-pig-mask-harassment-case/",
+        "title": "eBay pays $46M to journalists it targeted in bizarre harassment campaign",
+        "publisher": "",
+        "published": "Tue, 28 Jul 2026 21:02:15 +0000",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "A new airliner flew nonstop from Australia to France in 24 hours, previewing Qantas's planned ultra-long-haul routes launching in 2027.",
+      "source": {
+        "url": "https://arstechnica.com/gadgets/2026/07/new-airliner-sets-record-flying-24-hrs-nonstop-from-australia-to-france/",
+        "title": "New airliner sets record flying 24 hrs nonstop from Australia to France",
+        "publisher": "",
+        "published": "Tue, 28 Jul 2026 18:43:36 +0000",
+        "free_access": true
+      },
+      "lane": "By the Way"
     }
   ],
   "data_boxes": [
@@ -223,27 +278,27 @@
         },
         {
           "label": "BTC",
-          "value": "$64,422",
+          "value": "$64,248",
           "source": {
             "url": "https://www.coingecko.com/en/coins/bitcoin",
             "title": "BTC price",
             "publisher": "CoinGecko",
-            "published": "2026-07-29 11:59 UTC",
+            "published": "2026-07-29 13:15 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-29 11:59 UTC"
+          "as_of": "2026-07-29 13:15 UTC"
         },
         {
           "label": "ETH",
-          "value": "$1,913",
+          "value": "$1,904",
           "source": {
             "url": "https://www.coingecko.com/en/coins/ethereum",
             "title": "ETH price",
             "publisher": "CoinGecko",
-            "published": "2026-07-29 11:59 UTC",
+            "published": "2026-07-29 13:15 UTC",
             "free_access": true
           },
-          "as_of": "2026-07-29 11:59 UTC"
+          "as_of": "2026-07-29 13:15 UTC"
         },
         {
           "label": "CPI-U (all items)",
@@ -333,11 +388,12 @@
   "receipt": null,
   "meta": {
     "brand": "THE 6th ESTATE",
-    "structure": "6+5+2+1+1",
-    "generated_at": "2026-07-29T11:59:12.995668+00:00",
+    "structure": "6+10+2+1+1",
+    "generated_at": "2026-07-29T13:15:40.422611+00:00",
     "date_readable": "Wednesday, July 29, 2026",
-    "writer_calls": 11,
+    "cold_open": "Good morning, it's Wednesday, July 29 — and somewhere in upstate New York, a school is quietly unplugging its AI humanoid robot teacher after parents and students pushed back hard. Elsewhere, we're watching the Fed's next rate move, a landmark French court ruling taking aim at oil companies, and a widening wealth gap between homeowners and renters that's reshaping the American middle class.",
+    "writer_calls": 17,
     "brave_queries": 0,
-    "rss_candidates": 222
+    "rss_candidates": 197
   }
 }
