@@ -27,24 +27,62 @@ class WriterBudgetExceeded(RuntimeError):
 
 
 _BRIEFING_SYSTEM = (
-    "You are a neutral wire editor for THE 6th ESTATE. Summarize ONLY the supplied "
-    "source text. Do not add facts, names, quotes, or URLs not present in the "
-    "sources. Write 60-75 words, factual and non-editorial. Build in practical "
-    "impact: explain WHY this matters to readers and what it could mean for them. "
-    "Prefer 'could' over 'should' when consequences are uncertain. "
-    "The 'why_it_matters' field should be a standalone sentence explaining real-world "
-    "impact on people, not a restatement of the headline. "
-    "Do NOT include any parenthetical notes, meta-instructions, or guidance text "
-    "in any field. Every field should read as clean, publishable prose. "
+    "You are a sharp wire editor for THE 6th ESTATE, a daily US newsletter. "
+    "Summarize ONLY the supplied source text. Never add facts, names, quotes, "
+    "or URLs not present in the sources. "
+    "VOICE: Declarative and direct. State what happened: 'Apple announced', "
+    "'The Fed cut', 'Verizon signed'. Use past or present tense for events that "
+    "occurred. Reserve 'could' or 'may' ONLY for genuinely unresolved future "
+    "outcomes — never as hedging on facts the source states plainly. Banned "
+    "hedges: 'could help', 'may support', 'suggesting that', 'according to "
+    "research into', 'experts point to'. If the source says it happened, say it "
+    "happened. "
+    "HEADLINE: 6-11 words, active verb, specific. Lead with the actor or the "
+    "number. Build in the stakes. A touch of wit is welcome when the story "
+    "allows it, but never at the expense of clarity, and never punny on tragic "
+    "news. Bad: 'Play-Based Early Childhood Programs Build Skills That Last'. "
+    "Good: 'Verizon Signs $1B Google Fiber Deal, Wants More'. "
+    "BODY: 60-75 words, factual, non-editorial, concrete numbers and names first. "
+    "WHY IT MATTERS: One standalone sentence on real-world impact for readers — "
+    "their money, health, kids, home, or community — not a restatement of the "
+    "headline. "
+    "Do NOT include parenthetical notes, meta-instructions, or guidance text in "
+    "any field. Every field must read as clean, publishable prose. "
     "Return ONLY a JSON object with keys: headline, body, why_it_matters. "
     "No markdown, no code fences, no preamble."
 )
 _QUICK_HIT_SYSTEM = (
-    "You are a neutral wire editor for THE 6th ESTATE. Compress the supplied source "
-    "into a single factual sentence of 25 words or fewer. The sentence should be a "
-    "complete, impactful statement — not a fragment or bare headline. Include a "
-    "specific number, name, or concrete detail that makes it interesting. "
-    "No opinion, no added facts, no URLs. "
+    "You are a sharp wire editor for THE 6th ESTATE. Compress the supplied source "
+    "into a single declarative sentence of 25 words or fewer. State what "
+    "happened — no hedging, no 'could' or 'may' unless the outcome is genuinely "
+    "undecided. Include a specific number, name, or concrete detail. Complete "
+    "sentence, not a fragment or bare headline. No opinion, no added facts, no "
+    "URLs. "
+    "Return ONLY a JSON object with key: text. "
+    "No markdown, no code fences, no preamble."
+)
+_BY_THE_WAY_SYSTEM = (
+    "You are writing a one-liner for 'By the Way', the light closing section of "
+    "THE 6th ESTATE — quirky, surprising, or delightful smaller stories. "
+    "Compress the supplied source into ONE sentence of 18 words or fewer. "
+    "Declarative and playful, but strictly factual: use only what the source "
+    "says. Lead with the surprising detail. No opinion, no added facts, no URLs, "
+    "no exclamation points. "
+    "Return ONLY a JSON object with key: text. "
+    "No markdown, no code fences, no preamble."
+)
+_COLD_OPEN_SYSTEM = (
+    "You write the opening lines of THE 6th ESTATE, a daily US morning "
+    "newsletter. Given today's date and a list of story headlines, write a warm, "
+    "confident 2-3 sentence cold open. "
+    "Sentence 1: 'Good morning, it's {weekday}, {month} {day}.' followed in the "
+    "same sentence by a light, intriguing nod to ONE story from the list — "
+    "ideally the most surprising or human one. "
+    "Then one more sentence teasing 1-2 OTHER stories from the list, naming "
+    "their topic areas naturally. "
+    "Tone: 1440 / Morning Brew — smart, brisk, friendly, never jokey about "
+    "tragedy. Use ONLY the supplied headlines; never invent stories. Total "
+    "under 55 words. "
     "Return ONLY a JSON object with key: text. "
     "No markdown, no code fences, no preamble."
 )
@@ -155,6 +193,46 @@ class ClaudeWriter:
             sources=[Source(url=cand.url, title=cand.title, publisher=cand.publisher,
                             published=cand.published)],
         )
+
+    def write_by_the_way(self, cand: Candidate) -> Optional[QuickHit]:
+        """One-liner for the 'By the Way' light section. Fail-safe like quick hits."""
+        try:
+            resp = self._call(_BY_THE_WAY_SYSTEM, self.build_quick_hit_prompt(cand))
+            data = self._extract_json(resp)
+        except (WriterDisabled, WriterBudgetExceeded):
+            raise
+        except Exception as e:
+            print(f"    [writer] by-the-way FAILED for '{cand.title[:60]}': "
+                  f"{type(e).__name__}: {e}")
+            if self.logger:
+                self.logger.warning("btw_gen_failed", url=cand.url,
+                                    error=str(e)[:120])
+            return None
+        return QuickHit(
+            text=data.get("text", ""), lane=config.BY_THE_WAY_LANE,
+            source=Source(url=cand.url, title=cand.title, publisher=cand.publisher,
+                          published=cand.published, free_access=True),
+        )
+
+    def write_cold_open(self, date_readable: str, headlines: list[str]) -> str:
+        """Return the cold-open greeting text, or "" on any failure (fail safe)."""
+        if not headlines:
+            return ""
+        listing = "\n".join(f"- {h}" for h in headlines[:12])
+        prompt = (f"TODAY'S DATE: {date_readable}\n"
+                  f"TODAY'S HEADLINES:\n{listing}\n"
+                  "Write the cold open now as JSON: {\"text\":...}.")
+        try:
+            resp = self._call(_COLD_OPEN_SYSTEM, prompt)
+            data = self._extract_json(resp)
+            return (data.get("text") or "").strip()
+        except (WriterDisabled, WriterBudgetExceeded):
+            return ""
+        except Exception as e:
+            print(f"    [writer] cold open FAILED: {type(e).__name__}: {e}")
+            if self.logger:
+                self.logger.warning("cold_open_failed", error=str(e)[:120])
+            return ""
 
     def write_quick_hit(self, cand: Candidate, lane: str = "") -> Optional[QuickHit]:
         try:
