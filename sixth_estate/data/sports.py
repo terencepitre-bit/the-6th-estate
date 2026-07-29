@@ -38,8 +38,21 @@ def _parse_espn_event(ev: dict, league: str) -> Optional[DataMetric]:
     """Parse one ESPN event into a DataMetric, or None if not final."""
     status = (ev.get("status", {}) or {}).get("type", {})
     state = status.get("state", "")
-    # Only include completed games
+    # Only include genuinely completed games. Postponed/canceled/suspended
+    # events report state "post" too, so also require completed=True and
+    # reject the explicit non-final status names. Prevents "NYM 0 — ATL 0
+    # Postponed" rows from rendering as the entire Sports Box.
     if state not in ("post",):
+        return None
+    if status.get("completed") is False:
+        return None
+    status_name = (status.get("name") or "").upper()
+    if status_name in ("STATUS_POSTPONED", "STATUS_CANCELED", "STATUS_CANCELLED",
+                       "STATUS_SUSPENDED", "STATUS_DELAYED"):
+        return None
+    detail_check = (status.get("shortDetail") or "").lower()
+    if any(w in detail_check for w in ("postponed", "canceled", "cancelled",
+                                        "suspended")):
         return None
 
     competitors = (ev.get("competitions", [{}])[0].get("competitors", []))
