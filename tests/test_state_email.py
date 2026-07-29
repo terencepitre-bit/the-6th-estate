@@ -14,7 +14,9 @@ def test_state_idempotent_publish(tmp_path, monkeypatch):
 
 def test_email_html_contains_all_sections():
     html = build_email_html(valid_edition())
-    for label in ("Briefings", "Quick Hits", "Data Boxes", "Voice Blocks", "The Closer"):
+    # Section headers renamed in v3: "Data Boxes"->"Data", "Voice Blocks"->
+    # "This Day"; numeric prefixes removed.
+    for label in ("Briefings", "Quick Hits", "Data", "This Day", "The Closer"):
         assert label in html
     assert "DEMO EDITION" in html  # demo banner present
 
