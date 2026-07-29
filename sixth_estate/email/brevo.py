@@ -47,14 +47,27 @@ def build_email_html(ed: Edition) -> str:
     def briefing(b):
         wim = (f'<p style="background:#EDE4CE;padding:6px;font-size:14px"><b>Why it matters:</b> {_esc(b.why_it_matters)}</p>'
                if b.why_it_matters else "")
+        # Headline links to the primary source — every story is a click target.
+        head_url = b.sources[0].url if b.sources and b.sources[0].url else ""
+        if head_url:
+            head = (f'<a href="{_esc(head_url)}" style="color:#111;text-decoration:none;'
+                    f'border-bottom:1px solid #C9C4B7">{_esc(b.headline)}</a>')
+        else:
+            head = _esc(b.headline)
         return (f'<tr><td style="padding:8px 0;border-bottom:1px solid #C9C4B7">'
-                f'<h3 style="font-family:Georgia,serif;margin:0 0 4px">{_esc(b.headline)}</h3>'
+                f'<h3 style="font-family:Georgia,serif;margin:0 0 4px">{head}</h3>'
                 f'<p style="margin:0 0 4px">{_esc(b.body)}</p>{wim}{_src_line(b.sources)}</td></tr>')
 
     def quick_hit(q):
         s = _src_line([q.source]) if q.source else ""
+        # Text itself is the link.
+        if q.source and q.source.url:
+            text = (f'<a href="{_esc(q.source.url)}" style="color:#111;'
+                    f'text-decoration:none">{_esc(q.text)}</a>')
+        else:
+            text = _esc(q.text)
         return (f'<li style="margin-bottom:6px;border-left:3px solid #B8860B;padding-left:8px">'
-                f'{_esc(q.text)} {s}</li>')
+                f'{text} {s}</li>')
 
     def data_box(box):
         rows = "".join(
@@ -72,8 +85,12 @@ def build_email_html(ed: Edition) -> str:
                 f'<span style="font-size:11px;color:#5C5A54">{_esc(v.as_of)}</span></h4>'
                 f'<p style="margin:0">{_esc(v.text)}</p>{_src_line([v.source]) if v.source else ""}</div>')
 
+    btw_lane = getattr(config, "BY_THE_WAY_LANE", "By the Way")
+    main_hits = [q for q in ed.quick_hits if q.lane != btw_lane]
+    btw_items = [q for q in ed.quick_hits if q.lane == btw_lane]
     briefings = "".join(briefing(b) for b in ed.briefings)
-    quick_hits = "".join(quick_hit(q) for q in ed.quick_hits)
+    quick_hits = "".join(quick_hit(q) for q in main_hits)
+    by_the_way = "".join(quick_hit(q) for q in btw_items)
     data_boxes = "".join(data_box(x) for x in ed.data_boxes)
     voices = "".join(voice(v) for v in ed.voice_blocks)
     closer = ""
@@ -85,6 +102,15 @@ def build_email_html(ed: Edition) -> str:
                   f'{_esc(ed.closer.text)}{attribution}{c_src}</blockquote>')
 
     date_readable = ed.meta.get("date_readable", ed.date)
+    cold_open = ed.meta.get("cold_open", "")
+    cold_open_html = (f'<p style="font-family:Georgia,serif;font-style:italic;'
+                      f'font-size:15px;line-height:1.5;text-align:center;'
+                      f'margin:10px 0 0">{_esc(cold_open)}</p>' if cold_open else "")
+    btw_section = ""
+    if by_the_way:
+        btw_section = (f'<tr><td><h2 style="font-family:Georgia,serif;'
+                       f'border-bottom:2px solid #8B1A1A">By the Way</h2>'
+                       f'<ul style="padding-left:0;list-style:none">{by_the_way}</ul></td></tr>')
     return f"""<!DOCTYPE html>
 <html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
 <body style="margin:0;background:#FAF7F0;color:#111;font-family:Arial,Helvetica,sans-serif">
@@ -94,15 +120,17 @@ def build_email_html(ed: Edition) -> str:
     <div style="letter-spacing:.18em;text-transform:uppercase;font-size:11px;color:#8B1A1A">{_esc(config.BRAND)}</div>
     <h1 style="font-family:Georgia,serif;margin:6px 0">Daily Edition</h1>
     <div style="color:#5C5A54;font-size:14px">{_esc(date_readable)}</div>
+    {cold_open_html}
   </td></tr>
   <tr><td style="padding-top:12px">{demo}</td></tr>
-  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">1 · Briefings</h2>
+  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">Briefings</h2>
     <table role="presentation" width="100%">{briefings}</table></td></tr>
-  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">2 · Quick Hits</h2>
+  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">Quick Hits</h2>
     <ul style="padding-left:0;list-style:none">{quick_hits}</ul></td></tr>
-  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">3 · Data Boxes</h2>{data_boxes}</td></tr>
-  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">4 · Voice Blocks</h2>{voices}</td></tr>
-  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">5 · The Closer</h2>{closer}</td></tr>
+  {btw_section}
+  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">Data</h2>{data_boxes}</td></tr>
+  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">This Day</h2>{voices}</td></tr>
+  <tr><td><h2 style="font-family:Georgia,serif;border-bottom:2px solid #8B1A1A">The Closer</h2>{closer}</td></tr>
   <tr><td style="text-align:center;padding:16px 0">
     <a href="{_esc(url)}" style="background:#8B1A1A;color:#fff;padding:10px 20px;text-decoration:none">Read on the web</a></td></tr>
   <tr><td style="border-top:1px solid #C9C4B7;padding-top:12px;text-align:center;font-size:12px;color:#5C5A54">
@@ -145,20 +173,45 @@ def make_brevo_transport(api_key: str) -> Callable:
             raise HttpError(0, url, str(e.reason)) from e
 
     def transport(payload: dict) -> dict:
+        # If the payload carries a scheduledAt, Brevo delivers at that time and
+        # sendNow must NOT be called. Without it, send immediately (legacy path).
+        scheduled = bool(payload.get("scheduledAt"))
         created = _post("/emailCampaigns", payload)
         cid = created.get("id")
         if cid is None:
             raise RuntimeError(f"Brevo campaign creation returned no id: {created}")
-        _post(f"/emailCampaigns/{cid}/sendNow")
-        return {"id": cid}
+        if not scheduled:
+            _post(f"/emailCampaigns/{cid}/sendNow")
+        return {"id": cid, "scheduled": scheduled}
 
     return transport
 
 
+def _delivery_time_utc(edition_date: str) -> Optional[str]:
+    """ISO UTC timestamp for EMAIL_DELIVERY_HOUR_ET on the edition date, or
+    None if that moment is already past (with a 5-minute safety margin) — in
+    which case the campaign sends immediately instead of erroring in Brevo."""
+    try:
+        from datetime import timedelta
+        naive = datetime.strptime(edition_date, "%Y-%m-%d")
+        local = naive.replace(hour=config.EMAIL_DELIVERY_HOUR_ET,
+                              tzinfo=config.ET)
+        if local <= datetime.now(config.ET) + timedelta(minutes=5):
+            return None
+        return local.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    except Exception:
+        return None
+
+
 def build_campaign_payload(ed: Edition, html_content: str) -> dict:
-    """Brevo v3 'create email campaign' payload (createdCampaign → sendNow)."""
+    """Brevo v3 'create email campaign' payload.
+
+    Builds early, delivers on time: if 6 AM ET (EMAIL_DELIVERY_HOUR_ET) on the
+    edition date is still in the future, the campaign is scheduled for that
+    moment via Brevo's scheduledAt. Otherwise (late manual run) it sends now.
+    """
     date_readable = ed.meta.get("date_readable", ed.date)
-    return {
+    payload = {
         "name": f"6E Daily {ed.date}",
         "subject": f"{config.BRAND} — {date_readable}",
         "sender": {"name": config.BREVO_SENDER_NAME, "email": config.BREVO_SENDER_EMAIL},
@@ -166,6 +219,10 @@ def build_campaign_payload(ed: Edition, html_content: str) -> dict:
         "htmlContent": html_content,
         "recipients": {"listIds": [config.BREVO_LIST_ID]},
     }
+    scheduled_at = _delivery_time_utc(ed.date)
+    if scheduled_at:
+        payload["scheduledAt"] = scheduled_at
+    return payload
 
 
 def send_edition(ed: Edition, state: EditionState, *, send: bool = False,
