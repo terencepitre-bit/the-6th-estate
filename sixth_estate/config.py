@@ -251,6 +251,15 @@ SPORTS_QUICK_HITS_MAX = 2  # Max editorial quick hits in the Sports Box
 ANTHROPIC_API_KEY = _env("ANTHROPIC_API_KEY")  # never logged
 ANTHROPIC_API_BASE = _env("ANTHROPIC_API_BASE", "https://api.anthropic.com")
 CLAUDE_MODEL = _env("CLAUDE_MODEL", "claude-sonnet-4-6")
+# Lane classification uses a cheaper, faster model — it's a sorting task, not
+# a writing task. Configurable via SIXTHE_CLASSIFY_MODEL.
+CLASSIFY_MODEL = _env("SIXTHE_CLASSIFY_MODEL", "claude-haiku-4-5")
+# Candidates per classification API call. Larger chunks = fewer calls but
+# longer prompts. 50 keeps each call comfortably small.
+CLASSIFY_CHUNK_SIZE = _env_int("SIXTHE_CLASSIFY_CHUNK_SIZE", 50)
+# Max classification calls per edition. Candidates beyond
+# CLASSIFY_MAX_CALLS * CLASSIFY_CHUNK_SIZE fall back to keyword classification.
+CLASSIFY_MAX_CALLS = _env_int("SIXTHE_CLASSIFY_MAX_CALLS", 6)
 
 # Legacy Gemini config kept for backward compatibility
 GEMINI_API_KEY = _env("GEMINI_API_KEY")
@@ -260,9 +269,10 @@ GEMINI_API_BASE = _env(
 GEMINI_MODEL_BRIEFINGS = _env("GEMINI_MODEL_BRIEFINGS", "gemini-2.0-flash")
 GEMINI_MODEL_QUICK_HITS = _env("GEMINI_MODEL_QUICK_HITS", "gemini-2.0-flash")
 GEMINI_TEMPERATURE = float(_env("GEMINI_TEMPERATURE", "0.2") or 0.2)
-# Hard ceiling on model calls per edition. Full set now includes the cold open
-# (1 call) and By the Way one-liners (up to 5), so the budget is 30.
-MODEL_CALL_LIMIT = _env_int("SIXTHE_MODEL_CALL_LIMIT", 30)
+# Hard ceiling on model calls per edition. Full set includes the cold open
+# (1 call), By the Way one-liners (up to 5), and AI lane classification
+# (up to CLASSIFY_MAX_CALLS cheap Haiku calls), so the budget is 40.
+MODEL_CALL_LIMIT = _env_int("SIXTHE_MODEL_CALL_LIMIT", 40)
 
 # ── Brevo email (sending gated) ────────────────────────────────────────────────
 # Sending requires BOTH the --send flag AND SIXTHE_EMAIL_ENABLED=1 AND a proxied
