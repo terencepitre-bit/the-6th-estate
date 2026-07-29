@@ -70,6 +70,79 @@ _RECEIPT_DOMAINS = {
 }
 
 
+# ── Geography focus (heuristic, no model call) ──────────────────────────────
+# The audience is US-based. Non-US stories are capped per section, not banned:
+# a Japan earthquake or Spain wildfire can still lead World/US, but UK council
+# news and magistrates-court items should not crowd out US coverage.
+
+_NON_US_MARKERS = (
+    "£", "€", " uk ", "u.k.", "britain", "british", "england", "scotland",
+    "wales", "northern ireland", "london", "nhs", "downing street",
+    "westminster", "parliament", "house of commons", "labour", "tory",
+    "tories", "magistrates", "council tax", "ofsted", "hmrc", "bbc",
+    "brexit", "starmer", "burnham", "farage", "sunak",
+    " mp ", " mps ", "whitehall", "home office", "chancellor of the exchequer",
+    "canada", "canadian", "ottawa", "trudeau", "australia", "australian",
+    "canberra", "new zealand",
+)
+
+_US_MARKERS = (
+    " us ", "u.s.", "united states", "america", "american", "washington",
+    "congress", "senate", "white house", "federal", "biden", "trump",
+    "pentagon", "supreme court", "fda", "cdc", "irs", "medicare", "medicaid",
+    "california", "texas", "florida", "new york", "colorado", "michigan",
+    "ohio", "georgia", "arizona", "pennsylvania", "illinois", "kentucky",
+)
+
+
+def _is_non_us(cand: Candidate) -> bool:
+    """True if the story reads as non-US with no US anchor. Conservative:
+    a story mentioning both (e.g. US tariffs on China) counts as US-relevant."""
+    if not config.US_FOCUS_ENABLED:
+        return False
+    text = f" {cand.title or ''} {cand.summary or ''} ".lower()
+    has_foreign = any(m in text for m in _NON_US_MARKERS)
+    if not has_foreign:
+        return False
+    has_us = any(m in text for m in _US_MARKERS)
+    return not has_us
+
+
+def _is_question_title(cand: Candidate) -> bool:
+    """Question headlines ('Are Apprenticeships The Answer?') are analysis or
+    evergreen features, not news events. Excluded from briefings; still eligible
+    as quick hits or By the Way items."""
+    t = (cand.title or "").strip()
+    if t.endswith("?"):
+        return True
+    first = t.split(" ", 1)[0].lower() if t else ""
+    return first in ("why", "how", "what", "should", "can", "could", "is", "are",
+                     "do", "does", "will")
+
+
+# Investment-relevance scoring for the Money & Markets lane. The lane should
+# prefer a concrete investment story (deal, earnings, stock move, IPO) over
+# generic economic commentary — the 1440 "Apple Upgrade" model.
+_INVESTMENT_WORDS = {
+    "stock", "stocks", "shares", "shareholders", "investor", "investors",
+    "investment", "ipo", "acquisition", "merger", "buyout", "stake",
+    "earnings", "revenue", "profit", "valuation", "deal", "funding",
+    "dividend", "buyback", "nasdaq", "dow", "billion", "trillion",
+    "spinoff", "listing", "market value",
+}
+
+
+def _investment_score(cand: Candidate) -> int:
+    text = f"{cand.title or ''} {cand.summary or ''}".lower()
+    words = set(re.findall(r"[a-z&]+", text))
+    score = sum(1 for w in _INVESTMENT_WORDS if (" " in w and w in text) or w in words)
+    # Company-name signal: a capitalized proper noun in the title alongside a
+    # dollar figure is a strong "investment story" tell.
+    if re.search(r"\$[\d,.]+", cand.title or ""):
+        score += 2
+    return score
+
+
 # ── Interest scoring (heuristic, no model call) ─────────────────────────────
 # Scores 1-5 based on signals that correlate with reader interest.
 # This is deliberately cheap — runs on every candidate with no API calls.
@@ -260,6 +333,9 @@ def _classify_lane(cand: Candidate) -> int:
             "hurricane", "tornado", "wildfire", "flood", "evacuation",
             "arrest", "arrested", "charged", "indicted", "convicted", "sentenced",
             "prison", "crime", "criminal", "homicide", "assault", "kidnapping",
+            "accused", "alleged", "allegedly", "testified", "victims", "victim",
+            "fraud", "manslaughter", "negligence", "inquest", "coroner",
+            "funeral", "remains", "court", "guilty", "plea", "fined",
             "immigration", "deportation", "border", "asylum",
             "iran", "ukraine", "russia", "china", "nato", "pentagon",
             "tariff", "tariffs", "trade war", "sanctions",
@@ -282,7 +358,9 @@ def _classify_lane(cand: Candidate) -> int:
             "supreme court", "appeals court", "federal judge",
         },
         3: {  # Science / Tech / Health
-            "study", "research", "trial", "clinical", "disease", "outbreak",
+            # NOTE: bare "trial" removed — it matched criminal trials and pulled
+            # crime stories into this lane. "clinical trial" covers the medical use.
+            "study", "research", "clinical trial", "clinical", "disease", "outbreak",
             "climate", "space", "nasa", "fda", "vaccine", "cancer", "drug",
             "ai", "artificial intelligence", "robot", "robotics",
             "gene", "genetic", "dna", "species", "fossil",
@@ -297,8 +375,18 @@ def _classify_lane(cand: Candidate) -> int:
             "kindergarten", "elementary", "high school", "middle school",
             "charter school", "public school", "private school",
             "financial aid", "student loan", "student loans", "title ix",
+            "early childhood", "preschool", "learning", "teacher", "teachers",
+            "apprenticeship", "apprenticeships", "vocational",
         },
-        5: set(),  # Personal Excellence — no keywords, assigned manually or via prompt
+        5: {  # Personal Excellence — inspiring people, achievement, impact
+            "inspiring", "hero", "heroes", "heroic", "rescue", "rescued",
+            "milestone", "achievement", "award", "awarded", "honored",
+            "honoured", "oldest", "youngest", "record-breaking",
+            "volunteer", "volunteers", "donated", "donation", "donates",
+            "overcame", "overcomes", "triumph", "graduates", "perseverance",
+            "against the odds", "first person", "first woman", "first man",
+            "scholarship winner", "saved", "saves",
+        },
         6: {  # Real Estate
             "housing", "real estate", "home sales", "home prices",
             "homebuyer", "homebuyers", "eviction", "zoning",
@@ -360,6 +448,9 @@ def _title_signature(title: str) -> set[str]:
             "who", "when", "where", "why", "says", "said", "more", "than",
             "first", "time", "since", "over", "into", "up", "out", "top"}
     words = set(re.findall(r'[a-z]+', title.lower()))
+    # Normalize simple plurals so "apprenticeship" and "apprenticeships" match.
+    words = {w[:-1] if (w.endswith('s') and not w.endswith('ss') and len(w) > 4)
+             else w for w in words}
     # Include significant numbers (dollar amounts, percentages, large numbers)
     numbers = set(re.findall(r'\$?[\d,]+%?', title))
     return (words - stop) | numbers
@@ -377,6 +468,12 @@ def _is_duplicate(cand: Candidate, used_signatures: list[set[str]]) -> bool:
         smaller = min(len(sig), len(used_sig))
         # If 40%+ of the smaller signature overlaps, it's likely the same story
         if smaller > 0 and len(overlap) / smaller >= 0.4:
+            return True
+        # Same-TOPIC rule: sharing one highly distinctive word (12+ chars, e.g.
+        # "apprenticeship") means the edition already covers this topic. One
+        # topic per edition — the second story is redundant even if the angle
+        # differs.
+        if any(isinstance(w, str) and len(w) >= 12 for w in overlap):
             return True
     return False
 
@@ -399,7 +496,7 @@ def _is_related_source(primary: Candidate, alt: Candidate) -> bool:
 def _build_briefings(writer: ClaudeWriter, candidates: list[Candidate],
                      brave: Optional[BraveClient], log: EditionLogger,
                      published_urls: Optional[set[str]] = None
-                     ) -> list[Briefing]:
+                     ) -> tuple[list[Briefing], list[set[str]]]:
     """Produce 4-6 briefings from discovered candidates.
 
     Core lanes (0-3: World/US, Money, Business/Policy, Science/Tech/Health)
@@ -422,6 +519,7 @@ def _build_briefings(writer: ClaudeWriter, candidates: list[Candidate],
     lanes = config.BRIEFING_LANES
     briefings: list[Briefing] = []
     used_signatures: list[set[str]] = []
+    non_us_used = 0
 
     # Core lanes first (0-3), then optional lanes (4+)
     core_count = min(4, len(lanes))
@@ -433,12 +531,20 @@ def _build_briefings(writer: ClaudeWriter, candidates: list[Candidate],
         lane_name = lanes[idx] if idx < len(lanes) else f"General {idx}"
         pool = buckets.get(idx, [])
 
-        # Freshness + no-repeat filters, then newest-first ordering
+        # Freshness + no-repeat + question-title filters, newest-first ordering
         pre_filter = len(pool)
         pool = [c for c in pool
                 if _is_fresh(c, config.BRIEFING_MAX_AGE_HOURS)
-                and c.url not in published_urls]
+                and c.url not in published_urls
+                and not _is_question_title(c)]
+        # Geography cap: once the non-US allowance is used, drop non-US stories.
+        if non_us_used >= config.MAX_NON_US_BRIEFINGS:
+            pool = [c for c in pool if not _is_non_us(c)]
         pool.sort(key=_recency_key, reverse=True)
+        # Money & Markets lane prefers a concrete investment story (deal,
+        # earnings, stock move) over generic economic commentary.
+        if idx == 1:
+            pool.sort(key=_investment_score, reverse=True)
         if pre_filter and len(pool) < pre_filter:
             log.info("briefing_pool_filtered", lane=idx,
                      before=pre_filter, after=len(pool))
@@ -481,14 +587,18 @@ def _build_briefings(writer: ClaudeWriter, candidates: list[Candidate],
                                                 published=alt[0].published))
                 briefings.append(b)
                 used_signatures.append(_title_signature(cand.title or ''))
+                if _is_non_us(cand):
+                    non_us_used += 1
                 break
 
-    return briefings
+    return briefings, used_signatures
 
 
 def _build_quick_hits(writer: ClaudeWriter, candidates: list[Candidate],
                       used_urls: set[str], brave: Optional[BraveClient],
-                      target: int, log: EditionLogger) -> list[QuickHit]:
+                      target: int, log: EditionLogger,
+                      used_signatures: Optional[list[set[str]]] = None
+                      ) -> list[QuickHit]:
     """Produce quick hits to reach the article total target.
 
     Pipeline: filter stale → score interest → sort by score within lanes →
@@ -556,11 +666,22 @@ def _build_quick_hits(writer: ClaudeWriter, candidates: list[Candidate],
         if not added_this_round:
             break
 
+    used_signatures = list(used_signatures or [])
     hits: list[QuickHit] = []
     tried = 0
+    non_us_used = 0
     for cand in ordered:
         if len(hits) >= target:
             break
+        # Cross-section dedup: never repeat a topic already covered by a
+        # briefing or an earlier quick hit.
+        if _is_duplicate(cand, used_signatures):
+            log.info("quick_hit_dedup_skipped", title=(cand.title or '')[:80])
+            continue
+        # Geography cap for quick hits.
+        if _is_non_us(cand):
+            if non_us_used >= config.MAX_NON_US_QUICK_HITS:
+                continue
         tried += 1
         if tried > 25:
             break
@@ -571,6 +692,9 @@ def _build_quick_hits(writer: ClaudeWriter, candidates: list[Candidate],
         if qh:
             hits.append(qh)
             used_urls.add(cand.url)
+            used_signatures.append(_title_signature(cand.title or ''))
+            if _is_non_us(cand):
+                non_us_used += 1
 
     # Brave fallback for missing quick hits — use diverse queries
     if len(hits) < config.N_QUICK_HITS_MIN and brave:
@@ -600,6 +724,83 @@ def _build_quick_hits(writer: ClaudeWriter, candidates: list[Candidate],
                     used_urls.add(cand.url)
                     break
 
+    return hits
+
+
+# Whimsy signals for the "By the Way" light section — quirky, surprising, or
+# delightful smaller stories (the 1440 "Etcetera" model).
+_WHIMSY_WORDS = {
+    "squirrel", "cat", "kitten", "dog", "puppy", "otter", "penguin", "moose",
+    "bear", "raccoon", "parrot", "goat", "octopus", "alligator", "turtle",
+    "oldest", "youngest", "record", "auction", "lottery", "jackpot",
+    "message in a bottle", "time capsule", "reunited", "returned after",
+    "unusual", "rare", "mystery", "mysterious", "accidentally", "surprise",
+    "viral", "quirky", "bizarre", "world's largest", "world's smallest",
+    "museum", "treasure", "shipwreck", "meteorite", "guinness",
+}
+
+
+def _whimsy_score(cand: Candidate) -> int:
+    text = f"{cand.title or ''} {cand.summary or ''}".lower()
+    words = set(re.findall(r"[a-z']+", text))
+    return sum(1 for w in _WHIMSY_WORDS
+               if (" " in w and w in text) or w in words)
+
+
+def _build_by_the_way(writer: ClaudeWriter, candidates: list[Candidate],
+                      used_urls: set[str],
+                      used_signatures: list[set[str]],
+                      log: EditionLogger) -> list[QuickHit]:
+    """Produce 2-5 light one-liners for the 'By the Way' section.
+
+    Prefers whimsical/odd stories (animals, records, auctions, curiosities);
+    falls back to fresh Culture / Personal Excellence stories. Hard news
+    (death, disaster, crime) is explicitly excluded — this section is the
+    reader's dessert.
+    """
+    _HARD_NEWS_BLOCK = {"killed", "dead", "death", "dies", "murder", "shooting",
+                        "war", "crash", "victims", "abuse", "assault", "fire",
+                        "wildfire", "earthquake", "flood", "lawsuit", "charged",
+                        "arrested", "cancer", "outbreak"}
+
+    pool = []
+    for c in candidates:
+        if c.url in used_urls:
+            continue
+        if not _is_fresh(c, config.QUICK_HIT_MAX_AGE_HOURS):
+            continue
+        text_words = set(re.findall(r"[a-z]+",
+                                     f"{c.title or ''} {c.summary or ''}".lower()))
+        if text_words & _HARD_NEWS_BLOCK:
+            continue
+        if _is_duplicate(c, used_signatures):
+            continue
+        w = _whimsy_score(c)
+        lane = _classify_lane(c)
+        # Whimsy first; then light lanes (Culture=7, Personal Excellence=5).
+        if w > 0:
+            pool.append((c, 2 + w))
+        elif lane in (5, 7):
+            pool.append((c, 1))
+    pool.sort(key=lambda x: x[1], reverse=True)
+
+    hits: list[QuickHit] = []
+    tried = 0
+    for cand, _score in pool:
+        if len(hits) >= config.N_BY_THE_WAY_MAX:
+            break
+        tried += 1
+        if tried > 12:
+            break
+        try:
+            qh = writer.write_by_the_way(cand)
+        except (WriterDisabled, WriterBudgetExceeded):
+            break
+        if qh and qh.text:
+            hits.append(qh)
+            used_urls.add(cand.url)
+            used_signatures.append(_title_signature(cand.title or ''))
+    log.info("by_the_way_done", count=len(hits), pool=len(pool))
     return hits
 
 
@@ -809,9 +1010,10 @@ def run_pipeline(edition_date: Optional[str] = None,
 
     # 2. Briefings (4-6)
     print(f"  [2/7] Writing briefings...")
+    used_signatures: list[set[str]] = []
     try:
-        briefings = _build_briefings(writer, candidates, brave, log,
-                                     published_urls=published_urls)
+        briefings, used_signatures = _build_briefings(
+            writer, candidates, brave, log, published_urls=published_urls)
     except Exception as e:
         print(f"  ERROR in briefings: {e}")
         briefings = []
@@ -829,13 +1031,27 @@ def run_pipeline(edition_date: Optional[str] = None,
     qh_target = min(qh_target, config.N_QUICK_HITS_MAX)
     try:
         quick_hits = _build_quick_hits(writer, candidates, used_urls, brave,
-                                       qh_target, log)
+                                       qh_target, log,
+                                       used_signatures=used_signatures)
     except Exception as e:
         print(f"  ERROR in quick hits: {e}")
         quick_hits = []
     print(f"  Wrote {len(quick_hits)} quick hits ({writer.calls_used} Claude calls used).")
     log.info("quick_hits_done", count=len(quick_hits),
              writer_calls=writer.calls_used)
+
+    # 3b. By the Way — 2-5 light one-liners (quirky/delightful smaller stories)
+    print(f"  [3b/8] Writing By the Way items...")
+    try:
+        btw_hits = _build_by_the_way(writer, candidates, used_urls,
+                                     used_signatures, log)
+    except Exception as e:
+        print(f"  ERROR in By the Way: {e}")
+        btw_hits = []
+    print(f"  Wrote {len(btw_hits)} By the Way items.")
+    # Stored alongside quick hits (lane='By the Way'); templates render them
+    # as their own section. Keeps the schema unchanged.
+    quick_hits = quick_hits + btw_hits
 
     # 4. Data boxes (Money + Sports)
     print(f"  [4/8] Fetching data boxes...")
@@ -877,13 +1093,31 @@ def run_pipeline(edition_date: Optional[str] = None,
     print(f"  [7/8] Building closer...")
     closer = _build_closer(log)
 
+    # 7b. Cold open — 1440-style greeting teasing today's stories
+    print(f"  [7b/8] Writing cold open...")
+    date_readable = datetime.now(config.ET).strftime("%A, %B %d, %Y")
+    cold_open_headlines = [b.headline for b in briefings if b.headline]
+    cold_open_headlines += [q.text for q in quick_hits
+                            if q.lane == config.BY_THE_WAY_LANE][:2]
+    cold_open = ""
+    try:
+        cold_open = writer.write_cold_open(date_readable, cold_open_headlines)
+    except Exception as e:
+        print(f"  ERROR in cold open: {e}")
+    if not cold_open:
+        # Fail-safe fallback: plain greeting, never blocks the edition.
+        weekday_date = datetime.now(config.ET).strftime("%A, %B %-d")
+        cold_open = f"Good morning, it's {weekday_date}. Here's what you need to know today."
+    print(f"  Cold open: {cold_open[:70]}...")
+
     # 8. Assemble
     ed = assemble_edition(
         edition_date, briefings, quick_hits, data_boxes, voice_blocks, closer,
         receipt=receipt,
         demo=False,
         extra_meta={
-            "date_readable": datetime.now(config.ET).strftime("%A, %B %d, %Y"),
+            "date_readable": date_readable,
+            "cold_open": cold_open,
             "writer_calls": writer.calls_used,
             "brave_queries": brave.queries_used if brave else 0,
             "rss_candidates": len(candidates),

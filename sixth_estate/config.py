@@ -86,6 +86,24 @@ QUICK_HIT_MIN_INTEREST_SCORE = 2  # 1-5 scale; 2 filters out the dullest stories
 # Max age (hours) for a quick hit candidate. Stories older than this are dropped.
 QUICK_HIT_MAX_AGE_HOURS = 36
 
+# ── By the Way section (light one-liners, 1440 "Etcetera"-style) ─────────────
+N_BY_THE_WAY_MIN = 2
+N_BY_THE_WAY_MAX = 5
+BY_THE_WAY_LANE = "By the Way"
+BY_THE_WAY_MAX_WORDS = 18
+
+# ── Geography focus ──────────────────────────────────────────────────────────
+# The 6th ESTATE serves a US audience. Non-US stories are capped, not banned:
+# major world events still belong in World/US, but UK council news does not.
+US_FOCUS_ENABLED = _env_bool("SIXTHE_US_FOCUS", True)
+MAX_NON_US_BRIEFINGS = _env_int("SIXTHE_MAX_NON_US_BRIEFINGS", 1)
+MAX_NON_US_QUICK_HITS = _env_int("SIXTHE_MAX_NON_US_QUICK_HITS", 2)
+
+# ── Email delivery schedule ──────────────────────────────────────────────────
+# The pipeline builds early (4 AM ET); Brevo delivers the campaign at this hour
+# ET so the newsletter lands at a consistent time regardless of build duration.
+EMAIL_DELIVERY_HOUR_ET = _env_int("SIXTHE_EMAIL_DELIVERY_HOUR_ET", 6)
+
 # ── Briefing quality filters ─────────────────────────────────────────────────
 # Max age (hours) for a briefing candidate. Slightly looser than quick hits
 # because a major story can legitimately carry into a second day.
@@ -151,8 +169,7 @@ DEFAULT_RSS_FEEDS = [
     "https://apnews.com/hub/ap-top-news?output=rss",       # verify permitted use
     "https://feeds.reuters.com/reuters/topNews",            # verify permitted use
     "https://feeds.npr.org/1001/rss.xml",                   # NPR top stories
-    "https://feeds.bbci.co.uk/news/world/rss.xml",          # BBC World
-    "https://feeds.bbci.co.uk/news/rss.xml",                # BBC top stories
+    "https://feeds.bbci.co.uk/news/world/rss.xml",          # BBC World (major world events only; UK-domestic feed removed for US focus)
     # ── Economy / markets / finance ──
     "https://www.bls.gov/feed/news_release.rss",            # public
     "https://www.federalreserve.gov/feeds/press_all.xml",   # public
@@ -243,8 +260,9 @@ GEMINI_API_BASE = _env(
 GEMINI_MODEL_BRIEFINGS = _env("GEMINI_MODEL_BRIEFINGS", "gemini-2.0-flash")
 GEMINI_MODEL_QUICK_HITS = _env("GEMINI_MODEL_QUICK_HITS", "gemini-2.0-flash")
 GEMINI_TEMPERATURE = float(_env("GEMINI_TEMPERATURE", "0.2") or 0.2)
-# Hard ceiling on model calls per edition. Needs ~15 for full article set.
-MODEL_CALL_LIMIT = _env_int("SIXTHE_MODEL_CALL_LIMIT", 20)
+# Hard ceiling on model calls per edition. Full set now includes the cold open
+# (1 call) and By the Way one-liners (up to 5), so the budget is 30.
+MODEL_CALL_LIMIT = _env_int("SIXTHE_MODEL_CALL_LIMIT", 30)
 
 # ── Brevo email (sending gated) ────────────────────────────────────────────────
 # Sending requires BOTH the --send flag AND SIXTHE_EMAIL_ENABLED=1 AND a proxied
