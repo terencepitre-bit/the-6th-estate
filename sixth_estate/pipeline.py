@@ -305,17 +305,58 @@ def _recent_edition_urls(edition_date: str) -> set[str]:
     return urls
 
 
+# ── AI lane classification cache ──────────────────────────────────────────────
+# Populated once per edition by _classify_candidates_ai() (one batched Claude
+# call per chunk of candidates). Keyed by candidate URL. _classify_lane()
+# consults this cache first and only falls back to keyword scoring for
+# stories the AI didn't classify (API failure, budget exhausted, etc.).
+_AI_LANE_CACHE: dict[str, int] = {}
+
+
+def _classify_candidates_ai(writer: "ClaudeWriter",
+                            candidates: list[Candidate],
+                            log: EditionLogger) -> None:
+    """Classify all candidates in batched Claude calls; cache results by URL.
+
+    Fail-safe: on any failure the cache is simply left incomplete and
+    _classify_lane() falls back to keyword scoring for those stories.
+    """
+    _AI_LANE_CACHE.clear()
+    if not candidates:
+        return
+    try:
+        lanes = writer.classify_lanes(candidates)
+    except Exception as e:  # belt and suspenders — classify_lanes shouldn't raise
+        log.warning("ai_classify_failed", error=str(e)[:120])
+        return
+    n_ai = 0
+    for cand, lane in zip(candidates, lanes):
+        if lane is not None and cand.url:
+            _AI_LANE_CACHE[cand.url] = lane
+            n_ai += 1
+    log.info("ai_classify_done", classified=n_ai,
+             keyword_fallback=len(candidates) - n_ai)
+
+
 def _classify_lane(cand: Candidate) -> int:
-    """Lane assignment based on weighted keyword scoring.
+    """Lane assignment: AI classification first, keyword scoring as fallback.
+
+    The AI cache is populated once per edition by _classify_candidates_ai().
+    Stories not in the cache (API failure, budget exhausted, Brave-fallback
+    candidates discovered after classification) use weighted keyword scoring.
 
     Lanes: 0=World/US, 1=Money, 2=Business/Policy, 3=Science/Tech/Health,
            4=Education, 5=Personal Excellence, 6=Real Estate, 7=Culture.
 
-    Uses a score-per-lane approach instead of first-match, so a story about
-    "a governor convicted of murdering a student" lands in World/US (murder,
-    convicted, governor) rather than Education (student). Ties favor the
-    lower-indexed (broader) lane.
+    Keyword scoring uses a score-per-lane approach instead of first-match, so
+    a story about "a governor convicted of murdering a student" lands in
+    World/US (murder, convicted, governor) rather than Education (student).
+    Ties favor the lower-indexed (broader) lane.
     """
+    cached = _AI_LANE_CACHE.get(cand.url or "")
+    if cached is not None:
+        return cached
+
     text = f"{cand.title} {cand.summary}".lower()
     words = set(text.split())
 
@@ -365,8 +406,21 @@ def _classify_lane(cand: Candidate) -> int:
             "ai", "artificial intelligence", "robot", "robotics",
             "gene", "genetic", "dna", "species", "fossil",
             "telescope", "satellite", "quantum", "algorithm",
+            # Space vocabulary — without these, spacecraft stories score zero
+            # here and can be hijacked by a single stray keyword in another
+            # lane (e.g. "rescue mission" landing in Personal Excellence).
+            "spacecraft", "orbit", "orbital", "astronaut", "astronauts",
+            "spacex", "rover", "probe", "lunar", "reaction wheel",
+            "space station", "launch pad", "rocket", "mars",
             "virus", "bacteria", "pandemic", "epidemic", "cdc", "who",
             "surgery", "therapy", "diagnosis", "symptoms",
+            # Health / medicine / biology vocabulary
+            "health", "medical", "medicine", "hospital", "hospitals",
+            "patients", "patient", "biology", "biologist", "biologists",
+            "brain", "neuroscience", "mental health", "nutrition",
+            "obesity", "diabetes", "alzheimer", "dementia", "microbiome",
+            "immune", "antibody", "antibodies", "cells", "protein",
+            "proteins", "organism", "organisms", "ecosystem", "wildlife",
         },
         4: {  # Education
             "education", "curriculum", "tuition", "scholarship", "campus",
@@ -401,6 +455,15 @@ def _classify_lane(cand: Candidate) -> int:
         },
     }
 
+    # Some lanes need more than one keyword hit to qualify. Personal
+    # Excellence keywords ("rescue", "saved", "record-breaking") are common
+    # in ordinary news, so a single match is not evidence of an
+    # inspiring-person story — it once filed a spacecraft "rescue mission"
+    # failure under Personal Excellence. Requiring 2 matches means only
+    # genuinely human-interest stories land there; the lane is optional and
+    # silently skips when empty, so a stricter bar is safe.
+    min_score = {5: 2}
+
     scores = {}
     for lane, kws in lane_keywords.items():
         score = 0
@@ -412,6 +475,8 @@ def _classify_lane(cand: Candidate) -> int:
             else:
                 if kw in words:
                     score += 1
+        if score < min_score.get(lane, 1):
+            score = 0
         scores[lane] = score
 
     # Pick the lane with the highest score. Ties favor lower index (broader lane).
@@ -1007,6 +1072,16 @@ def run_pipeline(edition_date: Optional[str] = None,
               f"{config.NO_REPEAT_DAYS} days.")
         log.info("history_loaded", urls=len(published_urls),
                  days=config.NO_REPEAT_DAYS)
+
+    # 1c. AI lane classification — one batched pass over all candidates.
+    # Results are cached by URL; briefings, quick hits, and By the Way all
+    # consult the cache via _classify_lane(). Keyword scoring remains the
+    # fallback for anything the AI didn't classify.
+    print(f"  [1c] Classifying candidate lanes "
+          f"(model={config.CLASSIFY_MODEL})...")
+    _classify_candidates_ai(writer, candidates, log)
+    print(f"  Classified {len(_AI_LANE_CACHE)}/{len(candidates)} candidates "
+          f"via AI ({writer.calls_used} Claude calls used).")
 
     # 2. Briefings (4-6)
     print(f"  [2/7] Writing briefings...")
