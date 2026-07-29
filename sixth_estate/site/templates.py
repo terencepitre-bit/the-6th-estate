@@ -98,9 +98,10 @@ def _one_source_html(s: Optional[Source]) -> str:
 
 
 def section_rail(number: int, name: str, count_label: str) -> str:
-    return (f'<div class="rail"><span class="rail-num">{number}</span>'
-            f'<span class="rail-name">{esc(name)}</span>'
-            f'<span class="rail-count">{esc(count_label)}</span></div>')
+    # Numeric markers retired (legacy of the fixed 4+5+2+2+1 structure).
+    # The `number` arg is kept so call sites don't break, but is not rendered.
+    return (f'<div class="rail">'
+            f'<span class="rail-name">{esc(name)}</span></div>')
 
 
 def _copy_link_btn(headline: str, anchor_id: str, source_name: str = "",
@@ -128,9 +129,16 @@ def briefing_html(b: Briefing, idx: int) -> str:
     source_name = b.sources[0].publisher if b.sources and b.sources[0].publisher else ""
     source_url = b.sources[0].url if b.sources and b.sources[0].url else ""
     copy_btn = _copy_link_btn(b.headline, anchor_id, source_name, source_url)
+    # Headline links to the primary source — every story is a click target.
+    if source_url:
+        headline_html = (f'<a class="headline-link" href="{esc(source_url)}" '
+                         f'rel="nofollow noopener" target="_blank">'
+                         f'{esc(b.headline)}</a>')
+    else:
+        headline_html = esc(b.headline)
     return f"""<article class="briefing" id="{anchor_id}">
   <div class="briefing-head">{lane}</div>
-  <h3>{esc(b.headline)}</h3>
+  <h3>{headline_html}</h3>
   <p>{esc(b.body)}</p>
   {wim}
   <div class="briefing-foot">
@@ -146,7 +154,13 @@ def quick_hit_html(q: QuickHit, idx: int = 0) -> str:
     source_name = q.source.publisher if q.source and q.source.publisher else ""
     source_url = q.source.url if q.source and q.source.url else ""
     copy_btn = _copy_link_btn(q.text[:60], anchor_id, source_name, source_url)
-    return f"""<li class="quick-hit" id="{anchor_id}">{lane}<span class="qh-text">{esc(q.text)}</span>
+    # The text itself is the link — maximizes click targets without clutter.
+    if source_url:
+        text_html = (f'<a class="qh-text-link" href="{esc(source_url)}" '
+                     f'rel="nofollow noopener" target="_blank">{esc(q.text)}</a>')
+    else:
+        text_html = esc(q.text)
+    return f"""<li class="quick-hit" id="{anchor_id}">{lane}<span class="qh-text">{text_html}</span>
   <div class="qh-foot">{_one_source_html(q.source)} {copy_btn}</div></li>"""
 
 
@@ -237,14 +251,23 @@ def edition_body(ed: Edition) -> str:
         '<div class="demo-banner">DEMO EDITION — sample/fixture data, not real '
         'current news. For layout and QA only.</div>' if ed.demo else "")
     briefings = "".join(briefing_html(b, i) for i, b in enumerate(ed.briefings))
-    quick_hits = "".join(quick_hit_html(q, i) for i, q in enumerate(ed.quick_hits))
+    # Split By the Way items (light one-liners) from the main quick hits.
+    btw_lane = getattr(config, "BY_THE_WAY_LANE", "By the Way")
+    main_hits = [q for q in ed.quick_hits if q.lane != btw_lane]
+    btw_items = [q for q in ed.quick_hits if q.lane == btw_lane]
+    quick_hits = "".join(quick_hit_html(q, i) for i, q in enumerate(main_hits))
+    by_the_way = "".join(quick_hit_html(q, i + len(main_hits))
+                         for i, q in enumerate(btw_items))
     data_boxes = "".join(data_box_html(x) for x in ed.data_boxes)
     voice_blocks = "".join(voice_block_html(v) for v in ed.voice_blocks)
     closer = closer_html(ed.closer) if ed.closer else ""
     receipt_block = receipt_html(ed.receipt) if ed.receipt else ""
     date_readable = ed.meta.get("date_readable", ed.date)
+    cold_open = ed.meta.get("cold_open", "")
+    cold_open_html = (f'<p class="cold-open">{esc(cold_open)}</p>'
+                      if cold_open else "")
     nb = len(ed.briefings)
-    nq = len(ed.quick_hits)
+    nq = len(main_hits)
 
     sections = f"""
       <section class="sec sec-briefings">
@@ -255,8 +278,16 @@ def edition_body(ed: Edition) -> str:
       <section class="sec sec-quick-hits">
         {section_rail(2, "Quick Hits", str(nq))}
         <ul class="quick-hits">{quick_hits}</ul>
-      </section>
+      </section>"""
 
+    if btw_items:
+        sections += f"""
+      <section class="sec sec-by-the-way">
+        {section_rail(0, "By the Way", str(len(btw_items)))}
+        <ul class="quick-hits by-the-way">{by_the_way}</ul>
+      </section>"""
+
+    sections += f"""
       <section class="sec sec-data">
         {section_rail(3, "Data", str(len(ed.data_boxes)))}
         <div class="data-grid">{data_boxes}</div>
@@ -323,6 +354,7 @@ def edition_body(ed: Edition) -> str:
         <p class="kicker">{esc(config.BRAND)}</p>
         <h1>Daily Edition</h1>
         <p class="edition-date">{esc(date_readable)}</p>
+        {cold_open_html}
       </div>
       {sections}
       {share_runner}
