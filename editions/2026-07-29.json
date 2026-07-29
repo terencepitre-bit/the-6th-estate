@@ -1,0 +1,343 @@
+{
+  "date": "2026-07-29",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Teenage Norwegian 'hitman' found guilty in UK murder plot",
+      "body": "A teenage Norwegian national, Johannes Natland, has been found guilty of travelling to Huddersfield to carry out a paid murder plot. Natland made the journey in March of last year with the intent to kill. The case highlights the cross-border nature of organised violence-for-hire schemes, raising questions about how such arrangements are made and who commissions them.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cwyqggvyp1do?at_medium=RSS&at_campaign=rss",
+          "title": "Teenage Norwegian 'hitman' guilty of UK murder plot",
+          "publisher": "",
+          "published": "Wed, 29 Jul 2026 11:56:13 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "The case demonstrates that hired violence can cross international borders, meaning communities anywhere in the UK could be targeted by individuals recruited from abroad.",
+      "high_risk": false
+    },
+    {
+      "headline": "Elon Musk Launches X Money Amid Exclusions From Major US Financial Markets",
+      "body": "Elon Musk has launched X Money, a financial services feature on the X platform, though the rollout is expected to face significant hurdles. Major US financial markets are excluded from the initial offering, raising questions about how broadly usable the service will be for most Americans. Early access and functionality could be limited depending on users' location and financial institutions.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/07/elon-musk-finally-launches-x-money-what-could-possibly-go-wrong/",
+          "title": "Elon Musk finally launches X Money. What could possibly go wrong?",
+          "publisher": "",
+          "published": "Wed, 29 Jul 2026 10:00:51 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "If X Money cannot connect with major US financial markets, users who sign up could find the service too restricted to replace or supplement their existing payment tools.",
+      "high_risk": false
+    },
+    {
+      "headline": "French Climate Ruling Could Reshape Corporate Accountability for Oil Companies",
+      "body": "A French court ruling has expanded legal options for holding oil companies accountable for climate-related damages, according to a new report. The decision could influence similar lawsuits in the United States and other countries, offering advocates new legal strategies. Analysts suggest the ruling may signal a broader shift in how courts worldwide approach corporate liability for climate harm.",
+      "sources": [
+        {
+          "url": "https://theconversation.com/french-climate-lawsuit-offers-a-window-into-the-next-round-of-the-global-legal-fight-287829",
+          "title": "French climate lawsuit offers a window into the next round of the global legal fight",
+          "publisher": "",
+          "published": "2026-07-28T12:09:35Z",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "If this legal approach spreads internationally, energy consumers and investors could face higher costs or market uncertainty as oil companies confront mounting litigation risks.",
+      "high_risk": false
+    },
+    {
+      "headline": "Russell T Davies reflects on death of husband as 'greatest loss'",
+      "body": "Doctor Who writer Russell T Davies has spoken publicly about the death of his husband Andrew Smith, who died in 2018 from a brain tumour, describing the loss as the most significant of his life. Davies, known for reviving the long-running BBC series, opened up about the personal grief that has shaped him since Smith's passing. The comments offer a rare glimpse into the private life of one of British television's most prominent figures.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c36d56x3ln6o?at_medium=RSS&at_campaign=rss",
+          "title": "Russell T Davies says death of late husband has been his 'greatest loss'",
+          "publisher": "",
+          "published": "Wed, 29 Jul 2026 11:16:21 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Davies's openness about grief and loss from a brain tumour could resonate with others who have experienced similar bereavements and may help reduce stigma around public figures discussing personal trauma.",
+      "high_risk": false
+    },
+    {
+      "headline": "New York School District Pauses AI Robot Teacher Deployment After Backlash",
+      "body": "An upstate New York school district has paused plans to place a humanoid AI-powered robot in classrooms following objections from state education officials, teachers, and local residents. The concerns prompted the district to halt the initiative before it launched. The pause reflects growing public unease about how artificial intelligence tools are introduced into K-12 learning environments without broader community input.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/29/g-s1-136072/ai-robot-teacher",
+          "title": "New York school pauses plan to deploy humanlike AI robot teacher after backlash",
+          "publisher": "",
+          "published": "Wed, 29 Jul 2026 05:24:52 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "Parents and educators in other districts could face similar decisions as schools increasingly consider AI tools, making community engagement in those choices more important than ever.",
+      "high_risk": false
+    },
+    {
+      "headline": "Renter-Owner Wealth Gap Reaches Record High Amid Soaring Housing Costs",
+      "body": "Record high housing costs have widened the wealth gap between renters and homeowners to historic levels. Rising property values have significantly boosted the financial position of existing owners, while many prospective buyers find themselves priced out of the market entirely and locked into renting. The divide means wealth is increasingly concentrated among those who already own property.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/28/nx-s1-5853585/as-many-are-priced-out-of-buying-the-renter-owner-wealth-gap-is-wider-than-ever",
+          "title": "As many are priced out of buying, the renter-owner wealth gap is wider than ever",
+          "publisher": "",
+          "published": "Tue, 28 Jul 2026 16:14:20 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Real Estate",
+      "why_it_matters": "Renters who cannot enter the housing market could fall further behind financially over time, making it harder to build the generational wealth that homeownership has historically provided.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "A new airliner flew nonstop from Australia to France in 24 hours, validating Qantas Airways' planned Project Sunrise ultra-long-haul routes launching in 2027.",
+      "source": {
+        "url": "https://arstechnica.com/gadgets/2026/07/new-airliner-sets-record-flying-24-hrs-nonstop-from-australia-to-france/",
+        "title": "New airliner sets record flying 24 hrs nonstop from Australia to France",
+        "publisher": "",
+        "published": "Tue, 28 Jul 2026 18:43:36 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Analysis of 15 million real AI interactions found most tasks at most jobs remain unaffected by automation, contradicting widespread AI replacement fears.",
+      "source": {
+        "url": "https://arstechnica.com/ai/2026/07/despite-ai-hype-googles-data-shows-workers-arent-automating-themselves-away/",
+        "title": "Despite AI hype, Google's data shows workers aren't automating themselves away",
+        "publisher": "",
+        "published": "Tue, 28 Jul 2026 20:20:20 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Economists are adopting AI tokens, the billing unit used by AI companies, as a measurable indicator to track artificial intelligence's spread through the economy.",
+      "source": {
+        "url": "https://www.npr.org/sections/planet-money/2026/07/28/g-s1-135475/ai-tokens-could-become-the-kilowatt-hour-of-the-ai-age",
+        "title": "AI tokens could become the kilowatt-hour of the AI age",
+        "publisher": "",
+        "published": "Tue, 28 Jul 2026 06:30:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Dr. Anthony Fauci will face Senator Rand Paul at a congressional hearing over Paul's accusation that Fauci lied about funding Covid-linked research.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/07/29/us/politics/fauci-testifies-rand-paul.html",
+        "title": "Fauci and His Senate Nemesis Rand Paul to Face Off in Hearing",
+        "publisher": "",
+        "published": "Wed, 29 Jul 2026 11:12:11 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Southern Oregon University in Ashland faces potential closure as declining enrollment and funding shortfalls threaten the public campus's survival.",
+      "source": {
+        "url": "https://hechingerreport.org/could-a-public-campus-really-close-the-fight-to-save-southern-oregon-university/",
+        "title": "Could a public campus really close? The fight to save Southern Oregon University",
+        "publisher": "",
+        "published": "Tue, 28 Jul 2026 05:00:00 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,428.78",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-28",
+            "free_access": true
+          },
+          "as_of": "2026-07-28"
+        },
+        {
+          "label": "Dow",
+          "value": "52,747.32",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-28",
+            "free_access": true
+          },
+          "as_of": "2026-07-28"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "24,876.91",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-28",
+            "free_access": true
+          },
+          "as_of": "2026-07-28"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.65%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-27",
+            "free_access": true
+          },
+          "as_of": "2026-07-27"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.58%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "BTC",
+          "value": "$64,422",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-29 11:59 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-29 11:59 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,913",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-29 11:59 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-29 11:59 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "CIN 5 — CLE 6",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401901849/guardians-reds",
+            "title": "CIN 5 — CLE 6",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-28",
+            "free_access": true
+          },
+          "as_of": "2026-07-28"
+        },
+        {
+          "label": "PIT 7 — ARI 8",
+          "value": "Final/12",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816292/diamondbacks-pirates",
+            "title": "PIT 7 — ARI 8",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-28",
+            "free_access": true
+          },
+          "as_of": "2026-07-28"
+        },
+        {
+          "label": "DET 14 — BAL 0",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816294/orioles-tigers",
+            "title": "DET 14 — BAL 0",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-28",
+            "free_access": true
+          },
+          "as_of": "2026-07-28"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2024: Three children are stabbed to death and 10 other people injured at a dance studio in Southport, England. This incident, coupled with widespread online misinformation, leads to various racially motivated riots across the UK.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2024_Southport_stabbings",
+        "title": "On this day — 07/29",
+        "publisher": "Wikipedia",
+        "published": "2026-07-29",
+        "free_access": true
+      },
+      "as_of": "2026-07-29"
+    }
+  ],
+  "closer": {
+    "text": "\"A popular government without popular information, or the means of acquiring it, is but a prologue to a farce or a tragedy, or perhaps both.\"",
+    "kind": "quote",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+5+2+1+1",
+    "generated_at": "2026-07-29T11:59:12.995668+00:00",
+    "date_readable": "Wednesday, July 29, 2026",
+    "writer_calls": 11,
+    "brave_queries": 0,
+    "rss_candidates": 222
+  }
+}
