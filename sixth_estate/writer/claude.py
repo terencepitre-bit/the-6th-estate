@@ -71,6 +71,41 @@ _BY_THE_WAY_SYSTEM = (
     "Return ONLY a JSON object with key: text. "
     "No markdown, no code fences, no preamble."
 )
+# Lane indices MUST match config.BRIEFING_LANES order:
+# 0=World/US, 1=Money & Markets, 2=Business/Policy, 3=Science/Tech/Health,
+# 4=Education, 5=Personal Excellence, 6=Real Estate, 7=Culture.
+_CLASSIFY_SYSTEM = (
+    "You are the lane editor for THE 6th ESTATE, a daily US newsletter. "
+    "Assign each numbered story to exactly ONE lane:\n"
+    "0 = World / US — geopolitics, war, elections, government, politics, "
+    "crime, courts, disasters, immigration, breaking national or "
+    "international news.\n"
+    "1 = Money & Markets — stock markets, the Fed, interest rates, "
+    "inflation, jobs, wages, crypto, personal finance, the economy.\n"
+    "2 = Business / Policy — companies, CEOs, mergers, regulation, "
+    "antitrust, business lawsuits, legislation affecting industry.\n"
+    "3 = Science / Tech / Health — science, technology, AI, robotics, "
+    "space and spacecraft, astronomy, health, medicine, biology, "
+    "genetics, disease, mental health, nutrition, climate, environment, "
+    "energy research, and scientific research of any kind.\n"
+    "4 = Education — schools, universities, students, teachers, "
+    "curriculum, tuition, student loans, education policy.\n"
+    "5 = Personal Excellence — an individual person's inspiring "
+    "achievement or positive impact: heroism, records, overcoming odds, "
+    "extraordinary generosity. ONLY use this lane when the story is "
+    "fundamentally about a person's uplifting accomplishment. NEVER use "
+    "it for accidents, failures, malfunctions, institutional news, or "
+    "stories that merely contain words like 'rescue' or 'record'.\n"
+    "6 = Real Estate — housing market, home prices, rent, construction, "
+    "zoning, mortgages as a housing story.\n"
+    "7 = Culture — arts, film, TV, music, books, museums, food, travel, "
+    "celebrity, entertainment, sports culture.\n"
+    "If a story fits multiple lanes, pick the one that best matches its "
+    "central subject. "
+    "Return ONLY a JSON object {\"lanes\": [...]} containing one integer "
+    "per story, in the same order as the input. The array length MUST "
+    "equal the number of stories. No markdown, no code fences, no preamble."
+)
 _COLD_OPEN_SYSTEM = (
     "You write the opening lines of THE 6th ESTATE, a daily US morning "
     "newsletter. Given today's date and a list of story headlines, write a warm, "
@@ -118,14 +153,16 @@ class ClaudeWriter:
         )
 
     # ── generation (bounded) ──────────────────────────────────────────────────
-    def _call(self, system: str, prompt: str) -> dict:
+    def _call(self, system: str, prompt: str, max_tokens: int = 300,
+              model: Optional[str] = None) -> dict:
         if not self.enabled:
             raise WriterDisabled("Claude writer disabled (no ANTHROPIC_API_KEY / transport)")
         if self._calls >= self.call_limit:
             raise WriterBudgetExceeded(f"model call limit {self.call_limit} reached")
         self._calls += 1
+        use_model = model or config.CLAUDE_MODEL
         if self.logger:
-            self.logger.info("model_call", model=config.CLAUDE_MODEL, n=self._calls,
+            self.logger.info("model_call", model=use_model, n=self._calls,
                              cap=self.call_limit)
         # Rate-limit guard: space calls out to avoid 429s.
         if self._calls > 1:
@@ -136,8 +173,8 @@ class ClaudeWriter:
 
         url = f"{config.ANTHROPIC_API_BASE}/v1/messages"
         payload = {
-            "model": config.CLAUDE_MODEL,
-            "max_tokens": 300,
+            "model": use_model,
+            "max_tokens": max_tokens,
             "system": system,
             "messages": [{"role": "user", "content": prompt}],
         }
@@ -165,7 +202,8 @@ class ClaudeWriter:
             return json.loads(text)
         except (KeyError, IndexError, TypeError, json.JSONDecodeError):
             # Test transports may return the parsed dict directly.
-            if isinstance(resp, dict) and ("body" in resp or "text" in resp):
+            if isinstance(resp, dict) and ("body" in resp or "text" in resp
+                                           or "lanes" in resp):
                 return resp
             raise
 
@@ -233,6 +271,66 @@ class ClaudeWriter:
             if self.logger:
                 self.logger.warning("cold_open_failed", error=str(e)[:120])
             return ""
+
+    def classify_lanes(self, candidates: list[Candidate]) -> list[Optional[int]]:
+        """Batch-classify candidates into lane indices via Claude.
+
+        Sends candidates in chunks (title + summary excerpt) and asks for a
+        JSON array of lane integers. Uses the cheaper CLASSIFY_MODEL — this
+        is a sorting task, not a writing task.
+
+        Fail-safe by design: returns a list the same length as `candidates`
+        where each entry is a lane index (0..len(BRIEFING_LANES)-1) or None.
+        None means "no AI answer for this story" — the caller falls back to
+        keyword classification. This method never raises; any API failure,
+        malformed response, or exhausted budget simply yields Nones.
+        """
+        results: list[Optional[int]] = [None] * len(candidates)
+        if not candidates or not self.enabled:
+            return results
+        n_lanes = len(config.BRIEFING_LANES)
+        chunk_size = max(1, config.CLASSIFY_CHUNK_SIZE)
+        calls_made = 0
+
+        for start in range(0, len(candidates), chunk_size):
+            if calls_made >= config.CLASSIFY_MAX_CALLS:
+                break  # remaining candidates use keyword fallback
+            chunk = candidates[start:start + chunk_size]
+            lines = []
+            for i, c in enumerate(chunk):
+                title = (c.title or "").strip()
+                summary = (c.summary or "").strip().replace("\n", " ")[:180]
+                lines.append(f"{i + 1}. {title} — {summary}")
+            prompt = (
+                "STORIES:\n" + "\n".join(lines) +
+                f"\nClassify all {len(chunk)} stories now as JSON: "
+                "{\"lanes\": [...]}."
+            )
+            try:
+                resp = self._call(_CLASSIFY_SYSTEM, prompt, max_tokens=600,
+                                  model=config.CLASSIFY_MODEL)
+                calls_made += 1
+                data = self._extract_json(resp)
+                lanes = data.get("lanes")
+                if isinstance(lanes, list) and len(lanes) == len(chunk):
+                    for i, ln in enumerate(lanes):
+                        if isinstance(ln, int) and 0 <= ln < n_lanes:
+                            results[start + i] = ln
+                elif self.logger:
+                    self.logger.warning("classify_bad_shape",
+                                        expected=len(chunk),
+                                        got=len(lanes) if isinstance(lanes, list) else -1)
+            except (WriterDisabled, WriterBudgetExceeded):
+                break  # budget gone — keyword fallback for the rest
+            except Exception as e:
+                calls_made += 1
+                print(f"    [writer] classify chunk FAILED: "
+                      f"{type(e).__name__}: {e}")
+                if self.logger:
+                    self.logger.warning("classify_chunk_failed",
+                                        start=start, error=str(e)[:120])
+                continue
+        return results
 
     def write_quick_hit(self, cand: Candidate, lane: str = "") -> Optional[QuickHit]:
         try:
