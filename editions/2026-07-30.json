@@ -1,0 +1,399 @@
+{
+  "date": "2026-07-30",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Missile Leaves 10-Meter Crater Inside Poland Near Ukraine Border",
+      "body": "A missile that Polish Prime Minister Donald Tusk described as probably Russian struck near the village of Tarnawa Kolonia, roughly 100 kilometers from the Ukrainian border, leaving a crater 10 meters wide. The strike occurred during a Russian attack on the Ukrainian city of Lviv. The object's origin remains under investigation by Polish authorities.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cwymkgenv2ro?at_medium=RSS&at_campaign=rss",
+          "title": "Missile that left crater deep inside Poland was probably Russian - Polish PM",
+          "publisher": "",
+          "published": "Thu, 30 Jul 2026 09:56:06 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "A strike on Polish territory, a NATO member state, raises the specter of alliance-wide military obligations under Article 5 — with direct consequences for U.S. foreign policy and the broader course of the war in Ukraine.",
+      "high_risk": false
+    },
+    {
+      "headline": "Fed Holds Rates Steady, Cites Uncertain Economic Outlook",
+      "body": "The Federal Reserve issued its latest FOMC statement, holding interest rates steady. The committee noted ongoing uncertainty in the economic outlook as the basis for its decision to maintain the current policy stance.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+          "title": "Federal Reserve issues FOMC statement",
+          "publisher": "",
+          "published": "Wed, 29 Jul 2026 18:00:00 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Unchanged rates mean borrowing costs for mortgages, car loans, and credit cards stay at their current levels for now.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Eyes AI Controls After OpenAI Hacking Incidents",
+      "body": "The Trump administration is considering controls on artificial intelligence following hacking incidents involving OpenAI. The move marks a shift in tone for an administration that has previously taken a hands-off approach to AI regulation.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c20dppq3y90o?at_medium=RSS&at_campaign=rss",
+          "title": "Trump considering AI controls after OpenAI hacking incidents",
+          "publisher": "",
+          "published": "Thu, 30 Jul 2026 07:23:11 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "A policy reversal from Washington's most AI-permissive administration could reshape the rules governing the technology millions of Americans use daily.",
+      "high_risk": false
+    },
+    {
+      "headline": "Congress Unites Against Pentagon's Stalled PFAS Cleanup at Hundreds of Bases",
+      "body": "Bipartisan anger is growing in Congress over the Pentagon's delayed cleanup of PFAS contamination at hundreds of military bases across the country. Lawmakers from both parties are demanding explanations for the slow pace of remediation. PFAS, known as forever chemicals, are linked to low birth weight and other health risks. Politicians have not yet received satisfactory answers from the Defense Department on timelines or accountability.",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2026/07/30/climate/pfas-forever-chemical-pentagon-cleanup-delay.html",
+          "title": "Bipartisan Anger Grows at Pentagon’s Delayed ‘Forever Chemicals’ Cleanups",
+          "publisher": "",
+          "published": "Thu, 30 Jul 2026 09:02:06 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Families living near contaminated military bases face ongoing exposure to chemicals linked to low birth weight and other serious health risks until cleanups are completed.",
+      "high_risk": false
+    },
+    {
+      "headline": "98 Teens Draft Their Own AI Rules for Schools After Congress Stalls",
+      "body": "With no federal AI legislation for schools in place, roughly 98 teenagers convened to write their own policy framework addressing student use of AI on assignments and tests, and who should be responsible for teaching AI literacy. The student-led effort fills a vacuum left by Congress, which has not passed rules governing how artificial intelligence tools are used in K-12 education.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/30/nx-s1-5853571/students-set-ai-policy",
+          "title": "Congress hasn't passed AI rules for schools. So these 98 teens did it themselves",
+          "publisher": "",
+          "published": "Thu, 30 Jul 2026 05:00:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "The policies governing AI in your children's classrooms are being shaped without federal guidance, leaving schools — and families — to navigate the rules largely on their own.",
+      "high_risk": false
+    },
+    {
+      "headline": "Temple University's Inez Patterson Defied Segregated Pool Hours in 1920s Philadelphia",
+      "body": "Nearly 100 years ago, Inez Patterson integrated swimming pools in Philadelphia by refusing to accept segregated swim hours at Temple University. When her white teammates swam, Patterson insisted on swimming alongside them rather than being restricted to the limited hours designated for Black swimmers. She also encouraged other Black girls to swim, expanding her individual act of defiance into a broader push for inclusion in aquatic spaces.",
+      "sources": [
+        {
+          "url": "https://theconversation.com/nearly-100-years-ago-philadelphias-inez-patterson-integrated-pools-and-encouraged-other-black-girls-to-swim-too-285043",
+          "title": "Nearly 100 years ago, Philadelphia’s Inez Patterson integrated pools and encouraged other Black girls to swim too",
+          "publisher": "",
+          "published": "2026-07-29T12:15:07Z",
+          "free_access": true
+        }
+      ],
+      "lane": "Personal Excellence",
+      "why_it_matters": "Patterson's resistance to pool segregation at Temple is an early chapter in the long fight for equal access to public recreational spaces that Black Americans continued to wage for decades after.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "Hadi Matar was convicted on federal terrorism charges for the 2022 stabbing of author Salman Rushdie.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/30/g-s1-136257/stabbing-conviction-salman-rushdie",
+        "title": "Man convicted in terrorism trial over the 2022 stabbing of author Salman Rushdie",
+        "publisher": "",
+        "published": "Thu, 30 Jul 2026 01:33:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Elon Musk launched X Money, a digital payments feature on X, excluding major U.S. financial markets from its initial rollout.",
+      "source": {
+        "url": "https://arstechnica.com/tech-policy/2026/07/elon-musk-finally-launches-x-money-what-could-possibly-go-wrong/",
+        "title": "Elon Musk finally launches X Money. What could possibly go wrong?",
+        "publisher": "",
+        "published": "Wed, 29 Jul 2026 10:00:51 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Australia has taken Telegram to court over its alleged failure to remove pro-terror material, with the platform vowing to contest the case.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/crmrv4pnexmo?at_medium=RSS&at_campaign=rss",
+        "title": "Australia takes Telegram to court over alleged failure to remove 'pro-terror' material",
+        "publisher": "",
+        "published": "Thu, 30 Jul 2026 03:03:12 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Release of Dr. Anthony Fauci's pandemic diaries has reignited scientific debate over whether SARS-CoV-2 originated from animal spillover or a lab leak.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/29/g-s1-136142/rand-paul-anthony-fauci-lab-leak-spillover-pandemic-origin",
+        "title": "Animal spillover? Lab leak? What the science says about the origins of COVID-19",
+        "publisher": "",
+        "published": "Wed, 29 Jul 2026 19:02:53 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Experts warn that computer-based testing alone cannot prevent NEET exam paper leaks without stronger governance reforms.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c1m1gz1nx45o?at_medium=RSS&at_campaign=rss",
+        "title": "India's CJP protests: Why tech alone won't stop exam paper leaks",
+        "publisher": "",
+        "published": "Wed, 29 Jul 2026 22:50:14 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A French teen paid $465 in Singapore after a viral video caught him licking a straw.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/crrvqjw8epko?at_medium=RSS&at_campaign=rss",
+        "title": "Singapore fines French teen $465 for viral straw-licking stunt",
+        "publisher": "",
+        "published": "Thu, 30 Jul 2026 02:54:54 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Homer translator Emily Wilson thinks Christopher Nolan shouldn't have written his own Odyssey adaptation himself.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/29/nx-s1-5910645/odyssey-translator-emily-wilson-christopher-nolan",
+        "title": "'Odyssey' translator Emily Wilson says Nolan shouldn't have written the movie himself",
+        "publisher": "",
+        "published": "Wed, 29 Jul 2026 11:51:40 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Zendaya says working with best friend and partner Tom Holland on Spider-Man: Brand New Day comes naturally.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c0km3d2j6mko?at_medium=RSS&at_campaign=rss",
+        "title": "Zendaya on working with Tom Holland in Spider-Man: ‘When you’re best friends it’s easy’",
+        "publisher": "",
+        "published": "Wed, 29 Jul 2026 20:21:46 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Ten women, several as teenagers, have accused actor Jared Leto of sexual misconduct and criminal sexual conduct.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cd7lg2nz2x2o?at_medium=RSS&at_campaign=rss",
+        "title": "Four women accuse Jared Leto of criminal sexual conduct",
+        "publisher": "",
+        "published": "Wed, 29 Jul 2026 21:36:06 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Gen Z slang including 'delulu' and 'FOMO' reached India's parliament during a cockroach protest.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c9q90qvwe14o?at_medium=RSS&at_campaign=rss",
+        "title": "'Delulu', 'Clock it': 'Cockroach' protest brings Gen Z slang to India's parliament",
+        "publisher": "",
+        "published": "Wed, 29 Jul 2026 09:02:48 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,316.15",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-29",
+            "free_access": true
+          },
+          "as_of": "2026-07-29"
+        },
+        {
+          "label": "Dow",
+          "value": "51,594.14",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-29",
+            "free_access": true
+          },
+          "as_of": "2026-07-29"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "24,442.94",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-29",
+            "free_access": true
+          },
+          "as_of": "2026-07-29"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.61%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-28",
+            "free_access": true
+          },
+          "as_of": "2026-07-28"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.58%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-23",
+            "free_access": true
+          },
+          "as_of": "2026-07-23"
+        },
+        {
+          "label": "BTC",
+          "value": "$64,533",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-30 10:12 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-30 10:12 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,917",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-07-30 10:12 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-07-30 10:12 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "MIA 8 — PHI 6",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816311/phillies-marlins",
+            "title": "MIA 8 — PHI 6",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-29",
+            "free_access": true
+          },
+          "as_of": "2026-07-29"
+        },
+        {
+          "label": "PIT 0 — ARI 3",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816307/diamondbacks-pirates",
+            "title": "PIT 0 — ARI 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-29",
+            "free_access": true
+          },
+          "as_of": "2026-07-29"
+        },
+        {
+          "label": "WSH 2 — TOR 5",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816313/blue-jays-nationals",
+            "title": "WSH 2 — TOR 5",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-29",
+            "free_access": true
+          },
+          "as_of": "2026-07-29"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2025: A magnitude 8.8 earthquake hits Russia, causing tsunamis over the Pacific Ocean.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2025_Kamchatka_earthquake",
+        "title": "On this day — 07/30",
+        "publisher": "Wikipedia",
+        "published": "2026-07-30",
+        "free_access": true
+      },
+      "as_of": "2026-07-30"
+    }
+  ],
+  "closer": {
+    "text": "\"A popular government without popular information, or the means of acquiring it, is but a prologue to a farce or a tragedy, or perhaps both.\"",
+    "kind": "quote",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+10+2+1+1",
+    "generated_at": "2026-07-30T10:12:30.011474+00:00",
+    "date_readable": "Thursday, July 30, 2026",
+    "cold_open": "Good morning, it's Thursday, July 30 — and somewhere in Singapore, a French teenager is $465 poorer after a viral straw-licking moment he'll never live down. We're also tracking a missile strike that left a 10-meter crater inside Poland near the Ukrainian border, plus the Fed's latest rate decision amid a cloudy economic outlook.",
+    "writer_calls": 21,
+    "brave_queries": 0,
+    "rss_candidates": 191
+  }
+}
