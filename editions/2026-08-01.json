@@ -1,0 +1,413 @@
+{
+  "date": "2026-08-01",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Death Toll Hits 67 as Thousands Storm Spain's Ceuta Border",
+      "body": "At least 67 people died in Spain's Ceuta border crisis with Morocco, including migrants who drowned and others killed in a stampede to cross a breakwater barrier. Tens of thousands have since crossed back into Morocco following the mass border event at the Spanish enclave on the northern African coast.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/01/nx-s1-5916271/ceuta-spain-border-morocco",
+          "title": "Death toll in Spain border crisis reaches 67 as tens of thousands cross back in to Morocco",
+          "publisher": "",
+          "published": "Sat, 01 Aug 2026 05:36:05 -0400",
+          "free_access": true
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/videos/cnvnml1pen6o?at_medium=RSS&at_campaign=rss",
+          "title": "Watch: Tens of thousands of migrants enter Spain's Ceuta from Morocco",
+          "publisher": "",
+          "published": "Fri, 31 Jul 2026 15:48:34 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "The crisis marks one of the deadliest border incidents in recent European history, intensifying pressure on Spain and the EU over migration policy and border security.",
+      "high_risk": false
+    },
+    {
+      "headline": "Fed Proposes Modernized Limits on Loans to Bank Executives and Insiders",
+      "body": "The Federal Reserve Board opened a public comment period on a proposal to update its rules governing credit extended to bank insiders — a category that includes executives, board members, and major shareholders with potential influence over a bank's lending decisions. The existing rule, which sets conditions and limits on such loans, would be modernized under the proposal. The Fed is soliciting feedback before finalizing any changes.",
+      "sources": [
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+          "title": "Federal Reserve Board requests comment on a proposal to modernize its rule governing the extension of credit to bank \"insiders\"—bank executives, board members and major shareholders who could potentially influence a bank's lending decisions",
+          "publisher": "",
+          "published": "Fri, 31 Jul 2026 14:00:00 GMT",
+          "free_access": true
+        },
+        {
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731a.htm",
+          "title": "Federal Reserve Board requests comment on a proposal to modernize rules for mutual banking organizations",
+          "publisher": "",
+          "published": "Fri, 31 Jul 2026 14:00:00 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Updated insider lending rules could affect how banks manage conflicts of interest at the top, with direct implications for the safety of deposits held by everyday customers.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump's Media Company Sells Early Access to His Posts for $100K a Month",
+      "body": "Trump's media company is offering investors early access to the president's Truth Social posts for fees reaching $100,000 a month. Legal experts say the paid subscription service may violate insider trading laws, as Trump's posts frequently move markets and influence policy expectations. The tiered early-access program gives paying subscribers a window to act on the president's statements before they reach the general public.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/01/nx-s1-5912219/trump-truth-social-access-insider-trading",
+          "title": "For sale: early access to Trump's Truth Social posts",
+          "publisher": "",
+          "published": "Sat, 01 Aug 2026 05:00:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "If the service violates insider trading laws, ordinary investors who lack $100,000-a-month access could be systematically disadvantaged every time the president posts market-moving content.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Administration Rolls Back Biden-Era Workplace Heat Protection Rules",
+      "body": "The Trump administration is reversing steps taken by the Biden administration to protect workers from extreme heat on the job. Where Biden pursued formal safeguards against dangerous temperatures in the workplace, the Trump administration is adopting a more lenient posture toward employers. The policy shift leaves workers with fewer regulatory protections as heat-related workplace hazards grow.",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2026/08/01/climate/heat-workplace-protections-osha-trump.html",
+          "title": "Trump Administration Is Undoing Plans to Boost Workplace Heat Protections",
+          "publisher": "",
+          "published": "Sat, 01 Aug 2026 09:01:03 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Workers in physically demanding or outdoor jobs face greater risk of heat illness with weaker federal protections in place.",
+      "high_risk": false
+    },
+    {
+      "headline": "Pennsylvania High School Stayed Silent After Boys Made AI Nudes of 59 Classmates",
+      "body": "A Pennsylvania high school is defending its decision to stay silent after male students used AI to generate nude images of 59 female classmates. The school argues gaps in existing laws limit its obligation to act or notify victims. The case highlights how current statutes have not kept pace with AI-generated image abuse, leaving schools with unclear legal duties and students without guaranteed recourse.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/07/high-school-defends-staying-silent-while-boys-made-ai-nudes-of-59-classmates/",
+          "title": "High school defends staying silent while boys made AI nudes of 59 classmates",
+          "publisher": "",
+          "published": "Fri, 31 Jul 2026 18:11:55 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "If your child's school faces a similar incident, existing laws may give administrators legal cover to say nothing — leaving victims and parents in the dark.",
+      "high_risk": false
+    },
+    {
+      "headline": "Woman With Cancer Reflects on Life, Death, and Inner Strength",
+      "body": "Karán Founds-Benton spoke with a friend for StoryCorps about her cancer diagnosis and what it means to face death. In the conversation, she reflected on her life and expressed a sense of personal resolve in confronting her illness. The StoryCorps recording captures her perspective on mortality and the emotional experience of living with a terminal diagnosis.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/31/nx-s1-5910511/i-can-do-this-woman-with-cancer-reflects-on-her-life-and-facing-death",
+          "title": "'I can do this': Woman with cancer reflects on her life and facing death",
+          "publisher": "",
+          "published": "Fri, 31 Jul 2026 04:44:53 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Personal Excellence",
+      "why_it_matters": "Hearing one person's unfiltered account of facing a cancer diagnosis can help others navigating serious illness — or supporting someone who is — feel less alone.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "U.S. presidents have attacked press credibility for 58 years, driving American trust in news media to an all-time low.",
+      "source": {
+        "url": "https://theconversation.com/58-years-of-attacks-on-the-media-by-powerful-leaders-trying-to-deflect-criticism-from-nixon-to-trump-284706",
+        "title": "58 years of attacks on the media by powerful leaders trying to deflect criticism, from Nixon to Trump",
+        "publisher": "",
+        "published": "2026-07-31T12:10:43Z",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Apple CEO Tim Cook handed over leadership during the Q3 2026 earnings call as strong iPhone and Mac sales were offset by rising memory costs.",
+      "source": {
+        "url": "https://arstechnica.com/gadgets/2026/07/tim-cooks-last-earnings-call-strong-iphone-sales-but-memory-costs-loom-large/",
+        "title": "Tim Cook passes the baton in Apple's Q3 2026 earnings call",
+        "publisher": "",
+        "published": "Thu, 30 Jul 2026 22:05:35 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A filmmaker sued Netflix after a screener of his $45 million Nicolas Cage film was stolen from the streaming company's offices before release.",
+      "source": {
+        "url": "https://arstechnica.com/tech-policy/2026/07/man-invested-45m-in-a-nicolas-cage-movie-it-got-stolen-off-netflixs-desk/",
+        "title": "Man invested $45M in a Nicolas Cage movie. It got stolen off Netflix’s desk.",
+        "publisher": "",
+        "published": "Fri, 31 Jul 2026 16:17:55 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A new military testosterone policy has sparked debate over the hormone's links to aggression in male service members.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/07/30/science/testosterone-behavior-aggression.html",
+        "title": "Military Testosterone Policy Raises Questions About Its Links to Aggression",
+        "publisher": "",
+        "published": "Fri, 31 Jul 2026 11:27:25 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A Yale student filed a 13-count federal lawsuit after the university accused him of AI cheating based on an unreliable detector and a disputed Apple Pages file.",
+      "source": {
+        "url": "https://arstechnica.com/tech-policy/2026/07/how-a-yale-ai-cheating-dispute-became-a-13-count-federal-lawsuit/",
+        "title": "How a Yale AI-cheating dispute became a 13-count federal lawsuit",
+        "publisher": "",
+        "published": "Fri, 31 Jul 2026 11:00:52 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The anxiety students feel from grade pressure can produce lasting structural changes in their brains.",
+      "source": {
+        "url": "https://theconversation.com/students-are-anxious-and-its-no-surprise-since-we-are-teaching-them-to-be-that-way-285575",
+        "title": "Students are anxious – and it’s no surprise, since we are teaching them to be that way",
+        "publisher": "",
+        "published": "2026-07-31T12:05:00Z",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Peter Parker is navigating evolving Spider-Man powers, a mysterious new threat, and the strain of losing his closest friends.",
+      "source": {
+        "url": "https://www.npr.org/2026/07/31/nx-s1-5909139/this-spider-man-is-struggling-with-work-life-balance",
+        "title": "This 'Spider-Man' is struggling with work-life balance",
+        "publisher": "",
+        "published": "Fri, 31 Jul 2026 16:28:40 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Up to 150 greyhounds are boarding chartered flights to Australia after New Zealand banned greyhound racing.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c5y62pe9g3no?at_medium=RSS&at_campaign=rss",
+        "title": "Greyhounds bound for Australia as New Zealand racing ban takes effect",
+        "publisher": "",
+        "published": "Fri, 31 Jul 2026 21:09:39 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "A roguelite twin-stick shooter about being a virus is living up to the hype.",
+      "source": {
+        "url": "https://arstechnica.com/gaming/2026/07/pathogenic-review-damn-it-feels-good-to-be-a-virus/",
+        "title": "Pathogenic review: Damn, it feels good to be a virus",
+        "publisher": "",
+        "published": "Fri, 31 Jul 2026 13:00:18 +0000",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Catholic popes have applied a single guiding principle, subsidiarity, to every major technological upheaval from the Industrial Revolution to AI.",
+      "source": {
+        "url": "https://theconversation.com/the-catholic-principle-guiding-popes-through-tech-upheavals-from-the-industrial-revolution-to-ai-288569",
+        "title": "The Catholic principle guiding popes through tech upheavals, from the Industrial Revolution to AI",
+        "publisher": "",
+        "published": "2026-07-31T12:12:04Z",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,489.72",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "Dow",
+          "value": "52,485.03",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "25,373.85",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.68%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-30",
+            "free_access": true
+          },
+          "as_of": "2026-07-30"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.66%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-30",
+            "free_access": true
+          },
+          "as_of": "2026-07-30"
+        },
+        {
+          "label": "BTC",
+          "value": "$63,042",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-01 09:49 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-01 09:49 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,868",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-01 09:49 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-01 09:49 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "CHC 0 — NYY 2",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816339/yankees-cubs",
+            "title": "CHC 0 — NYY 2",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "CIN 8 — PIT 7",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816336/pirates-reds",
+            "title": "CIN 8 — PIT 7",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "BAL 6 — PHI 4",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816335/phillies-orioles",
+            "title": "BAL 6 — PHI 4",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2023: Former US President Donald Trump is indicted for his role in the January 6 United States Capitol attack, his third indictment in 2023.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Donald_Trump",
+        "title": "On this day — 08/01",
+        "publisher": "Wikipedia",
+        "published": "2026-08-01",
+        "free_access": true
+      },
+      "as_of": "2026-08-01"
+    }
+  ],
+  "closer": {
+    "text": "\"The only security of all is in a free press.\"",
+    "kind": "quote",
+    "attribution": "Thomas Jefferson, letter to Lafayette (1823)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Jefferson/98-01-02-3837",
+      "title": "Thomas Jefferson, letter to Lafayette (1823)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+10+2+1+1",
+    "generated_at": "2026-08-01T09:50:00.431002+00:00",
+    "date_readable": "Saturday, August 01, 2026",
+    "cold_open": "Good morning, it's Saturday, August 1st — and one woman with cancer is offering a quietly powerful meditation on life, death, and what she found within herself along the way. Elsewhere, we're tracking alarming new research on how grade pressure physically reshapes student brains, plus the Trump administration's rollback of workplace heat protections.",
+    "writer_calls": 21,
+    "brave_queries": 0,
+    "rss_candidates": 194
+  }
+}
