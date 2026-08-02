@@ -1,0 +1,406 @@
+{
+  "date": "2026-08-02",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Trump Halts Iran Strikes, Says Deal Perimeters Agreed",
+      "body": "President Trump canceled planned strikes on Iran, saying Tehran and other Middle Eastern countries asked Washington to hold off on any attack. Trump said the 'perimeters' of a deal had been agreed and that an agreement must be reached 'rapidly.' No further details about the deal's terms or timeline were disclosed.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
+          "title": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
+          "publisher": "",
+          "published": "Sun, 02 Aug 2026 09:10:51 GMT",
+          "free_access": true
+        },
+        {
+          "url": "https://www.npr.org/2026/08/02/nx-s1-5917113/trump-says-hes-cancelling-iran-strikes-deal-pending",
+          "title": "Trump says he's cancelling Iran strikes, deal pending",
+          "publisher": "",
+          "published": "Sun, 02 Aug 2026 03:34:27 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Whether a deal materializes rapidly — as Trump demands — will determine if the US moves toward or away from military conflict with Iran, with direct consequences for oil prices and regional stability.",
+      "high_risk": false
+    },
+    {
+      "headline": "Chevron, Exxon, Shell Post Record or Near-Record Profits on War-Driven Oil Prices",
+      "body": "Chevron reported its highest quarterly earnings ever, while Shell posted its second-biggest quarter on record. ExxonMobil doubled its earnings compared with the same period last year. All three gains were driven by elevated crude prices tied to wartime market conditions.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/07/31/nx-s1-5910660/big-oil-earnings-q2-2026",
+          "title": "Oil companies report sky-high profits thanks to wartime crude prices",
+          "publisher": "",
+          "published": "Fri, 31 Jul 2026 16:28:38 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Record oil-company profits signal that high fuel prices are not a temporary blip — drivers and households should expect energy costs to remain a significant budget pressure.",
+      "high_risk": false
+    },
+    {
+      "headline": "Reddit CEO Questions Google AI Overviews as Stock Falls",
+      "body": "Reddit CEO Steve Huffman publicly questioned the value of Google's AI Overviews as Reddit's stock declined, and the company is still weighing whether to renew its content licensing deal with Google. The arrangement had allowed Google to use Reddit data to train its AI systems. Huffman's remarks signal Reddit may walk away from the partnership, putting a significant revenue stream and Google's AI training pipeline at risk.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/ai/2026/08/reddit-ceo-on-ai-overviews-were-still-looking-for-that-win-win/",
+          "title": "As Reddit stock falls, CEO questions value of Google's AI Overviews",
+          "publisher": "",
+          "published": "Sat, 01 Aug 2026 12:30:36 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "If Reddit ends its Google deal, the platform may need new revenue sources, which could affect how Reddit operates and what users experience on the site.",
+      "high_risk": false
+    },
+    {
+      "headline": "Engineers Plan Satellite Capture to Save NASA's Swift Mission",
+      "body": "Engineers are planning an attempted capture of NASA's Swift satellite as part of an effort to save the mission. The team believes a capture attempt is a viable path forward and described it as 'very much in the cards.' Swift, a NASA observatory, faces an uncertain future without intervention. The capture plan represents the primary strategy engineers have identified to preserve the satellite's operational status.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/space/2026/08/heres-how-engineers-plan-to-save-the-satellite-sent-to-save-nasas-swift-mission/",
+          "title": "Here's how engineers plan to save the satellite sent to save NASA's Swift mission",
+          "publisher": "",
+          "published": "Sat, 01 Aug 2026 18:20:11 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "If the capture succeeds, Swift's continued operation would preserve a key NASA asset used to detect and study high-energy cosmic events like gamma-ray bursts.",
+      "high_risk": false
+    },
+    {
+      "headline": "Philadelphia First Grader Interviews His Hero, a Real Bird Scientist",
+      "body": "NPR connected a Philadelphia first grader with an aspiring interest in science to an adult conservation scientist — the kind of career the child dreams of having. The boy interviewed the bird scientist about his work in conservation science, getting a firsthand look at what the job actually involves.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/02/nx-s1-5758054/we-asked-a-first-grader-to-interview-his-hero-a-bird-scientist",
+          "title": "We asked a first grader to interview his hero: A bird scientist",
+          "publisher": "",
+          "published": "Sun, 02 Aug 2026 05:00:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "For parents and educators, the exchange offers a concrete example of how early exposure to working scientists can make conservation careers feel real and reachable to young kids.",
+      "high_risk": false
+    },
+    {
+      "headline": "Nirmal Purja, Who Climbed 14 Peaks in 6 Months, Killed in Pakistan Avalanche",
+      "body": "Renowned mountaineer Nirmal Purja was killed in a Pakistan avalanche, his company confirmed. Purja was widely celebrated for scaling all 14 of the world's highest peaks in just over six months in 2019, a feat that cemented his place among the most accomplished high-altitude climbers in history. No further details about the location or circumstances of the avalanche were provided by his company.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
+          "title": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
+          "publisher": "",
+          "published": "Sun, 02 Aug 2026 05:26:39 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Personal Excellence",
+      "why_it_matters": "Purja's death is a reminder of the extreme and unforgiving risks that even the world's most elite mountaineers face on every expedition.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "Federal regulators mandated water cuts for Arizona, California, and Nevada from the Colorado River through 2036, hitting farms and communities across all three states.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/01/nx-s1-5915642/feds-mandate-historic-colorado-river-cuts-for-southwest-through-2036",
+        "title": "Feds mandate historic Colorado River cuts for Southwest through 2036",
+        "publisher": "",
+        "published": "Sat, 01 Aug 2026 07:46:49 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A judge ordered Waymo to halt overnight vehicle charging at its Santa Monica facility after residents filed noise complaints.",
+      "source": {
+        "url": "https://arstechnica.com/tech-policy/2026/08/after-noise-complaints-judge-orders-waymo-to-stop-overnight-charging-in-santa-monica/",
+        "title": "After noise complaints, judge orders Waymo to stop overnight charging in Santa Monica",
+        "publisher": "",
+        "published": "Sat, 01 Aug 2026 11:30:54 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Cyclospora, the parasite that sickened thousands of Americans this summer, requires time inside the human digestive tract to complete its reproductive cycle.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/02/nx-s1-5914624/cyclospora-michigan-infection-lettuce-parasite-outbreak",
+        "title": "What Cyclospora does inside the gut and how it gets there",
+        "publisher": "",
+        "published": "Sun, 02 Aug 2026 05:00:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Slum residents who lived in one-room tin shacks helped design their own apartments in a new building, winning an architecture prize.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/01/g-s1-135362/slum-apartments-india-design",
+        "title": "How these slum dwellers went from one-room shacks to beautiful new apartments",
+        "publisher": "",
+        "published": "Sat, 01 Aug 2026 07:14:58 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Gianni Infantino faces mounting pressure over his presidency after FIFA's controversial World Cup investment plan collapsed within 24 hours.",
+      "source": {
+        "url": "https://www.bbc.co.uk/sport/football/articles/c9w0djx2g92o?at_medium=RSS&at_campaign=rss",
+        "title": "A bruising 24 hours - what next for Fifa and under-pressure Infantino?",
+        "publisher": "",
+        "published": "Sat, 01 Aug 2026 22:23:20 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Margo Howard, who dispensed advice as Dear Prudence for Slate, died this week at 86.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/01/nx-s1-5907932/opinion-remembering-margo-howard",
+        "title": "Opinion: Remembering Margo Howard",
+        "publisher": "",
+        "published": "Sat, 01 Aug 2026 08:00:00 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Self-styled loneliness influencers are rebranding solo life without friends or children as an aspirational lifestyle choice.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c5y63dw2x3wo?at_medium=RSS&at_campaign=rss",
+        "title": "Solitude as a new aspirational lifestyle: 'We are not lonely'",
+        "publisher": "",
+        "published": "Sat, 01 Aug 2026 23:56:19 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "A photographer has spent over a decade obsessively documenting redheads, uncovering a golden thread connecting Americans.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/ce97nyz4rvmo?at_medium=RSS&at_campaign=rss",
+        "title": "Ginger hair portraits show unexpected 'golden thread' connecting Americans",
+        "publisher": "",
+        "published": "Sun, 02 Aug 2026 07:58:51 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "FIFA president Gianni Infantino faces potential removal after abandoning plans to sell stakes in the World Cup.",
+      "source": {
+        "url": "https://www.bbc.co.uk/sport/football/articles/c998m4ve0rpo?at_medium=RSS&at_campaign=rss",
+        "title": "Infantino on the brink? Who might replace him if he goes?",
+        "publisher": "",
+        "published": "Sat, 01 Aug 2026 10:02:43 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Eighty decorated boats carried costumed dancers through Amsterdam's canals for the city's annual Pride parade.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/videos/cp3rqd9kp91o?at_medium=RSS&at_campaign=rss",
+        "title": "Crowds line Amsterdam's canals for Pride boat parade",
+        "publisher": "",
+        "published": "Sat, 01 Aug 2026 19:39:48 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,489.72",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "Dow",
+          "value": "52,485.03",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "25,373.85",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.68%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-30",
+            "free_access": true
+          },
+          "as_of": "2026-07-30"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.66%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-30",
+            "free_access": true
+          },
+          "as_of": "2026-07-30"
+        },
+        {
+          "label": "BTC",
+          "value": "$63,213",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-02 09:49 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-02 09:49 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,869",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-02 09:49 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-02 09:49 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "TOR 5 — STL 1",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816352/cardinals-blue-jays",
+            "title": "TOR 5 — STL 1",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-08-01",
+            "free_access": true
+          },
+          "as_of": "2026-08-01"
+        },
+        {
+          "label": "TB 1 — CHW 0",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816348/white-sox-rays",
+            "title": "TB 1 — CHW 0",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-08-01",
+            "free_access": true
+          },
+          "as_of": "2026-08-01"
+        },
+        {
+          "label": "NYM 2 — MIA 6",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816349/marlins-mets",
+            "title": "NYM 2 — MIA 6",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-08-01",
+            "free_access": true
+          },
+          "as_of": "2026-08-01"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2014: At least 146 people were killed and more than 114 injured in a factory explosion in Kunshan, Jiangsu, China.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2014_Kunshan_explosion",
+        "title": "On this day — 08/02",
+        "publisher": "Wikipedia",
+        "published": "2026-08-02",
+        "free_access": true
+      },
+      "as_of": "2026-08-02"
+    }
+  ],
+  "closer": {
+    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
+    "kind": "quote",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+10+2+1+1",
+    "generated_at": "2026-08-02T09:49:17.737453+00:00",
+    "date_readable": "Sunday, August 02, 2026",
+    "cold_open": "Good morning, it's Sunday, August 2nd — and somewhere in Philadelphia, a first grader just got to interview a real bird scientist, which is honestly the best thing that's happened all week. We're also tracking a potential U.S.-Iran deal that halted strikes, and what engineers are planning to rescue NASA's Swift telescope from the edge of obsolescence.",
+    "writer_calls": 21,
+    "brave_queries": 0,
+    "rss_candidates": 192
+  }
+}
