@@ -1,0 +1,399 @@
+{
+  "date": "2026-08-03",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Iran Denies Trump's Claim of New US Nuclear Talks Monday",
+      "body": "Iran denied Trump's assertion that new nuclear negotiations between the two countries are set to begin Monday. Iranian officials disputed that any direct talks are scheduled or underway with the United States. Separately, Iran is currently in negotiations with Oman over access to the Strait of Hormuz, a critical shipping chokepoint through which a significant share of global oil supplies passes.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
+          "title": "Iran denies Trump's claim that new talks will begin on Monday",
+          "publisher": "",
+          "published": "Mon, 03 Aug 2026 10:23:35 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Conflicting signals over whether US-Iran nuclear talks are actually happening leave energy markets and US foreign policy in uncertainty, with Strait of Hormuz access negotiations adding a direct pressure point on global oil prices.",
+      "high_risk": false
+    },
+    {
+      "headline": "US and Japan Intervene Jointly to Prop Up Falling Yen",
+      "body": "The United States and Japan took joint action to support the yen in a rare coordinated currency intervention. Both countries stated they will not hesitate to conduct similar joint interventions in the future.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
+          "title": "US and Japan take action to prop up yen in rare joint move",
+          "publisher": "",
+          "published": "Mon, 03 Aug 2026 07:30:52 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "A stronger yen affects the cost of Japanese imports and exports, with ripple effects on global trade prices and US consumers who buy Japanese goods.",
+      "high_risk": false
+    },
+    {
+      "headline": "Capital One Closed Trump Org Accounts Over Money-Laundering Review, Not Jan. 6",
+      "body": "Capital One told a judge it shut down hundreds of Trump Organization accounts in 2021 following a monthslong internal money-laundering review — not in response to the January 6 Capitol riot. The bank is seeking permanent dismissal of a lawsuit filed by Trump-affiliated businesses, which had challenged the account closures. Capital One argues the review, not political motivation, drove the decision.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/02/g-s1-136834/capital-one-trump-bank-anti-money-laundering",
+          "title": "Capital One says it closed Trump Organization accounts over money-laundering concerns",
+          "publisher": "",
+          "published": "Sun, 02 Aug 2026 14:31:34 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "The outcome could set a precedent for when and why banks can close business accounts without facing legal liability from account holders.",
+      "high_risk": false
+    },
+    {
+      "headline": "Veterinarians Begin Making Hive Calls as Honeybee Health Declines",
+      "body": "Veterinarians are increasingly taking on honeybee patients as the vital pollinators face growing threats. The move marks a shift in how animal medicine approaches insects critical to agriculture. Bees pollinate a significant share of the food supply, making their health a practical concern well beyond beekeepers. Vets are described as gingerly embracing the specialty, reflecting both the novelty and the urgency of treating hive-based patients at scale.",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2026/08/03/science/honeybees-veterinary-medicine.html",
+          "title": "Meet the Bee Vet, Now Making Hive Calls",
+          "publisher": "",
+          "published": "Mon, 03 Aug 2026 09:00:16 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Honeybee health directly affects the availability and cost of fruits, vegetables, and nuts that depend on pollination to reach grocery shelves.",
+      "high_risk": false
+    },
+    {
+      "headline": "440 Private Colleges At Risk as Campus Closings Accelerate",
+      "body": "More than 440 private, nonprofit four-year colleges and universities nationwide are now at risk of closing, driven by falling enrollment, rising debt, and related financial pressures. The pace of closings is accelerating, producing a sudden secondary market in abandoned campuses. Burlington College in Vermont, which closed in 2016, stands as an early example of the trend now spreading more broadly across higher education.",
+      "sources": [
+        {
+          "url": "https://hechingerreport.org/pace-of-college-closings-picks-up-with-more-projected/",
+          "title": "Pace of college closings picks up, with more projected",
+          "publisher": "",
+          "published": "Mon, 03 Aug 2026 05:00:00 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "If your family is weighing a private college, the institution's financial stability is now a real variable — students caught in a closure can lose credits, financial aid, and academic momentum mid-degree.",
+      "high_risk": false
+    },
+    {
+      "headline": "AI App Accelerates Criminal Record Expungement for Millions of Americans",
+      "body": "Tens of millions of Americans carry criminal records that block access to employment. A new AI-powered app is helping eligible individuals expunge those records at a pace not previously seen. The tool streamlines a process that has historically been slow, costly, and difficult to navigate without legal help, opening a faster path for people who qualify to clear their records and reenter the workforce.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/03/nx-s1-5892484/ai-legal-tech-jobs-clean-slate",
+          "title": "This lawyer believes in second chances. Now AI is providing a boost",
+          "publisher": "",
+          "published": "Mon, 03 Aug 2026 05:42:28 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Personal Excellence",
+      "why_it_matters": "Expunging a criminal record can remove a major barrier to getting hired, meaning this technology could directly expand job access for millions of Americans.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "Israeli strikes on Gaza City, Khan Younis, and Deir el-Balah killed at least 13 people after Hamas agreed to a disarmament deal.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
+        "title": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
+        "publisher": "",
+        "published": "Sun, 02 Aug 2026 15:50:59 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The U.S. dollar fell sharply against the Japanese yen after President Trump and Japan's finance minister confirmed coordinated market intervention.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/03/g-s1-136866/us-dollar-japanese-yen-market-interventions",
+        "title": "U.S. dollar weakens sharply against the Japanese yen after market interventions",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 01:41:31 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Washington state declared an emergency as wildfires burning over 250,000 acres forced thousands of evacuations and widespread power outages.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/videos/cpd7912xyq4o?at_medium=RSS&at_campaign=rss",
+        "title": "Wildfires scorch Washington state as thousands evacuated and emergency declared",
+        "publisher": "",
+        "published": "Sun, 02 Aug 2026 10:20:10 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "India's medical entrance examination paper leak drove at least two young students to suicide, devastating families who demanded accountability for the scandal.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/crl7jl1d95eo?at_medium=RSS&at_campaign=rss",
+        "title": "'What was my fault?': How India's exam paper leak ended young lives",
+        "publisher": "",
+        "published": "Sun, 02 Aug 2026 23:35:54 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "UCLA professor Dan Blumstein launched OnlyMarms on OnlyFans to crowdfund marmot research after facing government budget cuts.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/02/nx-s1-5913225/when-a-professors-research-project-faced-funding-cuts-he-turned-to-onlyfans",
+        "title": "When a professor's research project faced funding cuts, he turned to OnlyFans",
+        "publisher": "",
+        "published": "Sun, 02 Aug 2026 08:08:05 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Rare photos of Aung San Suu Kyi meeting a foreign official gave her son his first hope since her 2021 ouster.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/03/nx-s1-5917915/aung-san-suu-kyi-myanmar-rare-photos-kim-aris",
+        "title": "Rare photos of ex-Myanmar leader Aung San Suu Kyi give her family hope",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 05:42:04 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "A single Washington primary race is testing whether Trump's grip on Republicans holds as the party eyes its post-Trump future.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/03/nx-s1-5902154/2026-primaries-washington-state-republican-party-trump",
+        "title": "For Republicans planning post-Trump future, one race in Washington is worth watching",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 05:00:00 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Ariana Grande plans to step back from public life once her world tour ends next month, her representative says.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c80ngjjvevyo?at_medium=RSS&at_campaign=rss",
+        "title": "Ariana Grande to take a break from public life amid 'endless' scrutiny",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 10:08:44 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Massive Attack say they are surprised and disappointed after Singapore banned them over a Palestine display at a concert.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cr59qe86yj4o?at_medium=RSS&at_campaign=rss",
+        "title": "Massive Attack respond after Singapore ban over Palestine display",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 01:31:05 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Uganda has unveiled a statue of Yonatan Netanyahu, the only Israeli soldier killed leading the 1976 Entebbe hostage rescue.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c9v471x89m3o?at_medium=RSS&at_campaign=rss",
+        "title": "Uganda unveils statue of Israel PM's brother who died in Entebbe rescue mission",
+        "publisher": "",
+        "published": "Sun, 02 Aug 2026 16:37:02 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,489.72",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "Dow",
+          "value": "52,485.03",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "25,373.85",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.68%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-30",
+            "free_access": true
+          },
+          "as_of": "2026-07-30"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.66%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-30",
+            "free_access": true
+          },
+          "as_of": "2026-07-30"
+        },
+        {
+          "label": "BTC",
+          "value": "$62,694",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-03 10:30 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-03 10:30 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,847",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-03 10:30 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-03 10:30 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "BAL 0 — PHI 8",
+          "value": "Final/6",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816365/phillies-orioles",
+            "title": "BAL 0 — PHI 8",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-08-02",
+            "free_access": true
+          },
+          "as_of": "2026-08-02"
+        },
+        {
+          "label": "ATL 4 — WSH 2",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816368/nationals-braves",
+            "title": "ATL 4 — WSH 2",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-08-02",
+            "free_access": true
+          },
+          "as_of": "2026-08-02"
+        },
+        {
+          "label": "TOR 1 — STL 5",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816367/cardinals-blue-jays",
+            "title": "TOR 1 — STL 5",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-08-02",
+            "free_access": true
+          },
+          "as_of": "2026-08-02"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2023: Worst floods hit major parts of Slovenia.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2023_Slovenia_floods",
+        "title": "On this day — 08/03",
+        "publisher": "Wikipedia",
+        "published": "2026-08-03",
+        "free_access": true
+      },
+      "as_of": "2026-08-03"
+    }
+  ],
+  "closer": {
+    "text": "\"Knowledge will forever govern ignorance; and a people who mean to be their own governors must arm themselves with the power which knowledge gives.\"",
+    "kind": "quote",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+10+2+1+1",
+    "generated_at": "2026-08-03T10:31:04.531190+00:00",
+    "date_readable": "Monday, August 03, 2026",
+    "cold_open": "Good morning, it's Monday, August 3rd — and while most of us start the week with coffee, veterinarians are starting theirs with hive calls as honeybee health hits a crisis point. We're also tracking the US-Japan currency intervention propping up a falling yen, and a Washington state primary quietly testing just how tight Trump's grip on the GOP really remains.",
+    "writer_calls": 22,
+    "brave_queries": 0,
+    "rss_candidates": 193
+  }
+}
