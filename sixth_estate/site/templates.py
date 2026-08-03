@@ -30,6 +30,34 @@ def esc(s) -> str:
     return html.escape(str(s or ""), quote=True)
 
 
+# Brevo embedded subscription form (list #11, "The 6th Estate - Daily Readers").
+# Same form as the landing/subscribe pages; Brevo handles validation,
+# double opt-in, and GDPR compliance.
+BREVO_FORM_URL = ("https://1a3e105b.sibforms.com/v2/serve/MUIFALJ-gChtKiUKfyY1JZ4Pi2kbrW0"
+                  "yh7D538p9Co95Fcs1_SULUNqyk9a-M8iRXxZ8zByHaTnFB8NcTgvJ01WSc1v1wAkxLV9rK"
+                  "IE4-aHutuz4mMGGfrf7ax1oif3emTY1uRiJUBc3eVqlLy1IG_hpZcPTF-EJ4ZbHVkL4z8h"
+                  "Xpi3t20qxMZsDwwYG6dgk6Nh2pC0GdaX0IPjJlw==")
+
+
+def signup_block(block_id: str, headline: str, sub: str) -> str:
+    """Full signup box with the embedded Brevo form."""
+    return f"""<section class="edition-signup" id="{esc(block_id)}">
+  <h3 class="signup-headline">{esc(headline)}</h3>
+  <p class="signup-sub">{esc(sub)}</p>
+  <iframe width="540" height="305" src="{BREVO_FORM_URL}" frameborder="0" scrolling="auto" allowfullscreen style="display:block;margin-left:auto;margin-right:auto;max-width:100%" loading="lazy" title="Subscribe to {esc(config.BRAND)}"></iframe>
+  <p class="signup-note">Free. Unsubscribe anytime. We never sell your address.</p>
+</section>"""
+
+
+def signup_banner() -> str:
+    """Slim banner under the masthead; jumps to the mid-page form."""
+    return ("""<div class="signup-banner">"""
+            """<span class="signup-banner-text">Get this briefing in your inbox """
+            """every weekday at 6AM. Free. 5 minutes.</span>"""
+            """<a class="signup-banner-btn" href="#signup-mid">Subscribe free</a>"""
+            """</div>""")
+
+
 def rel_prefix(depth: int) -> str:
     """Relative hop from a page `depth` directories below the site root back to
     the root. Root pages -> "" ; editions/ pages (depth 1) -> "../"."""
@@ -269,11 +297,22 @@ def edition_body(ed: Edition) -> str:
     nb = len(ed.briefings)
     nq = len(main_hits)
 
+    signup_mid = signup_block(
+        "signup-mid",
+        "Get this in your inbox at 6AM",
+        "One free email every weekday morning. Read it with your coffee — done before it's cold.")
+    signup_end = signup_block(
+        "signup-end",
+        "Made it to the end? You're our kind of reader.",
+        "Never miss an edition — free, every weekday at 6AM.")
+
     sections = f"""
       <section class="sec sec-briefings">
         {section_rail(1, "Briefings", str(nb))}
         {briefings}
       </section>
+
+      {signup_mid}
 
       <section class="sec sec-quick-hits">
         {section_rail(2, "Quick Hits", str(nq))}
@@ -356,7 +395,9 @@ def edition_body(ed: Edition) -> str:
         <p class="edition-date">{esc(date_readable)}</p>
         {cold_open_html}
       </div>
+      {signup_banner()}
       {sections}
+      {signup_end}
       {share_runner}
     </article>
     {copy_js}

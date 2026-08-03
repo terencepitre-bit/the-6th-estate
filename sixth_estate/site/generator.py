@@ -258,6 +258,21 @@ EDITION_CSS = """/* Edition-specific styles layered on the 6E token stylesheet. 
 .sports-hit{font-size:var(--text-sm);border-left:3px solid var(--gold);padding:.3rem .6rem}
 /* v2 — receipt claim/evidence styling */
 .receipt-claim{font-weight:600;margin-bottom:.4rem}
+/* v2.1 — email capture on edition pages */
+html{scroll-behavior:smooth}
+.signup-banner{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap;
+  background:var(--callout-bg);border:1px solid var(--color-accent);
+  padding:.7rem 1rem;margin-bottom:2rem;text-align:center}
+.signup-banner-text{font-size:var(--text-sm);font-weight:600}
+.signup-banner-btn{display:inline-block;background:var(--accent);color:#fff;
+  padding:.45rem 1rem;font-weight:700;font-size:var(--text-sm);
+  text-transform:uppercase;letter-spacing:.06em;text-decoration:none}
+.signup-banner-btn:hover{background:var(--accent-hover);color:#fff}
+.edition-signup{border-top:3px double var(--color-divider);border-bottom:3px double var(--color-divider);
+  padding:1.75rem 1rem;margin:2.5rem 0;text-align:center;background:var(--color-surface)}
+.signup-headline{font-family:var(--font-display);font-size:var(--text-xl);margin-bottom:.35rem}
+.signup-sub{color:var(--color-text-muted);font-size:var(--text-sm);max-width:48ch;margin:0 auto .75rem}
+.signup-note{font-size:var(--text-xs);color:var(--color-text-muted);margin-top:.5rem}
 .receipt-evidence{margin-bottom:.4rem}
 """
 
