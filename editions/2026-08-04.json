@@ -1,0 +1,399 @@
+{
+  "date": "2026-08-04",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Fire Engulfs Migrant Boat in Channel, 150+ Rescued",
+      "body": "French authorities rescued more than 150 migrants after their boat caught fire in the English Channel. The vessel's engine ignited while the group was attempting to cross to the UK. French rescue services responded to the incident.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/c4gkpeppjyqo?at_medium=RSS&at_campaign=rss",
+          "title": "More than 150 migrants rescued after boat catches fire in Channel",
+          "publisher": "",
+          "published": "Tue, 04 Aug 2026 10:23:51 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "The fire underscores the deadly dangers migrants face on one of the world's busiest and most treacherous shipping lanes.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Administration Withholds $1B+ in Medicaid Funds from California and Minnesota",
+      "body": "The Trump administration is withholding more than $1 billion in Medicaid funds from California and Minnesota, framing the move as fraud prevention. The action continues a decades-long pattern in which politicians have blurred the line between genuine anti-fraud enforcement and using fraud allegations to undermine the Medicaid program itself. Analysts note this distinction has shaped Medicaid policy debates for roughly six decades.",
+      "sources": [
+        {
+          "url": "https://theconversation.com/trump-administration-is-withholding-more-than-1b-in-medicaid-funds-from-california-and-minnesota-in-latest-example-of-weaponizing-real-and-imagined-fraud-288664",
+          "title": "Trump administration is withholding more than $1B in Medicaid funds from California and Minnesota, in latest example of weaponizing real and imagined fraud",
+          "publisher": "",
+          "published": "2026-08-03T12:30:21Z",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "Withheld Medicaid funds directly reduce the money available for low-income residents' healthcare coverage in both states.",
+      "high_risk": false
+    },
+    {
+      "headline": "Apple Redirects Tariff Refund Into U.S. Manufacturing",
+      "body": "Apple announced plans to invest its tariff refund into U.S. manufacturing. The move is a financial option available to Apple precisely because of its scale — a luxury smaller companies receiving similar refunds cannot afford. Smaller firms face pressure to use any tariff relief to cover operating costs or debt rather than redirect it toward domestic production capacity.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/04/nx-s1-5918538/apple-will-invest-tariff-refund-into-u-s-manufacturing",
+          "title": "Apple will invest tariff refund into U.S. manufacturing",
+          "publisher": "",
+          "published": "Tue, 04 Aug 2026 04:40:57 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "The gap between how Apple and small businesses can deploy tariff refunds highlights a widening competitive divide that could reshape which companies survive shifting trade policy.",
+      "high_risk": false
+    },
+    {
+      "headline": "SpaceX Falcon 9 Stage Set to Crash Into the Moon Wednesday",
+      "body": "The second stage of a SpaceX Falcon 9 rocket, which launched two private lunar landers last year, will collide with the moon early Wednesday morning. The rocket stage has been drifting since its mission and is now on an uncontrolled trajectory toward the lunar surface.",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2026/08/04/science/spacex-rocket-moon-crash.html",
+          "title": "A SpaceX Rocket Will Soon Crash Into the Moon",
+          "publisher": "",
+          "published": "Tue, 04 Aug 2026 09:04:37 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "The uncontrolled crash adds to growing concerns about debris management in deep space as private lunar missions increase.",
+      "high_risk": false
+    },
+    {
+      "headline": "AI Exam Proctoring Fails So Hard 58,000 Students Must Retake It",
+      "body": "An AI-supervised remote exam failed so severely that 58,000 students are required to retake it. Top scores increased by five times the normal rate during the compromised sitting, a statistical anomaly that triggered the mass retake decision.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+          "title": "An AI-supervised remote exam went so badly that 58,000 students must retake it",
+          "publisher": "",
+          "published": "Mon, 03 Aug 2026 19:00:50 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "Tens of thousands of students now face the burden of retaking a major exam because AI proctoring technology could not reliably prevent cheating at scale.",
+      "high_risk": false
+    },
+    {
+      "headline": "Sophie Woods Runs Across the Alps Faster Than Anyone in History",
+      "body": "Sophie Woods completed the Via Alpina, a multi-country mountain route spanning eight nations, in record time. Woods navigated storms, temperatures reaching 37C, floods, and wildfires during the run. She described the experience as incredible despite the extreme and unpredictable conditions encountered throughout the journey.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/videos/crk5j6g8lmko?at_medium=RSS&at_campaign=rss",
+          "title": "Fastest runner to cross the Alps says it was an incredible experience",
+          "publisher": "",
+          "published": "Sun, 02 Aug 2026 10:59:55 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Personal Excellence",
+      "why_it_matters": "Woods's record crossing highlights how rapidly shifting Alpine weather — storms, floods, and wildfires in close succession — is reshaping conditions for anyone traveling or recreating in European mountain regions.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "A high-speed police chase across Ipswich and Brisbane ended with two arrests after authorities pursued a vehicle through Queensland.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/videos/c5y0d96qgg3o?at_medium=RSS&at_campaign=rss",
+        "title": "Watch: Wild police chase in Queensland, Australia ends in two arrests",
+        "publisher": "",
+        "published": "Tue, 04 Aug 2026 02:47:26 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "AI buyers and sellers alike are struggling to control costs and set prices as tokenomics fails to deliver clear pricing models for services.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c872r52x7jgo?at_medium=RSS&at_campaign=rss",
+        "title": "Tokenomics: Why making AI pay is tricky",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 23:21:10 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Dallas is expanding its financial sector and challenging New York's dominance as Texas attracts major businesses and Wall Street firms relocate there.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/04/nx-s1-5697067/texas-banking-goldman-sachs-wall-street",
+        "title": "Why Texas is betting 'Y'all Street' can take on Wall Street",
+        "publisher": "",
+        "published": "Tue, 04 Aug 2026 05:00:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Ukraine secured a $100 million deal equipping 50,000 kamikaze drones with US-developed AI that autonomously tracks and engages targets.",
+      "source": {
+        "url": "https://arstechnica.com/ai/2026/08/ukraines-drones-get-ai-upgrades-for-kamikaze-strikes-future-swarm-attacks/",
+        "title": "US company’s AI lets Ukraine’s cheap kamikaze drones track targets on their own",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 22:11:39 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Rural senior centers are stepping in to address memory care deserts where brain-related healthcare specialists remain scarce for aging residents.",
+      "source": {
+        "url": "https://theconversation.com/in-memory-care-deserts-senior-centers-can-help-close-the-gap-in-brain-related-healthcare-280413",
+        "title": "In memory care deserts, senior centers can help close the gap in brain-related healthcare",
+        "publisher": "",
+        "published": "2026-08-03T12:30:37Z",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Ariana Grande has stepped back from public life after her appearances triggered endless ongoing scrutiny of her body.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c3ek7g857q4o?at_medium=RSS&at_campaign=rss",
+        "title": "Ariana Grande has had enough of body comments, but 'scrutiny' will linger",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 23:25:14 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "October wedding bookings are rising as heatwaves force couples to rethink summer ceremonies and absorb last-minute cooling costs.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cgr7qrdx4qwo?at_medium=RSS&at_campaign=rss",
+        "title": "Heatwaves are changing summer weddings - here's how to plan for one",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 23:20:15 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Lego has built the Hubble Space Telescope as a detailed desktop model in minifigure scale.",
+      "source": {
+        "url": "https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/",
+        "title": "Lego deploys Hubble Space Telescope as detailed desktop model",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 19:21:16 +0000",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "HBO Max's Big Bang Theory spin-off gives Stuart his own multiverse, with a new one explored every episode.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/03/nx-s1-5910607/stuart-fails-to-save-the-universe-big-bang-theory-review",
+        "title": "'Stuart Fails to Save the Universe' is a fun and familiar 'Big Bang' spin-off",
+        "publisher": "",
+        "published": "Mon, 03 Aug 2026 11:24:34 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Season 3, Episode 7 of House of the Dragon features dragon-on-dragon violence.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/02/nx-s1-5896203/house-of-the-dragon-recap-season-3-episode-7",
+        "title": "'House of the Dragon,' Season 3, Episode 7: Red in tooth and claw (and wing and tail)",
+        "publisher": "",
+        "published": "Sun, 02 Aug 2026 22:01:00 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,600.50",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-03",
+            "free_access": true
+          },
+          "as_of": "2026-08-03"
+        },
+        {
+          "label": "Dow",
+          "value": "53,178.41",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-03",
+            "free_access": true
+          },
+          "as_of": "2026-08-03"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "25,913.90",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-03",
+            "free_access": true
+          },
+          "as_of": "2026-08-03"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.75%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-31",
+            "free_access": true
+          },
+          "as_of": "2026-07-31"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.66%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-30",
+            "free_access": true
+          },
+          "as_of": "2026-07-30"
+        },
+        {
+          "label": "BTC",
+          "value": "$63,440",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-04 10:27 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-04 10:27 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,856",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-04 10:27 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-04 10:27 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": [
+        {
+          "label": "PHI 6 — WSH 3",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816378/nationals-phillies",
+            "title": "PHI 6 — WSH 3",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-08-03",
+            "free_access": true
+          },
+          "as_of": "2026-08-03"
+        },
+        {
+          "label": "NYY 7 — STL 13",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816377/cardinals-yankees",
+            "title": "NYY 7 — STL 13",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-08-03",
+            "free_access": true
+          },
+          "as_of": "2026-08-03"
+        },
+        {
+          "label": "MIL 3 — PIT 4",
+          "value": "Final",
+          "source": {
+            "url": "https://www.espn.com/mlb/game/_/gameId/401816380/pirates-brewers",
+            "title": "MIL 3 — PIT 4",
+            "publisher": "ESPN (MLB)",
+            "published": "2026-08-03",
+            "free_access": true
+          },
+          "as_of": "2026-08-03"
+        }
+      ]
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2020: Beirut Port explosion: At least 220 people are killed and over 5,000 are wounded when 2,700 tons of ammonium nitrate explodes in Beirut, Lebanon.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/2020_Beirut_explosion",
+        "title": "On this day — 08/04",
+        "publisher": "Wikipedia",
+        "published": "2026-08-04",
+        "free_access": true
+      },
+      "as_of": "2026-08-04"
+    }
+  ],
+  "closer": {
+    "text": "\"A popular government without popular information, or the means of acquiring it, is but a prologue to a farce or a tragedy, or perhaps both.\"",
+    "kind": "quote",
+    "attribution": "James Madison, letter to W.T. Barry (1822)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Madison/04-02-02-0480",
+      "title": "James Madison, letter to W.T. Barry (1822)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+10+2+1+1",
+    "generated_at": "2026-08-04T10:27:56.929889+00:00",
+    "date_readable": "Tuesday, August 04, 2026",
+    "cold_open": "Good morning, it's Tuesday, August 4th — and somewhere in the Alps, Sophie Woods is probably still catching her breath after running across them faster than any human ever has. Elsewhere, we're tracking a major Medicaid funding showdown between the Trump administration and two states, plus a SpaceX rocket stage on a collision course with the moon — yes, tomorrow.",
+    "writer_calls": 21,
+    "brave_queries": 0,
+    "rss_candidates": 194
+  }
+}
