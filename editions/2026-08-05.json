@@ -1,0 +1,362 @@
+{
+  "date": "2026-08-05",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Democrats Split the Difference as Trump Dominates GOP Primaries",
+      "body": "Tuesday's primary elections delivered wins across Democratic factions, with both establishment candidates and progressives claiming victories. Republican primaries showed President Trump's continued grip on the GOP, as his endorsed candidates performed strongly. The split results reflect ongoing ideological tensions within the Democratic Party while underscoring Trump's consolidation of power over Republican primary voters heading into the next election cycle.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/05/g-s1-137422/primary-elections",
+          "title": "Progressives and moderate Democrats both see wins in primary races while Trump flexes power over GOP",
+          "publisher": "",
+          "published": "Wed, 05 Aug 2026 06:08:28 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Who wins primaries determines who appears on your general election ballot, shaping the policy choices voters will actually face in November.",
+      "high_risk": false
+    },
+    {
+      "headline": "SpaceX Reports Rising Revenue While Doubling Down on Rockets, Starlink, and AI",
+      "body": "SpaceX held its first earnings call since its June public offering, with executives reporting rising revenue alongside heavy investment in rocket development, Starlink satellite infrastructure, and artificial intelligence. The company signaled it is directing significant capital toward expanding all three areas simultaneously, even as its stock price has retreated from earlier highs following the IPO.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/04/nx-s1-5918536/spacex-first-earnings-report-since-ipo",
+          "title": "SpaceX's revenue rises as its once-soaring stock price drifts back to Earth",
+          "publisher": "",
+          "published": "Tue, 04 Aug 2026 18:02:03 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "SpaceX's spending priorities — rockets, satellites, and AI — will shape both the competitive landscape for space-based internet and the long-term value of shares now held by public investors.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Killed Digital Equity Act, Then Courts Forced a Partial Revival",
+      "body": "The Trump administration eliminated the Digital Equity Act program, but was forced to restore $1.25 billion of it after legal pressure. A judge, however, ruled that a provision targeting race-based digital disparities was unconstitutional, leaving the program partially intact but stripped of that component. The ruling reflects ongoing legal battles over how federal broadband and digital access funding can be structured and to whom it can be directed.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/08/trump-forced-to-reinstate-broadband-grants-but-court-lets-us-scrap-race-criteria/",
+          "title": "Trump killed the Digital Equity Act, but US was forced to bring part of it back",
+          "publisher": "",
+          "published": "Tue, 04 Aug 2026 21:27:05 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "The partial restoration affects funding for internet access programs in underserved communities, but the removal of the race provision limits who those programs can prioritize.",
+      "high_risk": false
+    },
+    {
+      "headline": "No Source Text Provided to Summarize",
+      "body": "No source text was supplied with this submission. A valid briefing cannot be produced without factual source material. Please resubmit with the full article text included in the source field.",
+      "sources": [
+        {
+          "url": "https://www.nytimes.com/2026/08/05/climate/data-centers-pollution-trump-ai-energy.html",
+          "title": "Trump’s Push for More A.I. Data Centers Will Mean Major Air Pollution",
+          "publisher": "",
+          "published": "Wed, 05 Aug 2026 09:00:14 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Accurate summaries require source text; without it, no facts can be reported or verified.",
+      "high_risk": false
+    },
+    {
+      "headline": "Mid-Coast Maine Residents Fight to Save Miles Hospital Birthing Center",
+      "body": "A grassroots coalition in mid-coast Maine is mobilizing to block the proposed closure of the labor and delivery center at Miles Hospital. The community effort centers on preserving local access to birthing services, with residents organizing to oppose the shutdown. No timeline or final decision on the closure has been announced.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/04/nx-s1-5910852/maine-birthing-center-fight",
+          "title": "One Maine community's fight to save a birthing center",
+          "publisher": "",
+          "published": "Tue, 04 Aug 2026 16:16:26 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "If the birthing center closes, pregnant residents in mid-coast Maine would face longer travel times to deliver, raising safety risks for mothers and newborns in a rural region with limited alternatives.",
+      "high_risk": false
+    },
+    {
+      "headline": "Avalanche in Pakistan Kills Legendary Nepali Climbing Guides",
+      "body": "An avalanche in Pakistan killed a group of Nepali mountain guides described as a generation of record-setting climbing legends. Fellow guides said the deaths dealt a devastating blow to Nepal's mountaineering community, wiping out experienced professionals who had set records and trained others in high-altitude work. The loss represents not just individual lives but a deep rupture in the expertise and institutional knowledge that underpins Himalayan climbing expeditions.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cm2ge4dnj80o?at_medium=RSS&at_campaign=rss",
+          "title": "The avalanche that killed a climbing legend - and a generation of record-setting guides",
+          "publisher": "",
+          "published": "Tue, 04 Aug 2026 22:09:50 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Personal Excellence",
+      "why_it_matters": "The deaths of multiple elite Nepali guides reduces the pool of experienced high-altitude professionals that climbing expeditions worldwide depend on for safety and success.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "A Russian strike on Kyiv killed at least 17 people, with Zelensky arguing missile interceptors could have prevented the deaths.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c330pxyvzzyo?at_medium=RSS&at_campaign=rss",
+        "title": "Russian strike kills at least 17 as Zelensky says interceptors could have saved lives",
+        "publisher": "",
+        "published": "Wed, 05 Aug 2026 09:54:20 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "AI is displacing workers in the Philippines' outsourcing industry, threatening one of the country's largest employment sectors.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cgr7nxve05go?at_medium=RSS&at_campaign=rss",
+        "title": "'I feel like I dug my own grave': The workers caught in the AI transition",
+        "publisher": "",
+        "published": "Tue, 04 Aug 2026 22:10:00 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Trump Media launched a paid service giving Wall Street firms early access to market-moving posts from influential Truth Social accounts.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c4gdkl9zn8wo?at_medium=RSS&at_campaign=rss",
+        "title": "Why Trump Media's sale of fast access to market-moving social posts is controversial",
+        "publisher": "",
+        "published": "Tue, 04 Aug 2026 13:53:41 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Black lung rates in Appalachia have hit their worst levels in nearly 50 years, with thousands of miners dying as toxic silica dust exposure continues unaddressed.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/05/nx-s1-5894884/appalachia-black-lung-coal-miners-silica-dust",
+        "title": "Appalachia's black lung rates highest in nearly 50 years as miners' protections stall",
+        "publisher": "",
+        "published": "Wed, 05 Aug 2026 04:01:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Schools are 40% more likely to call mothers than fathers even when both parents are equally available, reinforcing moms as the default contact.",
+      "source": {
+        "url": "https://theconversation.com/better-call-mom-schools-still-see-mothers-as-the-default-parent-to-contact-288478",
+        "title": "Better call mom: Schools still see mothers as the default parent to contact",
+        "publisher": "",
+        "published": "2026-08-04T12:32:46Z",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The world's oldest president has reshuffled Cameroon's army after a two-month absence fuelling health rumours.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/ckg9kd27lkpo?at_medium=RSS&at_campaign=rss",
+        "title": "World's oldest president reshuffles army as his absence stokes unease",
+        "publisher": "",
+        "published": "Tue, 04 Aug 2026 14:53:28 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Experts doubt pesticides caused a mysterious wave of elephant deaths in Kenya, leaving the cause unknown.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cx27p32jzj2o?at_medium=RSS&at_campaign=rss",
+        "title": "Mysterious elephant deaths in Kenya raise questions around pesticides",
+        "publisher": "",
+        "published": "Tue, 04 Aug 2026 23:13:04 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "August's new fiction features dogs, Hollywood stars, and small-town characters with bigger problems than summer heat.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/04/nx-s1-5905346/new-books-august-2026",
+        "title": "13 new books in August will get you through the dog days of summer",
+        "publisher": "",
+        "published": "Tue, 04 Aug 2026 09:34:45 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "MLS owners picked Larry Berg, co-owner of their own LAFC franchise, as the league's next commissioner.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/05/nx-s1-5919621/mls-commissioner-larry-berg-major-league-soccer",
+        "title": "MLS named LAFC co-owner Larry Berg as its next commissioner. Here's what to know",
+        "publisher": "",
+        "published": "Wed, 05 Aug 2026 00:00:00 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Celebrity blogger Perez Hilton has been safely recovered by Miami police following reports of self-harm during a livestream.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cly5kvdkyjro?at_medium=RSS&at_campaign=rss",
+        "title": "Perez Hilton recovering in hospital after reports he self-harmed during livestream",
+        "publisher": "",
+        "published": "Wed, 05 Aug 2026 08:29:30 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,736.52",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-04",
+            "free_access": true
+          },
+          "as_of": "2026-08-04"
+        },
+        {
+          "label": "Dow",
+          "value": "54,085.88",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-04",
+            "free_access": true
+          },
+          "as_of": "2026-08-04"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "26,584.99",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-04",
+            "free_access": true
+          },
+          "as_of": "2026-08-04"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.70%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-03",
+            "free_access": true
+          },
+          "as_of": "2026-08-03"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.66%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-07-30",
+            "free_access": true
+          },
+          "as_of": "2026-07-30"
+        },
+        {
+          "label": "BTC",
+          "value": "$64,100",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-05 10:25 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-05 10:25 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,869",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-05 10:25 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-05 10:25 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": []
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2024: Following the non-cooperation movement against the government of Bangladesh, Bangladeshi prime minister Sheikh Hasina resigns and flees the country, ending her rule of 15 consecutive years and a total of almost two decades. The date is also known as 36 July.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Non-cooperation_movement_(2024)",
+        "title": "On this day — 08/05",
+        "publisher": "Wikipedia",
+        "published": "2026-08-05",
+        "free_access": true
+      },
+      "as_of": "2026-08-05"
+    }
+  ],
+  "closer": {
+    "text": "\"Let the people know the facts, and the country will be safe.\"",
+    "kind": "quote",
+    "attribution": "Abraham Lincoln (attributed)",
+    "factual": true,
+    "source": {
+      "url": "https://www.loc.gov/collections/abraham-lincoln-papers/about-this-collection/",
+      "title": "Abraham Lincoln (attributed)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+10+2+1+1",
+    "generated_at": "2026-08-05T10:25:28.371982+00:00",
+    "date_readable": "Wednesday, August 05, 2026",
+    "cold_open": "Good morning, it's Wednesday, August 5th — and somewhere in rural Maine, a community is rallying to keep its hospital birthing center alive, a quietly urgent fight that says a lot about American healthcare right now. We're also tracking big moves in space and AI as SpaceX's ambitions keep expanding, plus the legal tug-of-war over the Digital Equity Act making its way back through the courts.",
+    "writer_calls": 21,
+    "brave_queries": 0,
+    "rss_candidates": 199
+  }
+}
