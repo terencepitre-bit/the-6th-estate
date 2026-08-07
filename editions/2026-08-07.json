@@ -1,0 +1,369 @@
+{
+  "date": "2026-08-07",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Trump Signs Executive Orders Targeting Birthright Citizenship",
+      "body": "President Trump signed executive orders targeting birthright citizenship, a right guaranteed under the 14th Amendment to children born on U.S. soil. Legal scholar Kim Wehle examined the constitutional ramifications of the orders, which face significant legal challenges given that birthright citizenship has been a settled constitutional principle since the amendment's ratification after the Civil War.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/07/nx-s1-5924094/legal-scholar-weighs-in-on-trumps-executive-orders-targeting-birthright-citizenship",
+          "title": "Legal scholar weighs in on Trump's executive orders targeting birthright citizenship",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 04:41:18 -0400",
+          "free_access": true
+        },
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cj63966j95yo?at_medium=RSS&at_campaign=rss",
+          "title": "Trump again tries to limit US birthright citizenship with new executive orders",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 00:34:14 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Any successful challenge to birthright citizenship would alter the legal status of children born in the United States to non-citizen parents, affecting millions of families across the country.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Hits Key Chip Material With 15% Tariff to Counter China",
+      "body": "The Trump administration imposed a 15% tariff on a key chip material, targeting increasing competition from China's semiconductor industry. The measure is designed to protect US firms operating in the chip sector as Chinese manufacturers expand their capabilities and market presence.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cdrvn686dljo?at_medium=RSS&at_campaign=rss",
+          "title": "Trump imposes 15% tariff on key chip material to counter China",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 01:03:35 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "Higher tariffs on chip materials can raise production costs across the electronics supply chain, potentially pushing up prices on devices from smartphones to laptops for American consumers.",
+      "high_risk": false
+    },
+    {
+      "headline": "Meta Fined $942M Total in Landmark Child Safety Ruling",
+      "body": "Meta faces $942 million in total fines after regulators added a $567 million penalty to the $375 million the company was already ordered to pay in the same case. The combined ruling marks the largest child safety fine ever levied against a social media company.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cd7lz3wr2rlo?at_medium=RSS&at_campaign=rss",
+          "title": "Meta fined $567m in largest child safety ruling against social media giant",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 08:06:40 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "The record penalty signals regulators are willing to impose nine-figure consequences on platforms over child safety failures, raising the stakes for how social media companies handle minors' data and exposure online.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Administration Proposes Shifting Head Start Control to States",
+      "body": "The Trump administration proposed new standards for Head Start, the federal early education program serving low-income children. The proposal would give states significantly more control over the program. Child advocacy groups expressed concern over the changes, warning that shifting oversight away from the federal level could weaken protections and consistency for the program's most vulnerable participants.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/07/nx-s1-5923556/trump-administration-proposes-sweeping-changes-for-head-start-worrying-advocates",
+          "title": "Trump administration proposes sweeping changes for Head Start, worrying advocates",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 04:41:32 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "Families relying on Head Start for affordable early childhood education may face changes in program quality and access depending on how their state chooses to administer the new standards.",
+      "high_risk": false
+    },
+    {
+      "headline": "Ice Cream Truck Driver Holds World Record for 70-Year Career",
+      "body": "A man who has driven an ice cream truck for 70 years holds the world record for the longest career as an ice cream distributor. He reflected on his decades-long career in a conversation recorded for StoryCorps.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/07/nx-s1-5922508/man-reflects-on-his-70-year-career-as-an-ice-cream-truck-driver",
+          "title": "Man reflects on his 70-year career as an ice cream truck driver",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 04:41:00 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Personal Excellence",
+      "why_it_matters": "His story is a rare portrait of lifelong dedication to a single trade, offering a window into how one person's consistency shaped community life across generations.",
+      "high_risk": false
+    },
+    {
+      "headline": "UEFA Warns Infantino Boycott Still On After FIFA Backs President",
+      "body": "UEFA declared that FIFA's backing of president Gianni Infantino at a Wednesday meeting 'changes nothing,' signaling a boycott of the FIFA Congress remains possible. The Football Association also withdrew its support for Infantino, adding pressure on the FIFA president. The standoff marks a deepening rift between European football's governing body and FIFA leadership over Infantino's continued tenure.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/sport/football/articles/c2k74yevgzwo?at_medium=RSS&at_campaign=rss",
+          "title": "Uefa says boycott may still go ahead as FA withdraws Infantino support",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 01:57:02 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Culture",
+      "why_it_matters": "A UEFA-led boycott of FIFA's Congress would fracture global football governance at a critical moment ahead of the 2026 World Cup.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "The National Park Service found Trump's proposed Memorial Circle arch would intrude on dozens of historic sites, with no alternate locations seriously discussed.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/06/nx-s1-5919628/trump-arch-location-historic-sites-nps",
+        "title": "The park service says Trump's arch would obstruct historic sites. Could it be moved?",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 14:19:47 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The FCC under Trump eliminated the national television ownership cap, allowing a single company to own stations reaching more than 39 percent of U.S. households.",
+      "source": {
+        "url": "https://arstechnica.com/tech-policy/2026/08/trump-fcc-kills-tv-ownership-cap-claiming-authority-over-limit-set-by-congress/",
+        "title": "Trump FCC kills TV ownership cap, claiming authority over limit set by Congress",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 16:40:58 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "The FDA approved Moderna's mRNA flu vaccine after reversing its earlier refusal to review the application following public outcry.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/08/05/health/mrna-flu-vaccine-moderna.html",
+        "title": "F.D.A. Approves Moderna’s mRNA Flu Vaccine",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 02:24:28 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "U.S. schools are increasing focus on writing instruction despite no national elementary writing test results having been published since 2002.",
+      "source": {
+        "url": "https://hechingerreport.org/writing-skills-are-getting-more-attention-in-school/",
+        "title": "Writing skills are getting more attention in school",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 17:30:00 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "James R. Urbaniak, a pioneering microsurgeon who revolutionized finger reattachment surgery in the 1970s, died at 90.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/08/06/science/james-urbaniak-dead.html",
+        "title": "James R. Urbaniak, Master of Stitching Back Fingers, Dies at 90",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 16:22:38 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Scientists used AI trained on DNA libraries to generate viral genome recipes, producing 16 viable viruses not found in nature.",
+      "source": {
+        "url": "https://www.nytimes.com/2026/08/06/science/ai-viruses-bacteria-arc.html",
+        "title": "This A.I. Just Created Viruses Not Found in Nature",
+        "publisher": "",
+        "published": "Fri, 07 Aug 2026 00:30:08 +0000",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "European nations are maintaining their World Cup boycott, leaving FIFA President Gianni Infantino under pressure to resign.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/06/nx-s1-5923408/uefa-fifa-world-cup-gianni-infantino",
+        "title": "European nations say World Cup boycott is still on, keeping FIFA's Infantino in limbo",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 13:11:42 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Hurulu Eco Park in central Sri Lanka lets elephants graze freely as human conflict with the animals intensifies across the island.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/06/g-s1-137317/sri-lanka-elephants",
+        "title": "Greetings from a wildlife park in central Sri Lanka that's a haven for elephants",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 10:19:27 -0400",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "In -43°C total darkness, an Australian aviation crew landed in Antarctica to evacuate a patient from McMurdo Station.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c89nqlz5p4qo?at_medium=RSS&at_campaign=rss",
+        "title": "Australian aviation crew carries out daring midwinter Antarctica rescue",
+        "publisher": "",
+        "published": "Fri, 07 Aug 2026 05:44:29 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Rihanna, silent on albums since 2016, is reportedly back in the studio and 'cooking', says partner A$AP Rocky.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c4gwvvw9k1xo?at_medium=RSS&at_campaign=rss",
+        "title": "Rihanna is 'in the studio', says partner A$AP Rocky",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 04:44:22 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,709.96",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-06",
+            "free_access": true
+          },
+          "as_of": "2026-08-06"
+        },
+        {
+          "label": "Dow",
+          "value": "53,885.10",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-06",
+            "free_access": true
+          },
+          "as_of": "2026-08-06"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "26,348.35",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-06",
+            "free_access": true
+          },
+          "as_of": "2026-08-06"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.63%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-05",
+            "free_access": true
+          },
+          "as_of": "2026-08-05"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.69%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-06",
+            "free_access": true
+          },
+          "as_of": "2026-08-06"
+        },
+        {
+          "label": "BTC",
+          "value": "$64,564",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-07 08:46 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-07 08:46 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,910",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-07 08:46 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-07 08:46 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": []
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2020: Air India Express Flight 1344 overshoots the runway at Calicut International Airport in the Malappuram district of Kerala, India, and crashes, killing 21 of the 190 people on board.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Air_India_Express_Flight_1344",
+        "title": "On this day — 08/07",
+        "publisher": "Wikipedia",
+        "published": "2026-08-07",
+        "free_access": true
+      },
+      "as_of": "2026-08-07"
+    }
+  ],
+  "closer": {
+    "text": "\"The only security of all is in a free press.\"",
+    "kind": "quote",
+    "attribution": "Thomas Jefferson, letter to Lafayette (1823)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Jefferson/98-01-02-3837",
+      "title": "Thomas Jefferson, letter to Lafayette (1823)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+10+2+1+1",
+    "generated_at": "2026-08-07T08:46:40.117848+00:00",
+    "date_readable": "Friday, August 07, 2026",
+    "cold_open": "Good morning, it's Friday, August 7. Here's what you need to know today.",
+    "writer_calls": 22,
+    "brave_queries": 0,
+    "rss_candidates": 204
+  }
+}
