@@ -1,0 +1,362 @@
+{
+  "date": "2026-08-08",
+  "demo": false,
+  "briefings": [
+    {
+      "headline": "Russian Missiles Kill Three Near Kyiv, Including a Child",
+      "body": "Russia launched overnight missile attacks near Kyiv, killing three people, including a child. The strikes came as President Volodymyr Zelensky warned that Ukraine's supply of missile interceptors is dwindling. The timing underscores the growing danger posed by depleted air-defense resources as Russia maintains its bombardment campaign against Ukrainian civilian areas.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
+          "title": "Child among three killed in Russian missile attacks near Kyiv",
+          "publisher": "",
+          "published": "Sat, 08 Aug 2026 06:12:56 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "World / US",
+      "why_it_matters": "Ukraine's shrinking stockpile of missile interceptors means more incoming strikes are likely to reach populated areas, putting civilian lives at direct and immediate risk.",
+      "high_risk": false
+    },
+    {
+      "headline": "Trump Renews Push to Fire Fed Governor Lisa Cook Over Fraud Claims",
+      "body": "President Trump is again threatening to remove Federal Reserve Governor Lisa Cook, citing unproven allegations of mortgage fraud. An earlier attempt to oust Cook was struck down by the Supreme Court. Cook, appointed by President Biden, holds a seat on the Fed's Board of Governors, which sets U.S. monetary policy including interest rates.",
+      "sources": [
+        {
+          "url": "https://www.npr.org/2026/08/07/nx-s1-5925167/trump-lisa-cook-federal-reserve",
+          "title": "Trump renews push to fire Fed Governor Lisa Cook",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 15:35:35 -0400",
+          "free_access": true
+        }
+      ],
+      "lane": "Money & Markets",
+      "why_it_matters": "A successful removal of a sitting Fed governor would shake the central bank's independence and could directly affect the interest rates consumers pay on mortgages, car loans, and credit cards.",
+      "high_risk": false
+    },
+    {
+      "headline": "Judge Orders Meta to Fund $567M Youth Mental Health Program",
+      "body": "A New Mexico judge ruled that Meta caused a 'public nuisance' and ordered the company to establish a $567 million fund to address the youth mental health crisis. The ruling marks a significant legal finding against the social media giant, holding it financially responsible for harms linked to its platforms and requiring it to pay into treatment and support programs for young people.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/tech-policy/2026/08/meta-ordered-to-pay-567m-to-treat-youth-mental-health-problems-it-helped-create/",
+          "title": "Judge rules Meta caused \"public nuisance\" and must fund mental health treatment",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 19:49:27 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Business / Policy",
+      "why_it_matters": "The $567 million fund could direct real money toward mental health treatment for children and teenagers in New Mexico, with implications for how courts hold social media companies accountable nationwide.",
+      "high_risk": false
+    },
+    {
+      "headline": "Copernicus Browser Adds Wildfire Tracking During Record Fire Season",
+      "body": "The Copernicus Browser, Europe's free satellite service, added a wildfire visualization feature during what has been described as a record wildfire season. The new tool makes it easier to track active fires and their spread using satellite data the platform already provides at no cost to users.",
+      "sources": [
+        {
+          "url": "https://arstechnica.com/gadgets/2026/08/europes-free-satellite-service-just-made-it-easier-to-track-wildfires/",
+          "title": "Europe's free satellite service just made it easier to track wildfires",
+          "publisher": "",
+          "published": "Fri, 07 Aug 2026 21:48:21 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Science / Tech / Health",
+      "why_it_matters": "Free, real-time wildfire tracking gives residents, emergency planners, and local officials faster access to fire location data that can inform evacuation decisions and resource deployment.",
+      "high_risk": false
+    },
+    {
+      "headline": "Head Start Providers Blast Federal Proposal to Strip Program's Core Services",
+      "body": "Head Start providers are pushing back against a federal proposal they say would fundamentally dismantle the 60-year-old preschool program. Providers warn the changes would eliminate wraparound services — including health screenings and family support — that distinguish Head Start from standard childcare. One Washington state parent credited a Head Start teacher's early observation with connecting her son to speech therapy. Critics say the proposal would reduce the program to basic childcare in name only.",
+      "sources": [
+        {
+          "url": "https://hechingerreport.org/it-wouldnt-be-head-start-anymore-providers-blast-federal-proposal-to-alter-preschool-program/",
+          "title": "‘It wouldn’t be Head Start anymore:’ Providers blast federal proposal to alter preschool program",
+          "publisher": "",
+          "published": "Sat, 08 Aug 2026 05:00:00 +0000",
+          "free_access": true
+        }
+      ],
+      "lane": "Education",
+      "why_it_matters": "Families with young children enrolled in Head Start — nearly 800,000 nationally — stand to lose health, developmental, and social services that the program currently delivers alongside preschool education.",
+      "high_risk": false
+    },
+    {
+      "headline": "India Moves to Recover 'Green Boots,' Frozen on Everest 30 Years",
+      "body": "An Indian climber, known for decades as 'Green Boots' for his distinctive lime-colored footwear, has served as a grim trail marker on Mount Everest since his death roughly 30 years ago. His body, visible to climbers navigating the northeast ridge route, became one of the mountain's most recognized landmarks. India is now moving to finally recover his remains and bring them home.",
+      "sources": [
+        {
+          "url": "https://www.bbc.co.uk/news/articles/cz05xn35xj7o?at_medium=RSS&at_campaign=rss",
+          "title": "He's been frozen on Everest for 30 years, now 'Green Boots' may finally be coming home",
+          "publisher": "",
+          "published": "Sat, 08 Aug 2026 00:29:27 GMT",
+          "free_access": true
+        }
+      ],
+      "lane": "Personal Excellence",
+      "why_it_matters": "The case renews debate over how nations and mountaineering authorities handle the estimated 200-plus bodies still frozen on Everest, raising questions about dignity, recovery costs, and who bears responsibility.",
+      "high_risk": false
+    }
+  ],
+  "quick_hits": [
+    {
+      "text": "A federal appeals court blocked above-ground White House ballroom construction, ruling congressional approval is required under historic preservation law.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/07/nx-s1-5925123/white-house-ballroom-appeals-court-congress",
+        "title": "Another court blocks White House ballroom work, teeing up a Supreme Court review",
+        "publisher": "",
+        "published": "Fri, 07 Aug 2026 14:10:37 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Researchers condemned Kalshi and Polymarket for allowing bets on clinical trial outcomes, warning the markets incentivize insider trading and distort drug development.",
+      "source": {
+        "url": "https://www.npr.org/2026/08/07/nx-s1-5922530/patients-betting-kalshi-polymarket-clinical-trials",
+        "title": "Kalshi and Polymarket bets on clinical trials criticized as 'ghastly'",
+        "publisher": "",
+        "published": "Fri, 07 Aug 2026 06:00:00 -0400",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A watchdog found DOGE overstated its claimed $110 billion in government savings, identifying several errors in its calculations.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cvg0rg9wmvlo?at_medium=RSS&at_campaign=rss",
+        "title": "Doge overstated claims to have saved Americans $110bn, watchdog finds",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 23:55:35 GMT",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "ByteDance is training an AI model with 10 trillion parameters to compete with Anthropic.",
+      "source": {
+        "url": "https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/",
+        "title": "ByteDance trains massive AI model in bid to rival Anthropic",
+        "publisher": "",
+        "published": "Fri, 07 Aug 2026 13:29:22 +0000",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "Business schools lag behind employer demand as new research confirms communication, professionalism, and teamwork remain the top three skills sought in AI-era hiring.",
+      "source": {
+        "url": "https://theconversation.com/employers-everywhere-are-using-ai-but-business-schools-arent-preparing-students-for-the-shift-287445",
+        "title": "Employers everywhere are using AI – but business schools aren’t preparing students for the shift",
+        "publisher": "",
+        "published": "2026-08-07T12:35:40Z",
+        "free_access": true
+      },
+      "lane": ""
+    },
+    {
+      "text": "A rare Serbian eagle named Feliks was kidnapped on his first flight and held for ransom by Middle Eastern poachers before being freed.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/cdewxgw69exo?at_medium=RSS&at_campaign=rss",
+        "title": "Kidnapped rare Serbian eagle freed into wild after rescue",
+        "publisher": "",
+        "published": "Fri, 07 Aug 2026 20:40:56 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "A book borrowed by an apprentice stonemason working on London's Houses of Parliament has been returned to an Australian library 150 years overdue.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c39eprxln0go?at_medium=RSS&at_campaign=rss",
+        "title": "Book hidden in fireplace returned to Australian library 150 years overdue",
+        "publisher": "",
+        "published": "Fri, 07 Aug 2026 18:06:58 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "Katseye has now lost two members this year, with Sophia Laforteza departing after Manon Bannerman's earlier hiatus.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c4g305dz0y9o?at_medium=RSS&at_campaign=rss",
+        "title": "Sophia Laforteza steps away from Katseye, the second member to depart this year",
+        "publisher": "",
+        "published": "Fri, 07 Aug 2026 21:05:45 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "A K-pop band is urging fans to put their phones down at concerts, dividing a fandom built on capturing every moment.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/articles/c39ep3p0ld1o?at_medium=RSS&at_campaign=rss",
+        "title": "'Put your phone down': K-pop band weighs in on concert etiquette",
+        "publisher": "",
+        "published": "Thu, 06 Aug 2026 22:07:11 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    },
+    {
+      "text": "FIFA president Gianni Infantino has faced multiple resignation calls after his aborted attempt to sell private stakes in the World Cup.",
+      "source": {
+        "url": "https://www.bbc.co.uk/news/videos/c0ejrdzx98wo?at_medium=RSS&at_campaign=rss",
+        "title": "Watch: BBC asks Infantino if he will resign as Fifa president",
+        "publisher": "",
+        "published": "Fri, 07 Aug 2026 21:24:17 GMT",
+        "free_access": true
+      },
+      "lane": "By the Way"
+    }
+  ],
+  "data_boxes": [
+    {
+      "kind": "money",
+      "title": "Money Box",
+      "metrics": [
+        {
+          "label": "S&P 500",
+          "value": "7,757.64",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/SP500",
+            "title": "S&P 500",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-07",
+            "free_access": true
+          },
+          "as_of": "2026-08-07"
+        },
+        {
+          "label": "Dow",
+          "value": "54,036.93",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DJIA",
+            "title": "Dow",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-07",
+            "free_access": true
+          },
+          "as_of": "2026-08-07"
+        },
+        {
+          "label": "Nasdaq",
+          "value": "26,690.62",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/NASDAQCOM",
+            "title": "Nasdaq",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-07",
+            "free_access": true
+          },
+          "as_of": "2026-08-07"
+        },
+        {
+          "label": "10-yr Treasury",
+          "value": "4.69%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/DGS10",
+            "title": "10-yr Treasury",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-06",
+            "free_access": true
+          },
+          "as_of": "2026-08-06"
+        },
+        {
+          "label": "30-yr fixed mortgage",
+          "value": "6.69%",
+          "source": {
+            "url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+            "title": "30-yr fixed mortgage",
+            "publisher": "FRED (St. Louis Fed)",
+            "published": "2026-08-06",
+            "free_access": true
+          },
+          "as_of": "2026-08-06"
+        },
+        {
+          "label": "BTC",
+          "value": "$64,930",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/bitcoin",
+            "title": "BTC price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-08 08:27 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-08 08:27 UTC"
+        },
+        {
+          "label": "ETH",
+          "value": "$1,914",
+          "source": {
+            "url": "https://www.coingecko.com/en/coins/ethereum",
+            "title": "ETH price",
+            "publisher": "CoinGecko",
+            "published": "2026-08-08 08:27 UTC",
+            "free_access": true
+          },
+          "as_of": "2026-08-08 08:27 UTC"
+        },
+        {
+          "label": "CPI-U (all items)",
+          "value": "333.952",
+          "source": {
+            "url": "https://www.bls.gov/cpi/#CUUR0000SA0",
+            "title": "Consumer Price Index",
+            "publisher": "Bureau of Labor Statistics",
+            "published": "June 2026",
+            "free_access": true
+          },
+          "as_of": "June 2026"
+        }
+      ]
+    },
+    {
+      "kind": "sports",
+      "title": "Sports Box",
+      "metrics": []
+    }
+  ],
+  "voice_blocks": [
+    {
+      "kind": "this_day",
+      "title": "This Day",
+      "text": "2024: Nobel laureate Muhammad Yunus takes oath as Chief Adviser to form an interim government in Bangladesh.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Muhammad_Yunus",
+        "title": "On this day — 08/08",
+        "publisher": "Wikipedia",
+        "published": "2026-08-08",
+        "free_access": true
+      },
+      "as_of": "2026-08-08"
+    }
+  ],
+  "closer": {
+    "text": "\"The only security of all is in a free press.\"",
+    "kind": "quote",
+    "attribution": "Thomas Jefferson, letter to Lafayette (1823)",
+    "factual": true,
+    "source": {
+      "url": "https://founders.archives.gov/documents/Jefferson/98-01-02-3837",
+      "title": "Thomas Jefferson, letter to Lafayette (1823)",
+      "publisher": "Public record",
+      "published": "",
+      "free_access": true
+    }
+  },
+  "receipt": null,
+  "meta": {
+    "brand": "THE 6th ESTATE",
+    "structure": "6+10+2+1+1",
+    "generated_at": "2026-08-08T08:28:08.261642+00:00",
+    "date_readable": "Saturday, August 08, 2026",
+    "cold_open": "Good morning, it's Saturday, August 8th — and somewhere in Australia, a library just logged the world's most overdue return: a book checked out 150 years ago by a stonemason working on London's Houses of Parliament. Elsewhere, we're tracking a federal court's landmark ruling against Meta, rising tensions over Fed independence, and a remarkable mission to recover human remains frozen on Everest for three decades.",
+    "writer_calls": 21,
+    "brave_queries": 0,
+    "rss_candidates": 200
+  }
+}
